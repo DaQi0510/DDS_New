@@ -1,0 +1,22 @@
+\t (00:00:07) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:07)     Journal start - Tue Feb 21 09:01:01 2017
+\t (00:00:07)         Host=DAQI-PC User=DaQi Pid=2788 CPUs=4
+\t (00:00:07) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\d (00:00:09) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
+\i (00:00:09) trapsize 39754
+\i (00:00:09) trapsize 38684
+\i (00:00:09) trapsize 39938
+\i (00:00:11) trapsize 33282
+\i (00:00:11) trapsize 33282
+\i (00:00:13) generaledit 
+\i (00:00:24) open 
+\i (00:00:40) fillin "F:\Vibration\lool-Inds-Vibration\hardware\v2.0\pcb\vibration.brd"
+\i (00:00:40) cd "F:\Vibration\lool-Inds-Vibration\hardware\v2.0\pcb"
+\t (00:00:40) Opening existing design...
+\w (00:00:41) WARNING(SPMHDB-212): This design has functionality disabled due to the current product plus options selected. The following features are disabled: DiffPair Static Phase, Constraint Regions.  [help]
+\i (00:00:44) fillin confirm
+\i (00:00:44) trapsize 5260
+\t (00:00:44)     Journal end - Tue Feb 21 09:01:38 2017

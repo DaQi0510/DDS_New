@@ -1,0 +1,47 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+done.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: Ignoring zero length segment at (380.7525, 1277.5786)
+WARNING: Ignoring zero length segment at (394.1835, 1275.6359)
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: Ignoring zero length segment at (407.6040, 1272.3595)
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+NOTE: Ignoring unsupported element VIEWPORT on line 17804.
+NOTE: Ignoring unsupported element VIEWPORT on line 17930.
+Layer conversion file: C:/Users/DaQi/Desktop/123_l.cnv
+DXF file: C:/Users/DaQi/Desktop/123.dxf
+BRD file: #Taaaaap10572.tmp
+Update existing design?: YES
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILS
+Design precision: 3
+dxf2a complete.

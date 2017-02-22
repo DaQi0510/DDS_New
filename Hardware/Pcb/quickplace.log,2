@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : DDS.brd                                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Wed Feb 15 21:20:13 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U12 / MP1584_MP1584-SOIC8_MP1584 / MP1584-SOIC8 at (3.9482 176.0344)
+         Placed symbol:  U13 / LT1963_LT1963-SOP8_LT1963A / LT1963-SOP8 at (11.6514 176.0344)
+         Placed symbol:  U14 / LT1963_LT1963-SOP8_LT1963-3.3 / LT1963-SOP8 at (19.3546 176.0344)
+         Placed symbol:  H11 / HEADER3_DUANZI-3P-508_HEADER3 / DUANZI-3P-508 at (25.8378 177.4214)
+         Placed symbol:  C69 / CAP_0603_0.1UF / 0603 at (39.9165 174.0094)
+         Placed symbol:  C70 / CAP_0603_0.1UF / 0603 at (42.4447 174.0094)
+         Placed symbol:  C68 / CAP_0805_10UF / 0805 at (45.2229 174.2344)
+         Placed symbol:  C71 / CAP_0805_10UF / 0805 at (48.2511 174.2344)
+         Placed symbol:  C67 / CAP_0603_0.1UF / 0603 at (51.0293 174.0094)
+         Placed symbol:  C60 / CAP+_CAP-3216_10UF10V / CAP-3216 at (53.2950 174.0804)
+         Placed symbol:  C66 / CAP+_CAP-3216_10UF10V / CAP-3216 at (58.7022 174.0804)
+         Placed symbol:  C62 / CAP+_CAP-6032_10UF35V / CAP-6032 at (67.0594 175.2344)
+         Placed symbol:  C63 / CAP_0603_0.1UF / 0603 at (72.2751 174.0094)
+         Placed symbol:  C59 / CAP_0603_150PF / 0603 at (74.8033 174.0094)
+         Placed symbol:  C64 / CAP_0603_0.1UF / 0603 at (77.3315 174.0094)
+         Placed symbol:  L2 / INDUCTOR_L-7-7-3_15UH / L-7-7-3 at (83.0472 177.0344)
+         Placed symbol:  R48 / RES_0603_1K / 0603 at (88.7629 174.0094)
+         Placed symbol:  R47 / RES_0603_20K / 0603 at (91.2911 174.0094)
+         Placed symbol:  R53 / RES_0603_2K / 0603 at (93.8193 174.0094)
+         Placed symbol:  R49 / RES_0603_120K / 0603 at (96.3475 174.0094)
+         Placed symbol:  R50 / RES_0603_100K / 0603 at (1.3607 182.4756)
+         Placed symbol:  R51 / RES_0603_100K / 0603 at (3.8889 182.4756)
+         Placed symbol:  R52 / RES_0603_3.1K / 0603 at (6.4171 182.4756)
+         Placed symbol:  C65 / CAP_1206_22UF / 1206 at (9.7953 182.8756)
+         Placed symbol:  C61 / CAP_0603_0.1UF / 0603 at (13.1735 182.4756)
+         Placed symbol:  D1 / 1N5819_SMA_B340A-13-F / SMA at (16.2156 183.0506)
+         Placed symbol:  U15 / LED_LED0805_RED / LED0805 at (23.0188 182.5506)
+
+
+Placed 27 of 27 applicable (27 total) symbols.
+
+-----------------------------------------------------------------------
+

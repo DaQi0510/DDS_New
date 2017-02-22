@@ -1,0 +1,459 @@
+Date and Time : 02/15/17 12:00:48
+
+--------------------------------------------------
+Checking Schematic: TOP
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+
+Reporting Net Names
+    N00261
+    N00265
+    N00269
+    N00273
+    N00285
+    N00289
+    N00322
+    N00366
+    N00370
+    N00374
+    N00378
+    N00382
+    N00386
+    N00394
+    N00427
+    N00431
+    N00435
+    N00439
+    N00443
+    N00447
+    N00451
+    N00455
+    N00459
+    N00463
+    N00467
+    N00471
+    N00475
+    N00479
+    N00483
+    N00487
+    N00491
+    N00495
+    N00499
+    N00503
+    N00507
+    N00511
+    N00515
+    N00519
+    N00523
+    N00527
+    N00531
+    N00535
+    N00539
+    N00543
+    N00553
+    GND
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: MCU
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    PWM
+    RES
+    RelayS
+    S18
+    S19
+    S22
+    A1
+    A2
+    A3
+    A4
+    A5
+    A6
+    B1
+    B2
+    B3
+    B4
+    B5
+    B6
+    DC
+    K1
+    K2
+    K3
+    scl
+    SDA
+    AD1
+    AD2
+    AD3
+    AD4
+    AD5
+    AD6
+    AD7
+    AD8
+    MOSI
+    BLK
+    CLK
+    DA_OUT1
+    DA_OUT2
+    LCD_RST
+    LCD_SCL
+    LCD_SDA
+    LCD_DC
+    Realy
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VDD3.3
+    GND
+
+Reporting Net Names
+    BOOT0
+    VCAP_2
+    TMS
+    CLK
+    OSC_IN
+    TCK
+    VCAP_1
+    VDD3.3
+    GND
+    DA_OUT1
+    BOOT1
+    DA_OUT2
+    N0056914
+    N229143
+    OSC_OUT
+    AD8
+    AD7
+    AD6
+    AD5
+    AD4
+    AD3
+    AD2
+    AD1
+    S18
+    S19
+    S22
+    MOSI
+    RES
+    DC
+    BLK
+    LCD_SCL
+    LCD_SDA
+    LCD_RST
+    LCD_DC
+    RELAYS
+    PWM
+    REALY
+    SCL
+    SDA
+    K3
+    A1
+    A2
+    B1
+    B2
+    K1
+    K2
+    A3
+    A4
+    A5
+    B3
+    B4
+    B5
+    A6
+    B6
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: Module
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    Relay
+    RES
+    RelayS
+    S18
+    S19
+    S22
+    A1
+    A2
+    A3
+    A4
+    A5
+    A6
+    B1
+    B2
+    B3
+    B4
+    B5
+    B6
+    DC
+    K1
+    K2
+    K3
+    SCL
+    SDA
+    AD1
+    AD2
+    AD3
+    AD4
+    AD5
+    AD6
+    AD7
+    AD8
+    DDZ_OUT
+    MOSI
+    BLK
+    DDS_OUT1
+    DDS_OUT2
+    CLK
+    LCD_RST
+    LCD_SCL
+    LCD_SDA
+    LCD_DC
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3
+    VCC15
+    GND
+    VCC-15
+
+Reporting Net Names
+    DC
+    N217120
+    B1
+    N127729
+    MOSI
+    N200400
+    DDZ_OUT
+    AD8
+    N001384
+    BLK
+    N1287604
+    K3
+    B2
+    N001988
+    N216856
+    VCC5
+    LCD_DC
+    N201454
+    N200764
+    S19
+    N127713
+    N001387
+    N129107
+    N221870
+    DDS_OUT1
+    AD4
+    SDA
+    B3
+    N127725
+    CLK
+    N217116
+    B6
+    VCC15
+    AD7
+    N001383
+    RELAY
+    RELAYC
+    A1
+    N001989
+    N127737
+    GND
+    LCD_RST
+    A5
+    B4
+    S18
+    N127709
+    N001386
+    N129282
+    K2
+    A2
+    AD3
+    N001382
+    SCL
+    A3
+    N001987
+    N127721
+    N221620
+    A4
+    VCC-15
+    AD6
+    N001389
+    RES
+    LCD_SCL
+    RELAYS
+    N203719
+    N127733
+    LCD_SDA
+    A6
+    S22
+    N216832
+    N001385
+    N129275
+    N222112
+    N203356
+    AD2
+    N216844
+    VDD3.3
+    N202042
+    AD1
+    N127717
+    N001388
+    K1
+    B5
+    DDS_OUT2
+    AD5
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: DDS
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    DDS_IN1
+    DDS_IN2
+    DDZ_OUT
+    DDS_OUT1
+    DDS_OUT2
+    DDZ_IN
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3
+    GND
+
+Reporting Net Names
+    GND
+    DDZ_IN
+    N195228
+    N193887
+    N127673
+    DDS_IN1
+    N195578
+    DDZ_OUT
+    DDS_OUT1
+    N000601
+    VCC5
+    VDD3.3
+    DDS_IN2
+    N194020
+    DDS_OUT2
+    N193322
+    N195216
+    N194103
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: Power
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC5
+    VDD3.3
+    VCC15
+    GND
+    VCC-15
+
+Reporting Net Names
+    VDD3.3
+    N191046
+    N191018
+    GND
+    N191114
+    VCC15
+    N190958
+    N190898
+    VCC5
+    VCC-15
+    N191854
+    N190842
+    N191038
+    N2019270
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
