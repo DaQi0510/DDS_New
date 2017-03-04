@@ -3,56 +3,51 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd                         |
-|                                                    Sun Feb 19 09:53:14 2017  |
+|                                                    Fri Mar 03 20:04:08 2017  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N00439       pins MOVED FROM this net (to net name listed on right)
-                                 U3.79           1339.46 2297.04
-                                                                         N00447
+  N00439       pins DELETED FROM this net (pin now not on any net)
+                                 U3.127          2008.36 533.957
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U3.103          1577.26 709.154
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00443       pins MOVED FROM this net (to net name listed on right)
-                                 U3.80           1339.46 2277.36
-                                                                         N00451
+  N00443       pins DELETED FROM this net (pin now not on any net)
+                                 U3.129          2047.73 533.957
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U3.104          1577.26 689.469
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00447       pins MOVED FROM this net (to net name listed on right)
-                                 U3.90           1339.46 2080.51
-                                                                         N00463
+  N00455       pins DELETED FROM this net (pin now not on any net)
+                                 U3.124          1949.31 533.957
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U3.98           1577.26 807.579
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00451       pins MOVED FROM this net (to net name listed on right)
-                                 U3.93           1339.46 2021.45
-                                                                         N00467
+  N00459       pins DELETED FROM this net (pin now not on any net)
+                                 U3.93           1577.26 906.004
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U3.99           1577.26 787.894
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00455       pins MOVED FROM this net (to net name listed on right)
-                                 U3.88           1339.46 2119.88
-                                                                         N00439
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00459       pins MOVED FROM this net (to net name listed on right)
-                                 U3.91           1339.46 2060.82
-                                                                         N00443
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00463       pins MOVED FROM this net (to net name listed on right)
-                                 U3.89           1339.46 2100.19
-                                                                         N00455
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00467       pins MOVED FROM this net (to net name listed on right)
-                                 U3.92           1339.46 2041.14
-                                                                         N00459
+  N00503       pins DELETED FROM this net (pin now not on any net)
+                                 U3.128          2028.05 533.957
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd                         |
-|                                                    Sun Feb 19 09:53:14 2017  |
+|                                                    Fri Mar 03 20:04:08 2017  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       8                                        |
+|       Nets changed          :       9                                        |
 |                                                                              |
-|   Total ECO changes reported:       8                                        |
+|   Total ECO changes reported:       9                                        |
 |------------------------------------------------------------------------------|

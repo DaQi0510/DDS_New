@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sat Feb 18 17:24:23 2017                      )
+(    Date/Time        : Fri Mar 03 16:15:26 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,8 +18,8 @@ Preferred Radius Size:  5x Line Width
 Min Radius Size:        1x Line Width
 Allow DRCs:             No
 
-Result: 1 of 6 failed to convert
+Result: 1 of 3 failed to convert
 
-Cline vertex:xy (663.878 1181.416)	subclass: TOP	net_name: N00261 
+Cline vertex:xy (1493.226 1863.994)	subclass: TOP	net_name: N00285 
 
 CommandEnd AiCC **************************************************************

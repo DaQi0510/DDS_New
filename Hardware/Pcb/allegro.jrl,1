@@ -1,22 +1,833 @@
-\t (00:00:07) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:07)     Journal start - Tue Feb 21 09:01:01 2017
-\t (00:00:07)         Host=DAQI-PC User=DaQi Pid=2788 CPUs=4
-\t (00:00:07) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:07) 
-   (00:00:07) Loading axlcore.cxt 
-\t (00:00:09) Opening existing design...
-\d (00:00:09) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
-\i (00:00:09) trapsize 39754
-\i (00:00:09) trapsize 38684
-\i (00:00:09) trapsize 39938
-\i (00:00:11) trapsize 33282
-\i (00:00:11) trapsize 33282
-\i (00:00:13) generaledit 
-\i (00:00:24) open 
-\i (00:00:40) fillin "F:\Vibration\lool-Inds-Vibration\hardware\v2.0\pcb\vibration.brd"
-\i (00:00:40) cd "F:\Vibration\lool-Inds-Vibration\hardware\v2.0\pcb"
-\t (00:00:40) Opening existing design...
-\w (00:00:41) WARNING(SPMHDB-212): This design has functionality disabled due to the current product plus options selected. The following features are disabled: DiffPair Static Phase, Constraint Regions.  [help]
-\i (00:00:44) fillin confirm
-\i (00:00:44) trapsize 5260
-\t (00:00:44)     Journal end - Tue Feb 21 09:01:38 2017
+\t (00:00:03) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:03)     Journal start - Sat Mar 04 10:18:33 2017
+\t (00:00:03)         Host=DAQI-PC User=DaQi Pid=12996 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
+\i (00:00:06) trapsize 39754
+\i (00:00:06) trapsize 38684
+\i (00:00:06) trapsize 39938
+\i (00:00:08) trapsize 33281
+\i (00:00:08) trapsize 33281
+\i (00:00:09) generaledit 
+\i (00:00:16) setwindow form.vf_vis
+\i (00:00:16) FORM vf_vis colorview_list Last View 
+\i (00:00:19) FORM vf_vis colorview_list --------------- 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) pick grid 5326.777 1592.605
+\t (00:00:20) last pick:  5326.790 1592.598
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 2231.608 1006.853
+\i (00:00:23) trapsize 16641
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 2348.093 1033.478
+\i (00:00:25) trapsize 33281
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 2361.405 1026.822
+\i (00:00:26) trapsize 16641
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 2953.814 1050.119
+\i (00:00:28) trapsize 33281
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 1276.432 923.650
+\i (00:01:01) trapsize 16641
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 1263.120 850.431
+\i (00:01:01) trapsize 8320
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 1329.683 883.712
+\i (00:01:03) trapsize 16641
+\i (00:01:26) setwindow form.vf_vis
+\i (00:01:26) FORM vf_vis 1 all_colorvisible YES 
+\i (00:01:27) FORM vf_vis 2 all_colorvisible YES 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) settoggle no_etch_shape_display 
+\i (00:01:28) redraw 
+\i (00:01:28) trapsize 16641
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 2231.608 960.260
+\i (00:01:29) trapsize 33281
+\i (00:01:34) grid toggle 
+\t (00:01:34) Grids are drawn 50.176, 50.176 apart for enhanced viewability.
+\i (00:01:34) generaledit 
+\i (00:01:35) grid toggle 
+\i (00:01:35) generaledit 
+\i (00:01:36) color192 
+\i (00:01:36) setwindow cvf.dialog
+\i (00:01:36) cvf layer_mode
+\i (00:01:36) setwindow pcb
+\i (00:01:36) generaledit 
+\i (00:01:45) setwindow cvf.dialog
+\i (00:01:45) cvf layer_tree_item 'Manufacturing'
+\i (00:02:03) cvf layer_tree_item 'Display'
+\i (00:02:05) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:02:06) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:02:07) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:02:09) cvf layer_tree_item 'Areas'
+\i (00:02:11) cvf layer_tree_item 'Board Geometry'
+\i (00:02:14) cvf layer_tree_item 'Package Geometry'
+\i (00:02:15) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:02:16) cvf layer_tree_item 'Components'
+\i (00:02:17) cvf layer_tree_item 'Manufacturing'
+\i (00:02:23) cvf layers_visible manufacturing/details TRUE
+\i (00:02:29) cvf layers_visible manufacturing/details FALSE
+\i (00:02:40) cvf layer_tree_item 'Drawing Format'
+\i (00:02:41) cvf layer_tree_item 'Analysis'
+\i (00:02:42) cvf layer_tree_item 'Drawing Format'
+\i (00:02:42) cvf layer_tree_item 'Manufacturing'
+\i (00:02:46) cvf cancel
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom in 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom in 1592.605 973.573
+\i (00:02:47) trapsize 16641
+\i (00:02:47) zoom in 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom in 1589.277 970.245
+\i (00:02:47) trapsize 8320
+\i (00:02:47) zoom out 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom out 1587.613 966.917
+\i (00:02:47) trapsize 16641
+\i (00:02:48) zoom out 1 
+\i (00:02:48) setwindow pcb
+\i (00:02:48) zoom out 1587.613 966.917
+\i (00:02:48) trapsize 33281
+\i (00:02:50) prepopup -282.802 1366.294
+\i (00:02:59) setwindow form.vf_vis
+\i (00:02:59) FORM vf_vis 3 all_colorvisible YES 
+\i (00:03:00) FORM vf_vis 3 all_colorvisible NO 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) dimension edit 
+\i (00:03:07) pick grid 196.450 201.445
+\t (00:03:07) last pick:  196.490 201.488
+\w (00:03:07) WARNING(SPMHDI-55): No dimension found.
+\i (00:03:10) prepopup 928.641 -317.745
+\i (00:03:15) prepopup -595.647 1685.795
+\i (00:03:16) pick grid -575.678 1965.359
+\t (00:03:16) last pick:  -575.652 1965.390
+\w (00:03:16) WARNING(SPMHDI-55): No dimension found.
+\i (00:03:21) dimension edit 
+\i (00:03:22) prepopup -429.240 1352.981
+\i (00:03:27) pop dyn_option_select '@:@Linear dimension' 
+\t (00:03:27) Pick an element or point to dimension ...
+\i (00:03:30) prepopup -642.241 1093.386
+\i (00:03:32) pop dyn_option_select '@:@Linear dimension' 
+\i (00:03:33) color192 
+\i (00:03:33) setwindow cvf.dialog
+\i (00:03:33) cvf layer_mode
+\i (00:03:37) cvf layer_tree_item 'Package Geometry'
+\i (00:03:38) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:03:39) cvf layer_tree_item 'Manufacturing'
+\i (00:03:43) cvf layer_tree_item 'My Favorites'
+\i (00:03:48) cvf layer_tree_item 'Boundary' 'Conductor'
+\i (00:03:49) cvf layer_tree_item 'Cavity' 'Conductor'
+\i (00:03:50) cvf layer_tree_item 'Anti Etch' 'Conductor'
+\i (00:03:50) cvf layer_tree_item 'Etch' 'Conductor'
+\i (00:03:51) cvf layer_tree_item 'Via' 'Conductor'
+\i (00:03:52) cvf layer_tree_item 'Pin' 'Conductor'
+\i (00:03:52) cvf layer_tree_item 'Drc' 'Conductor'
+\i (00:03:53) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:04:01) cvf layer_tree_item 'Drc' 'Non-Conductor'
+\i (00:04:02) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:04:06) cvf layer_tree_item 'Constraints Region' 'Areas'
+\i (00:04:07) cvf layer_tree_item 'Route KeepOut' 'Areas'
+\i (00:04:09) cvf layer_tree_item 'Via KeepOut' 'Areas'
+\i (00:04:11) cvf layer_tree_item 'Package KeepOut' 'Areas'
+\i (00:04:12) cvf layer_tree_item 'Package KeepIn' 'Areas'
+\i (00:04:13) cvf layer_tree_item 'Route KeepIn' 'Areas'
+\i (00:04:20) cvf layer_tree_item 'Board Geometry'
+\i (00:04:29) cvf layers_visible board_geometry/dimension TRUE
+\i (00:04:30) cvf okay
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom out 1 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom out -762.054 88.288
+\i (00:04:31) trapsize 66563
+\i (00:04:32) zoom in 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom in 5286.840 780.542
+\i (00:04:32) trapsize 33281
+\i (00:04:33) settoggle no_etch_shape_display 
+\i (00:04:33) redraw 
+\i (00:04:33) trapsize 33281
+\i (00:04:35) settoggle no_etch_shape_display 
+\i (00:04:35) redraw 
+\i (00:04:35) trapsize 33281
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 7050.754 1166.606
+\i (00:04:36) trapsize 66563
+\i (00:04:38) zoom in 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom in 3529.582 1572.636
+\i (00:04:38) trapsize 33281
+\i (00:04:38) zoom out 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom out 4508.055 1519.386
+\i (00:04:38) trapsize 66563
+\i (00:04:47) pick grid 10398.862 4048.772
+\t (00:04:47) last pick:  10398.878 4048.772
+\t (00:04:47) First point found ... pick the second point.
+\w (00:04:47) WARNING(SPMHDI-89): Dimension point at (10398.878, 4048.772) is not being associated with an object.
+\i (00:04:54) color192 
+\i (00:04:54) setwindow cvf.dialog
+\i (00:04:54) cvf layer_mode
+\i (00:05:03) cvf layer_tree_item 'Package Geometry'
+\i (00:05:07) cvf layers_visible package_geometry/silkscreen_bottom TRUE
+\i (00:05:16) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:05:24) cvf layer_tree_item 'Manufacturing'
+\i (00:05:30) cvf layer_tree_item 'Areas'
+\i (00:05:33) cvf layer_tree_item 'Board Geometry'
+\i (00:05:40) cvf layer_tree_item 'Package Geometry'
+\i (00:05:42) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:05:46) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:05:48) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:05:52) cvf cancel
+\i (00:05:53) setwindow pcb
+\i (00:05:53) zoom out 1 
+\i (00:05:53) setwindow pcb
+\i (00:05:53) zoom out 5366.715 1732.387
+\i (00:05:53) trapsize 133126
+\i (00:05:53) zoom out 1 
+\i (00:05:53) setwindow pcb
+\i (00:05:53) zoom out 12728.559 5273.527
+\i (00:05:53) trapsize 266251
+\i (00:05:55) zoom in 1 
+\i (00:05:55) setwindow pcb
+\i (00:05:55) zoom in 9214.044 2717.516
+\i (00:05:55) trapsize 133126
+\i (00:05:55) zoom in 1 
+\i (00:05:55) setwindow pcb
+\i (00:05:55) zoom in 3676.020 2824.017
+\i (00:05:55) trapsize 66563
+\i (00:05:56) zoom in 1 
+\i (00:05:56) setwindow pcb
+\i (00:05:56) zoom in 9892.984 3902.334
+\i (00:05:56) trapsize 33281
+\i (00:05:56) zoom in 1 
+\i (00:05:56) setwindow pcb
+\i (00:05:56) zoom in 11723.461 4301.711
+\i (00:05:56) trapsize 16641
+\i (00:05:56) zoom in 1 
+\i (00:05:56) setwindow pcb
+\i (00:05:56) zoom in 11220.912 4231.820
+\i (00:05:56) trapsize 8320
+\i (00:05:58) pick grid 10325.642 4067.078
+\t (00:05:58) last pick:  10325.672 4067.098
+\t (00:05:58) Indicate the X or Y direction first.
+\w (00:05:58) WARNING(SPMHDI-89): Dimension point at (10325.672, 4067.098) is not being associated with an object.
+\i (00:05:59) pick grid 10517.010 4075.398
+\t (00:05:59) last pick:  10516.968 4075.428
+\t (00:05:59) Indicate the X or Y direction first.
+\i (00:06:00) prepopup 10570.261 4155.274
+\i (00:06:03) cancel 
+\i (00:06:03) generaledit 
+\i (00:06:04) zoom out 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom out 11027.880 4280.079
+\i (00:06:04) trapsize 16641
+\i (00:06:04) zoom out 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom out 11027.879 4280.078
+\i (00:06:04) trapsize 33281
+\i (00:06:04) zoom out 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom out 11027.879 4280.079
+\i (00:06:04) trapsize 66563
+\i (00:06:04) zoom out 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom out 11054.505 4280.079
+\i (00:06:04) trapsize 133126
+\i (00:06:05) zoom in 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom in 15284.570 4554.649
+\i (00:06:05) trapsize 66563
+\i (00:06:06) zoom out 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) zoom out 11131.052 2664.266
+\i (00:06:06) trapsize 133126
+\i (00:06:15) generaledit 
+\i (00:06:27) pick grid 11131.052 3596.146
+\t (00:06:27) last pick:  11131.036 3596.110
+\i (00:06:28) zoom in 1 
+\i (00:06:28) setwindow pcb
+\i (00:06:28) zoom in 1333.010 214.756
+\i (00:06:28) trapsize 66563
+\i (00:06:28) zoom out 1 
+\i (00:06:28) setwindow pcb
+\i (00:06:28) zoom out 6431.719 2930.518
+\i (00:06:28) trapsize 133126
+\i (00:06:28) zoom out 1 
+\i (00:06:28) setwindow pcb
+\i (00:06:28) zoom out 11530.429 3755.896
+\i (00:06:28) trapsize 266251
+\i (00:06:29) zoom in 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom in 32537.644 11077.802
+\i (00:06:29) trapsize 133126
+\i (00:06:30) zoom out 1 
+\i (00:06:30) setwindow pcb
+\i (00:06:30) zoom out 16376.200 7563.287
+\i (00:06:30) trapsize 266251
+\i (00:06:30) zoom out 1 
+\i (00:06:30) setwindow pcb
+\i (00:06:30) zoom out 34720.903 7563.287
+\i (00:06:30) trapsize 532499
+\i (00:06:31) zoom in 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom in 67043.408 24123.963
+\i (00:06:31) trapsize 266250
+\i (00:06:31) zoom out 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom out 17148.222 16242.973
+\i (00:06:31) trapsize 532499
+\i (00:06:31) zoom out 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom out 36264.947 8361.983
+\i (00:06:31) trapsize 532499
+\i (00:06:35) zoom fit 
+\i (00:06:35) trapsize 23665
+\i (00:06:36) zoom out 1 
+\i (00:06:36) setwindow pcb
+\i (00:06:36) zoom out 1993.420 1293.186
+\i (00:06:36) trapsize 47329
+\i (00:06:41) color192 
+\i (00:06:41) generaledit 
+\i (00:06:57) setwindow cvf.dialog
+\i (00:06:57) cvf layers_visible board_geometry/assembly_detail TRUE
+\i (00:07:03) cvf okay
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom in 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom in 1931.423 1463.571
+\i (00:07:04) trapsize 23665
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out 2414.181 1094.404
+\i (00:07:04) trapsize 47329
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out 2906.405 1075.472
+\i (00:07:04) trapsize 94658
+\i (00:07:05) zoom in 1 
+\i (00:07:05) setwindow pcb
+\i (00:07:05) zoom in 2726.554 1477.062
+\i (00:07:05) trapsize 47329
+\i (00:07:06) color192 
+\i (00:07:06) setwindow cvf.dialog
+\i (00:07:06) cvf layer_mode
+\i (00:07:06) setwindow pcb
+\i (00:07:06) generaledit 
+\i (00:07:08) setwindow cvf.dialog
+\i (00:07:08) cvf layers_visible board_geometry/assembly_detail FALSE
+\i (00:07:25) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:07:27) cvf layer_tree_item 'Manufacturing'
+\i (00:07:34) cvf layers_visible manufacturing/ncdrill_figure TRUE
+\i (00:07:39) cvf layers_visible manufacturing/ncdrill_legend TRUE
+\i (00:07:41) cvf okay
+\i (00:07:42) setwindow pcb
+\i (00:07:42) zoom out 1 
+\i (00:07:42) setwindow pcb
+\i (00:07:42) zoom out 3389.163 2878.007
+\i (00:07:42) trapsize 94658
+\i (00:07:44) grid toggle 
+\t (00:07:44) Grids are drawn 100.352, 100.352 apart for enhanced viewability.
+\i (00:07:44) generaledit 
+\i (00:07:46) grid toggle 
+\i (00:07:46) generaledit 
+\i (00:07:46) color192 
+\i (00:07:46) setwindow cvf.dialog
+\i (00:07:46) cvf layer_mode
+\i (00:07:46) setwindow pcb
+\i (00:07:46) generaledit 
+\i (00:07:52) setwindow cvf.dialog
+\i (00:07:52) cvf layer_tree_item 'Manufacturing'
+\i (00:07:58) cvf layers_visible manufacturing/ncdrill_figure FALSE
+\i (00:07:58) cvf layers_visible manufacturing/ncdrill_legend FALSE
+\i (00:07:59) cvf layers_visible manufacturing/all_row TRUE
+\i (00:08:00) cvf okay
+\i (00:08:03) setwindow pcb
+\i (00:08:03) grid toggle 
+\i (00:08:03) generaledit 
+\i (00:08:04) grid toggle 
+\i (00:08:04) generaledit 
+\i (00:08:04) color192 
+\i (00:08:05) setwindow cvf.dialog
+\i (00:08:05) cvf layer_mode
+\i (00:08:05) setwindow pcb
+\i (00:08:05) generaledit 
+\i (00:08:07) setwindow cvf.dialog
+\i (00:08:07) cvf layer_tree_item 'Manufacturing'
+\i (00:08:08) cvf layers_visible manufacturing/all_row TRUE
+\i (00:08:10) cvf layers_visible manufacturing/all_row FALSE
+\i (00:08:18) cvf okay
+\i (00:08:20) setwindow pcb
+\i (00:08:20) color192 
+\i (00:08:20) setwindow cvf.dialog
+\i (00:08:20) cvf layer_mode
+\i (00:08:20) setwindow pcb
+\i (00:08:20) generaledit 
+\i (00:08:24) setwindow cvf.dialog
+\i (00:08:24) cvf layer_tree_item 'Manufacturing'
+\i (00:08:29) cvf okay
+\i (00:08:30) setwindow pcb
+\i (00:08:30) color192 
+\i (00:08:30) setwindow cvf.dialog
+\i (00:08:30) cvf layer_mode
+\i (00:08:30) setwindow pcb
+\i (00:08:30) generaledit 
+\i (00:08:32) setwindow cvf.dialog
+\i (00:08:32) cvf layers_visible board_geometry/dimension FALSE
+\i (00:08:42) cvf layers_visible board_geometry/dimension TRUE
+\i (00:08:45) cvf layer_tree_item 'Manufacturing'
+\i (00:08:56) cvf layers_visible manufacturing/ncdrill_figure TRUE
+\i (00:08:57) cvf layers_visible manufacturing/ncdrill_legend TRUE
+\i (00:08:58) cvf okay
+\i (00:08:59) setwindow pcb
+\i (00:08:59) zoom in 1 
+\i (00:08:59) setwindow pcb
+\i (00:08:59) zoom in 265.435 1401.336
+\i (00:08:59) trapsize 47329
+\i (00:08:59) zoom in 1 
+\i (00:08:59) setwindow pcb
+\i (00:08:59) zoom in 369.560 1779.970
+\i (00:08:59) trapsize 23665
+\i (00:08:59) zoom in 1 
+\i (00:08:59) setwindow pcb
+\i (00:08:59) zoom in 369.560 1779.970
+\i (00:08:59) trapsize 11832
+\i (00:09:00) zoom out 1 
+\i (00:09:00) setwindow pcb
+\i (00:09:00) zoom out 629.871 1867.529
+\i (00:09:00) trapsize 23665
+\i (00:09:00) zoom out 1 
+\i (00:09:00) setwindow pcb
+\i (00:09:00) zoom out 634.603 1862.797
+\i (00:09:00) trapsize 47329
+\i (00:09:04) color192 
+\i (00:09:04) setwindow cvf.dialog
+\i (00:09:04) cvf layer_mode
+\i (00:09:04) setwindow pcb
+\i (00:09:04) generaledit 
+\i (00:09:07) setwindow cvf.dialog
+\i (00:09:07) cvf layer_tree_item 'Manufacturing'
+\i (00:09:11) cvf layers_visible manufacturing/details TRUE
+\i (00:09:13) cvf okay
+\i (00:09:16) setwindow pcb
+\i (00:09:16) color192 
+\i (00:09:16) setwindow cvf.dialog
+\i (00:09:16) cvf layer_mode
+\i (00:09:16) setwindow pcb
+\i (00:09:16) generaledit 
+\i (00:09:23) setwindow cvf.dialog
+\i (00:09:23) cvf layer_tree_item 'Manufacturing'
+\i (00:09:31) cvf layers_visible manufacturing/nclegend-1-2 TRUE
+\i (00:09:32) cvf okay
+\i (00:09:35) setwindow pcb
+\i (00:09:35) color192 
+\i (00:09:35) setwindow cvf.dialog
+\i (00:09:35) cvf layer_mode
+\i (00:09:35) setwindow pcb
+\i (00:09:35) generaledit 
+\i (00:09:37) setwindow cvf.dialog
+\i (00:09:37) cvf layer_tree_item 'Manufacturing'
+\i (00:09:39) cvf layers_visible manufacturing/ncdrill_legend FALSE
+\i (00:09:40) cvf layers_visible manufacturing/ncdrill_figure FALSE
+\i (00:09:41) cvf layers_visible manufacturing/details FALSE
+\i (00:09:43) cvf okay
+\i (00:09:44) setwindow pcb
+\i (00:09:44) zoom out 1 
+\i (00:09:44) setwindow pcb
+\i (00:09:44) zoom out 4165.362 1947.989
+\i (00:09:44) trapsize 94658
+\i (00:09:47) zoom in 1 
+\i (00:09:47) setwindow pcb
+\i (00:09:47) zoom in 189.708 0.391
+\i (00:09:47) trapsize 47329
+\i (00:09:47) zoom in 1 
+\i (00:09:47) setwindow pcb
+\i (00:09:47) zoom in 341.161 189.708
+\i (00:09:47) trapsize 23665
+\i (00:09:49) zoom out 1 
+\i (00:09:49) setwindow pcb
+\i (00:09:49) zoom out 3630.541 625.137
+\i (00:09:49) trapsize 47329
+\i (00:09:54) plot preview 
+\i (00:09:54) trapsize 45036
+\i (00:10:05) trapsize 47329
+\i (00:10:06) zoom in 1 
+\i (00:10:06) setwindow pcb
+\i (00:10:06) zoom in 1571.721 1486.528
+\i (00:10:06) trapsize 23665
+\i (00:10:07) zoom out 1 
+\i (00:10:07) setwindow pcb
+\i (00:10:07) zoom out 1581.187 1486.529
+\i (00:10:07) trapsize 47329
+\i (00:10:08) roam start
+\i (00:10:08) roam y -16
+\i (00:10:09) roam y -32
+\i (00:10:09) roam y -16
+\i (00:10:10) roam end
+\i (00:10:10) zoom out 1 
+\i (00:10:10) setwindow pcb
+\i (00:10:10) zoom out 6588.617 1524.392
+\i (00:10:10) trapsize 94658
+\i (00:10:16) plot preview 
+\i (00:10:16) trapsize 90071
+\i (00:10:31) trapsize 94658
+\i (00:10:35) plot setup 
+\i (00:10:47) setwindow form.fpfileplotsetup
+\i (00:10:47) FORM fpfileplotsetup windows  
+\i (00:10:48) FORM fpfileplotsetup cancel  
+\i (00:10:48) setwindow pcb
+\i (00:10:48) generaledit 
+\i (00:10:52) plot 
+\w (00:10:52) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (00:10:54) plotwint initialize "PDFCreator"
+\i (00:10:54) plotwint orientation 1
+\i (00:10:54) plotwint papername "A4"
+\i (00:10:54) plotwint scale 100
+\i (00:10:54) plotwint copies 1
+\i (00:10:54) plotwint defaultsource 15
+\i (00:10:54) plotwint printquality 600
+\i (00:10:54) plotwint color 1
+\i (00:10:54) plotwint execute
+\i (00:11:06) zoom in 1 
+\i (00:11:06) setwindow pcb
+\i (00:11:06) zoom in 738.727 19.323
+\i (00:11:06) trapsize 47329
+\i (00:11:06) zoom in 1 
+\i (00:11:06) setwindow pcb
+\i (00:11:06) zoom in 672.466 85.584
+\i (00:11:06) trapsize 23665
+\i (00:11:07) zoom in 1 
+\i (00:11:07) setwindow pcb
+\i (00:11:07) zoom in 880.715 355.361
+\i (00:11:07) trapsize 11832
+\i (00:11:07) zoom out 1 
+\i (00:11:07) setwindow pcb
+\i (00:11:07) zoom out 1157.591 393.224
+\i (00:11:07) trapsize 23665
+\i (00:11:07) zoom out 1 
+\i (00:11:07) setwindow pcb
+\i (00:11:07) zoom out 1162.322 383.758
+\i (00:11:07) trapsize 47329
+\i (00:11:11) color192 
+\i (00:11:11) setwindow cvf.dialog
+\i (00:11:11) cvf layer_mode
+\i (00:11:11) setwindow pcb
+\i (00:11:11) generaledit 
+\i (00:11:13) setwindow cvf.dialog
+\i (00:11:13) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:11:18) cvf layers_visible stack-up etch/top FALSE
+\i (00:11:19) cvf layers_visible stack-up etch/bottom FALSE
+\i (00:11:20) cvf layers_visible stack-up drc/top FALSE
+\i (00:11:21) cvf layers_visible stack-up drc/bottom FALSE
+\i (00:11:22) cvf layers_visible stack-up via/top FALSE
+\i (00:11:22) cvf layers_visible stack-up via/bottom FALSE
+\i (00:11:23) cvf layers_visible stack-up pin/top FALSE
+\i (00:11:23) cvf layers_visible stack-up pin/bottom FALSE
+\i (00:11:24) cvf okay
+\i (00:11:26) setwindow pcb
+\i (00:11:26) zoom in 1 
+\i (00:11:26) setwindow pcb
+\i (00:11:26) zoom in 1105.528 222.840
+\i (00:11:26) trapsize 23665
+\i (00:11:26) zoom out 1 
+\i (00:11:26) setwindow pcb
+\i (00:11:26) zoom out 1441.565 644.070
+\i (00:11:26) trapsize 47329
+\i (00:11:27) zoom in 1 
+\i (00:11:27) setwindow pcb
+\i (00:11:27) zoom in 1458.131 644.070
+\i (00:11:27) trapsize 23665
+\i (00:11:28) zoom out 1 
+\i (00:11:28) setwindow pcb
+\i (00:11:28) zoom out 1571.721 610.939
+\i (00:11:28) trapsize 47329
+\i (00:11:30) zoom in 1 
+\i (00:11:30) setwindow pcb
+\i (00:11:30) zoom in -94.267 393.225
+\i (00:11:30) trapsize 23665
+\i (00:11:31) zoom in 1 
+\i (00:11:31) setwindow pcb
+\i (00:11:31) zoom in 151.845 156.579
+\i (00:11:31) trapsize 11832
+\i (00:11:31) zoom in 1 
+\i (00:11:31) setwindow pcb
+\i (00:11:31) zoom in 163.677 168.412
+\i (00:11:31) trapsize 5916
+\i (00:11:32) zoom out 1 
+\i (00:11:32) setwindow pcb
+\i (00:11:32) zoom out 195.625 195.627
+\i (00:11:32) trapsize 11832
+\i (00:11:33) zoom out 1 
+\i (00:11:33) setwindow pcb
+\i (00:11:33) zoom out 195.625 195.626
+\i (00:11:33) trapsize 23665
+\i (00:11:33) zoom out 1 
+\i (00:11:33) setwindow pcb
+\i (00:11:33) zoom out 195.624 190.894
+\i (00:11:33) trapsize 47329
+\t (00:11:42) Pick to complete the window.
+\i (00:11:42) roam start
+\i (00:11:42) roam y -64
+\i (00:11:42) roam end
+\i (00:11:42) zoom previous
+\i (00:11:42) trapsize 23665
+\i (00:11:42) generaledit 
+\i (00:11:43) zoom out 1 
+\i (00:11:43) setwindow pcb
+\i (00:11:43) zoom out 825.102 11.043
+\i (00:11:43) trapsize 47329
+\i (00:11:45) roam start
+\i (00:11:45) roam y -64
+\i (00:11:45) roam y -16
+\i (00:11:45) roam y -16
+\i (00:11:45) roam y -32
+\i (00:11:45) roam y -16
+\i (00:11:46) roam end
+\i (00:11:46) zoom out 1 
+\i (00:11:46) setwindow pcb
+\i (00:11:46) zoom out 6721.139 1581.187
+\i (00:11:46) trapsize 94658
+\i (00:12:47) plot preview 
+\i (00:12:47) trapsize 90071
+\i (00:12:52) trapsize 94658
+\i (00:12:55) roam start
+\i (00:12:55) roam x 16
+\i (00:12:55) roam end
+\i (00:12:58) plot 
+\w (00:12:58) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (00:13:00) plotwint initialize "PDFCreator"
+\i (00:13:00) plotwint execute
+\i (00:14:14) zoom in 1 
+\i (00:14:14) setwindow pcb
+\i (00:14:14) zoom in -700.081 710.329
+\i (00:14:14) trapsize 47329
+\i (00:14:14) zoom in 1 
+\i (00:14:14) setwindow pcb
+\i (00:14:14) zoom in -510.764 681.931
+\i (00:14:14) trapsize 23665
+\i (00:14:15) zoom in 1 
+\i (00:14:15) setwindow pcb
+\i (00:14:15) zoom in 1458.131 511.546
+\i (00:14:15) trapsize 11832
+\i (00:14:15) zoom in 1 
+\i (00:14:15) setwindow pcb
+\i (00:14:15) zoom in 1458.131 509.180
+\i (00:14:15) trapsize 5916
+\i (00:14:28) delete 
+\i (00:14:33) setwindow form.find
+\i (00:14:33) FORM find all_off  
+\i (00:14:33) FORM find other_segs YES 
+\i (00:14:35) setwindow pcb
+\i (00:14:35) pick grid 1828.482 492.615
+\t (00:14:35) last pick:  1828.484 492.646
+\t (00:14:35) Horizontal Line Segment "Package Geometry/Silkscreen_Top"
+\i (00:14:35) pick grid 1828.482 492.615
+\t (00:14:35) last pick:  1828.484 492.646
+\i (00:14:36) zoom out 1 
+\i (00:14:36) setwindow pcb
+\i (00:14:36) zoom out 1455.765 490.248
+\i (00:14:36) trapsize 11832
+\i (00:14:37) zoom in 1 
+\i (00:14:37) setwindow pcb
+\i (00:14:37) zoom in 2478.075 523.379
+\i (00:14:37) trapsize 5916
+\i (00:14:38) pick grid 2493.457 515.097
+\t (00:14:38) last pick:  2493.414 515.088
+\t (00:14:38) Vertical Line Segment "Package Geometry/Silkscreen_Top"
+\i (00:14:38) pick grid dbl 2493.457 515.097
+\t (00:14:38) last pick:  2493.414 515.088
+\i (00:14:39) zoom out 1 
+\i (00:14:39) setwindow pcb
+\i (00:14:39) zoom out 2483.991 531.662
+\i (00:14:39) trapsize 11832
+\i (00:14:39) zoom out 1 
+\i (00:14:39) setwindow pcb
+\i (00:14:39) zoom out 2483.991 531.662
+\i (00:14:39) trapsize 23665
+\i (00:14:40) zoom in 1 
+\i (00:14:40) setwindow pcb
+\i (00:14:40) zoom in 1655.730 1681.762
+\i (00:14:40) trapsize 11832
+\i (00:14:41) zoom in 1 
+\i (00:14:41) setwindow pcb
+\i (00:14:41) zoom in 1700.692 1620.234
+\i (00:14:41) trapsize 5916
+\i (00:14:41) zoom in 1 
+\i (00:14:41) setwindow pcb
+\i (00:14:41) zoom in 1700.692 1620.234
+\i (00:14:41) trapsize 2958
+\i (00:14:42) pick grid 1697.734 1632.067
+\t (00:14:42) last pick:  1697.752 1632.092
+\t (00:14:42) Horizontal Line Segment "Package Geometry/Silkscreen_Top"
+\i (00:14:42) pick grid dbl 1697.734 1632.067
+\t (00:14:42) last pick:  1697.752 1632.092
+\i (00:14:42) zoom out 1 
+\i (00:14:42) setwindow pcb
+\i (00:14:42) zoom out 1725.540 1632.067
+\i (00:14:42) trapsize 5916
+\i (00:14:44) pick grid 1267.628 1466.414
+\t (00:14:44) last pick:  1267.630 1466.374
+\t (00:14:44) Vertical Line Segment "Package Geometry/Silkscreen_Top"
+\i (00:14:44) pick grid dbl 1267.628 1466.414
+\t (00:14:44) last pick:  1267.630 1466.374
+\i (00:14:45) zoom out 1 
+\i (00:14:45) setwindow pcb
+\i (00:14:45) zoom out 1375.303 1530.308
+\i (00:14:45) trapsize 11832
+\i (00:14:45) zoom out 1 
+\i (00:14:45) setwindow pcb
+\i (00:14:45) zoom out 1375.302 1530.309
+\i (00:14:45) trapsize 23665
+\i (00:14:45) zoom out 1 
+\i (00:14:45) setwindow pcb
+\i (00:14:45) zoom out 1375.303 1530.308
+\i (00:14:45) trapsize 47329
+\i (00:14:49) prepopup 6692.754 1501.911
+\i (00:14:50) done 
+\i (00:14:50) generaledit 
+\i (00:14:51) zoom in 1 
+\i (00:14:51) setwindow pcb
+\i (00:14:51) zoom in -510.762 962.358
+\i (00:14:51) trapsize 23665
+\i (00:14:52) zoom out 1 
+\i (00:14:52) setwindow pcb
+\i (00:14:52) zoom out 99.785 1028.619
+\i (00:14:52) trapsize 47329
+\i (00:15:01) pick grid 7970.644 1359.924
+\t (00:15:01) last pick:  7970.634 1359.946
+\i (00:15:02) zoom in 1 
+\i (00:15:02) setwindow pcb
+\i (00:15:02) zoom in 1666.385 1454.582
+\i (00:15:02) trapsize 23665
+\i (00:15:02) zoom in 1 
+\i (00:15:02) setwindow pcb
+\i (00:15:02) zoom in 1666.385 1454.583
+\i (00:15:02) trapsize 11832
+\i (00:15:02) zoom in 1 
+\i (00:15:02) setwindow pcb
+\i (00:15:02) zoom in 1666.385 1454.583
+\i (00:15:02) trapsize 5916
+\i (00:15:02) zoom out 1 
+\i (00:15:02) setwindow pcb
+\i (00:15:02) zoom out 1787.075 1475.881
+\i (00:15:02) trapsize 11832
+\i (00:15:03) zoom out 1 
+\i (00:15:03) setwindow pcb
+\i (00:15:03) zoom out 1787.074 1475.882
+\i (00:15:03) trapsize 23665
+\i (00:15:07) pick grid 5232.646 1570.540
+\t (00:15:07) last pick:  5232.612 1570.548
+\i (00:15:07) zoom out 1 
+\i (00:15:07) setwindow pcb
+\i (00:15:07) zoom out 3500.394 1509.012
+\i (00:15:07) trapsize 47329
+\i (00:15:07) zoom out 1 
+\i (00:15:07) setwindow pcb
+\i (00:15:07) zoom out 6058.542 1509.012
+\i (00:15:07) trapsize 94659
+\i (00:15:09) roam start
+\i (00:15:09) roam x 48
+\i (00:15:10) roam end
+\i (00:15:10) roam start
+\i (00:15:11) roam x -16
+\i (00:15:11) roam x -16
+\i (00:15:12) roam x 16
+\i (00:15:13) roam end
+\i (00:15:16) plot 
+\w (00:15:16) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (00:15:17) plotwint initialize "PDFCreator"
+\i (00:15:17) plotwint execute
+\i (00:18:16) color192 
+\i (00:18:16) setwindow cvf.dialog
+\i (00:18:16) cvf layer_mode
+\i (00:18:16) setwindow pcb
+\i (00:18:16) generaledit 
+\i (00:18:18) setwindow cvf.dialog
+\i (00:18:18) cvf layer_tree_item 'Stack-Up'
+\i (00:18:24) cvf layers_visible stack-up pin/top TRUE
+\i (00:18:24) cvf layers_visible stack-up pin/bottom TRUE
+\i (00:18:25) cvf layers_visible stack-up via/bottom TRUE
+\i (00:18:26) cvf layers_visible stack-up etch/top TRUE
+\i (00:18:27) cvf layers_visible stack-up etch/bottom TRUE
+\i (00:18:28) cvf layers_visible stack-up drc/top TRUE
+\i (00:18:28) cvf layers_visible stack-up drc/bottom TRUE
+\i (00:18:30) cvf okay
+\i (00:18:31) setwindow pcb
+\i (00:18:31) settoggle no_etch_shape_display 
+\i (00:18:31) redraw 
+\i (00:18:31) trapsize 94659
+\i (00:18:41) ncdrill legend 
+   (00:18:41) Loading mfg.cxt 
+\i (00:18:43) setwindow form.nc_drilllegend
+\i (00:18:43) FORM nc_drilllegend done  
+\i (00:18:47) setwindow pcb
+\i (00:18:47) pick grid 113.984 5036.229
+\t (00:18:47) last pick:  113.974 5036.220
+\t (00:18:47) NC Drill Legend generation successful
+\i (00:18:47) generaledit 
+\i (00:18:54) nctape_full 
+\i (00:18:57) setwindow form.nc_drill
+\i (00:18:57) FORM nc_drill optimize YES 
+\i (00:18:59) FORM nc_drill parameters  
+\i (00:19:01) setwindow form.nc_parameters
+\i (00:19:01) FORM nc_parameters enhanced_format YES 
+\i (00:19:02) FORM nc_parameters done  
+\i (00:19:04) setwindow form.nc_drill
+\i (00:19:04) FORM nc_drill parameters  
+\i (00:19:06) setwindow form.nc_parameters
+\i (00:19:06) FORM nc_parameters cancel  
+\i (00:19:08) setwindow form.nc_drill
+\i (00:19:08) FORM nc_drill execute  
+\t (00:19:09) Starting Generating NC Drill...
+\i (00:19:32) FORM nc_drill cancel  
+\i (00:19:32) setwindow pcb
+\i (00:19:32) generaledit 
+\i (00:19:35) artwork 
+\i (00:19:36) setwindow form.film_control
+\i (00:19:36) FORM film_control select_all  
+\i (00:19:37) FORM film_control general_parameters  
+\i (00:19:38) FORM film_control film_control  
+\i (00:19:42) FORM film_control create  
+\t (00:19:42) Checking db records
+\t (00:19:42)     checking for orphans...
+\t (00:19:42)     Checked  32 percent
+\t (00:19:42)     Checked  64 percent
+\t (00:19:42)     Checked  96 percent
+\t (00:19:42)     Checked 100 percent
+\w (00:19:42) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:19:42) Done dbdoctor.
+\t (00:19:42) Starting Create artwork films...
+\w (00:19:44) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:19:45) Artwork generated with warnings.
+\i (00:19:52) setwindow pcb
+\i (00:19:52) zoom out 1 
+\i (00:19:52) setwindow pcb
+\i (00:19:52) zoom out 5149.820 -908.328
+\i (00:19:52) trapsize 189317
+\i (00:19:55) setwindow text
+\i (00:19:55) close 
+\i (00:19:56) setwindow form.film_control
+\i (00:19:56) FORM film_control cancel  
+\i (00:19:56) setwindow pcb
+\i (00:19:56) generaledit 
+\i (00:19:57) exit 
+\e (00:19:58) Do you want to save the changes you made to DDS.brd?
+\i (00:19:59) fillin yes 
+   (00:19:59) Loading signal.cxt 
+\t (00:20:00)     Journal end - Sat Mar 04 10:38:30 2017

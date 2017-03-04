@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sun Feb 19 21:20:35 2017                      )
+(    Date/Time        : Sat Mar 04 09:59:34 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -48,20 +43,31 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Segment with same start and end points at
+	(1436.042 1299.986) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3064.767 982.152) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3354.330 1819.193) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
 
 
   APERTURES USED:
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
-  CIRCLE     0.00800                                  DARK 
-  CIRCLE     0.00900                                  DARK 
+  CIRCLE     0.00787                                  DARK 
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.02000                                  DARK 
   CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.03500                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09842                                  DARK 
@@ -73,6 +79,7 @@ Results from parameter file ...
   RECTANGLE  0.02264     x 0.05512      90.000 NO     DARK 
   RECTANGLE  0.02658     x 0.06890      90.000 NO     DARK 
   RECTANGLE  0.03937     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.05512     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.05906     x 0.01000       0.000 NO     DARK 
   RECTANGLE  0.05906     x 0.01000      90.000 NO     DARK 
@@ -83,7 +90,7 @@ Results from parameter file ...
   RECTANGLE  0.07677     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
   RECTANGLE  0.13583     x 0.10039      90.000 NO     DARK 
-  OBLONG     0.08169     x 0.02362      90.000 NO     DARK 
+  OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
      TOP created with warnings
 
@@ -110,9 +117,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
-  CIRCLE     0.00800                                  DARK 
-  CIRCLE     0.00900                                  DARK 
+  CIRCLE     0.00787                                  DARK 
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01500                                  DARK 
@@ -123,7 +128,7 @@ Results from parameter file ...
   CIRCLE     0.09842                                  DARK 
   CIRCLE     0.17716                                  DARK 
 
-     BOTTOM created with warnings
+     BOTTOM created.
 
 
 ================================================================
@@ -142,13 +147,13 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: 0 width line found at (4156.670 1685.386)
+    WARNING: 0 width line found at (214.718 2757.212)
            ... using undefined line width of 1.000
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
            ... using undefined line width of 1.000
 
-    WARNING: text composed 0 width line found at (4606.170 3247.886)
+    WARNING: text composed 0 width line found at (664.218 4319.712)
            ... using undefined line width of 1.000
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
@@ -160,8 +165,8 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
   CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.00787                                  DARK 
 
      DRILL created with warnings
 
@@ -188,7 +193,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00787                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09842                                  DARK 
@@ -200,6 +205,7 @@ Results from parameter file ...
   RECTANGLE  0.02264     x 0.05512      90.000 NO     DARK 
   RECTANGLE  0.02658     x 0.06890      90.000 NO     DARK 
   RECTANGLE  0.03937     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.05512     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.05906     x 0.01000       0.000 NO     DARK 
   RECTANGLE  0.05906     x 0.01000      90.000 NO     DARK 
@@ -210,9 +216,9 @@ Results from parameter file ...
   RECTANGLE  0.07677     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
   RECTANGLE  0.13583     x 0.10039      90.000 NO     DARK 
-  OBLONG     0.08169     x 0.02362      90.000 NO     DARK 
+  OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
-     SOLDERMASK_TOP created with warnings
+     SOLDERMASK_TOP created.
 
 
 ================================================================
@@ -237,13 +243,13 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00787                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09842                                  DARK 
   CIRCLE     0.17716                                  DARK 
 
-     SOLDERMASK_BOTTOM created with warnings
+     SOLDERMASK_BOTTOM created.
 
 
 ================================================================
@@ -268,9 +274,9 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00787                                  DARK 
 
-     SILKSCREEN_BOTTOM created with warnings
+     SILKSCREEN_BOTTOM created.
 
 
 ================================================================
@@ -295,7 +301,6 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
   CIRCLE     0.00394                                  DARK 
   CIRCLE     0.00400                                  DARK 
   CIRCLE     0.00591                                  DARK 
@@ -305,7 +310,7 @@ Results from parameter file ...
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01968                                  DARK 
 
-     SILKSCREEN_TOP created with warnings
+     SILKSCREEN_TOP created.
 
 
 ================================================================
@@ -330,7 +335,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00787                                  DARK 
   SQUARE     0.09055                     0.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
@@ -338,6 +343,7 @@ Results from parameter file ...
   RECTANGLE  0.02264     x 0.05512      90.000 NO     DARK 
   RECTANGLE  0.02658     x 0.06890      90.000 NO     DARK 
   RECTANGLE  0.03937     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.05512     x 0.04331      90.000 NO     DARK 
   RECTANGLE  0.05906     x 0.01000       0.000 NO     DARK 
   RECTANGLE  0.05906     x 0.01000      90.000 NO     DARK 
@@ -348,9 +354,9 @@ Results from parameter file ...
   RECTANGLE  0.07677     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.09367     x 0.05823      90.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
-  OBLONG     0.08169     x 0.02362      90.000 NO     DARK 
+  OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
-     PASTEMASK_TOP created with warnings
+     PASTEMASK_TOP created.
 
 
 ================================================================
@@ -375,21 +381,21 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00787                                  DARK 
 
-     PASTEMASK_BOTTOM created with warnings
+     PASTEMASK_BOTTOM created.
 
 
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
-        BOTTOM created with warnings
+        BOTTOM created.
         DRILL created with warnings
-        SOLDERMASK_TOP created with warnings
-        SOLDERMASK_BOTTOM created with warnings
-        SILKSCREEN_BOTTOM created with warnings
-        SILKSCREEN_TOP created with warnings
-        PASTEMASK_TOP created with warnings
-        PASTEMASK_BOTTOM created with warnings
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        SILKSCREEN_BOTTOM created.
+        SILKSCREEN_TOP created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
 
  ARTWORK had warnings

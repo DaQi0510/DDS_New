@@ -152,12 +152,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\dds.dsn")
-      (Path "Design Resources" ".\dds.dsn" "DDS")
-      (Path "Design Resources" ".\dds.dsn" "MCU")
-      (Path "Design Resources" ".\dds.dsn" "Module")
+      (Path "Design Resources"
+         "f:\对外部分项目\信号发生器改版\hardware\sch\dds.dsn")
+      (Path "Design Resources"
+         "f:\对外部分项目\信号发生器改版\hardware\sch\dds.dsn" "DDS")
+      (Path "Design Resources"
+         "f:\对外部分项目\信号发生器改版\hardware\sch\dds.dsn" "MCU")
+      (Path "Design Resources"
+         "f:\对外部分项目\信号发生器改版\hardware\sch\dds.dsn" "Module")
+      (Path "Design Resources"
+         "f:\对外部分项目\信号发生器改版\hardware\sch\dds.dsn" "Power")
       (Path "Outputs")
-      (Select "Design Resources" ".\dds.dsn" "MCU" "MCU"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -178,8 +184,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 884 0 364")
-        (Scroll "664 596")
-        (Zoom "200")
+        (Scroll "0 228")
+        (Zoom "100")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
       (Schematic "DDS")
@@ -187,8 +193,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 934 0 257")
-        (Scroll "0 38")
+        (Placement "44 0 1 -1 -1 -8 -30 0 934 0 257")
+        (Scroll "0 320")
         (Zoom "180")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
@@ -198,8 +204,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 959 25 282")
-        (Scroll "1067 1134")
-        (Zoom "280")
+        (Scroll "1063 622")
+        (Zoom "208")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
       (Schematic "Module")
@@ -207,9 +213,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1009 75 332")
-        (Scroll "929 86")
-        (Zoom "200")
+        (Placement "44 2 3 -1 -1 -8 -30 75 1009 75 332")
+        (Scroll "23 52")
+        (Zoom "132")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
       (Schematic "Power")

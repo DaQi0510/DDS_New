@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Feb-19-2017 at 09:52:55}
+{ Using PSTWRITER 16.6.0 d001Mar-03-2017 at 20:03:13}
 primitive 'CAP_0603_0.1UF';
   pin
     '1':
@@ -1159,7 +1159,7 @@ primitive 'STM32F407ZGT6_STM32F407ZGT6-LQF';
     VALUE='STM32F407ZGT6';
   end_body;
 end_primitive;
-primitive '74LVC4245_74LVC4245-SOIC24_74LV';
+primitive '74LVC4245_74LVC4245-PW_74LVC424';
   pin
     'VCC(A)':
       PIN_NUMBER='(1)';
@@ -1236,7 +1236,7 @@ primitive '74LVC4245_74LVC4245-SOIC24_74LV';
   end_pin;
   body
     PART_NAME='74LVC4245';
-    JEDEC_TYPE='74LVC4245-SOIC24';
+    JEDEC_TYPE='74LVC4245-PW';
     VALUE='74LVC4245';
   end_body;
 end_primitive;
