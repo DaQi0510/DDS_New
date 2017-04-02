@@ -206,66 +206,18 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>42</LineNumber>
+          <LineNumber>312</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134222990</Address>
+          <Address>134220162</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\瀵瑰閮ㄥ垎椤圭洰\淇″彿鍙戠敓鍣ㄦ敼鐗?STM32F407\USER\main.c</Filename>
+          <Filename>F:\瀵瑰閮ㄥ垎椤圭洰\淇″彿鍙戠敓鍣ㄦ敼鐗?STM32F407\HARDWARE\GPIO_Init\GPIO_Init.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\STM32F407\USER/main.c\42</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>37</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134222972</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\瀵瑰閮ㄥ垎椤圭洰\淇″彿鍙戠敓鍣ㄦ敼鐗?STM32F407\USER\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\STM32F407\USER/main.c\37</Expression>
-        </Bp>
-        <Bp>
-          <Number>2</Number>
-          <Type>0</Type>
-          <LineNumber>38</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134222978</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\瀵瑰閮ㄥ垎椤圭洰\淇″彿鍙戠敓鍣ㄦ敼鐗?STM32F407\USER\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\STM32F407\USER/main.c\38</Expression>
-        </Bp>
-        <Bp>
-          <Number>3</Number>
-          <Type>0</Type>
-          <LineNumber>39</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134222982</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\瀵瑰閮ㄥ垎椤圭洰\淇″彿鍙戠敓鍣ㄦ敼鐗?STM32F407\USER\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\STM32F407\USER/main.c\39</Expression>
+          <Expression>\\STM32F407\HARDWARE/GPIO_Init/GPIO_Init.c\312</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -320,6 +272,13 @@
           <ItemText>PDin(1)</ItemText>
         </Ww>
       </WatchWindow1>
+      <WatchWindow2>
+        <Ww>
+          <count>0</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>Switch_Flag1</ItemText>
+        </Ww>
+      </WatchWindow2>
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
@@ -634,7 +593,7 @@
       <GroupNumber>5</GroupNumber>
       <FileNumber>20</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>.\HARDWARE\TFT_LCD\TFT_LCD.c</PathWithFileName>

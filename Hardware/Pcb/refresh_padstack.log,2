@@ -4,12 +4,12 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Thu Mar 09 15:26:55 2017                      )
+(    Date/Time        : Sat Feb 18 10:21:38 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Thu Mar 09 15:26:55 2017				Page     1
+Sat Feb 18 10:21:38 2017				Page     1
 
 
 ------ Pad Stack Refresh Options ------
@@ -21,17 +21,12 @@ Reset symbol text and size locations   = 'NO'
 
 ------ Library Paths ------
 PSMPATH =  F:/CADENCE LIB/cadence-lib-new/PSM/ 
-           F:/对外部分项目/信号发生器改版/Hardware/Pcb/ 
 
 PADPATH =  F:/CADENCE LIB/cadence-lib-new/PAD/ 
 
 
 ------ Pad Stack Refresh Messages ------
 
-'B130_40'  pad stack refresh starting.
-
-     'B130_40'  pad stack refreshed successfully.
-     
 'VIA-12-20'  pad stack refresh starting.
 
      'VIA-12-20'  pad stack refreshed successfully.
@@ -48,8 +43,10 @@ PADPATH =  F:/CADENCE LIB/cadence-lib-new/PAD/
 
      'C180H120'  pad stack refreshed successfully.
      
-WARNING(SPMHNI-253): Unable to find pad stack, 'B207_60', in directory search path.
+'B207_60'  pad stack refresh starting.
 
+     'B207_60'  pad stack refreshed successfully.
+     
 'R150_30'  pad stack refresh starting.
 
      'R150_30'  pad stack refreshed successfully.
@@ -114,4 +111,4 @@ WARNING(SPMHNI-253): Unable to find pad stack, 'B207_60', in directory search pa
 
      'R42_95'  pad stack refreshed successfully.
      
-WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.
+Completed refreshing all pad stacks successfully.

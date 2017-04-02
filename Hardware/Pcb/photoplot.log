@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sat Mar 04 10:38:13 2017                      )
+(    Date/Time        : Thu Mar 09 15:33:36 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -49,15 +44,211 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(1436.042 1299.986) will be ignored. Increasing output
+	(3606.172 1185.057) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(3064.767 982.152) will be ignored. Increasing output
+	(3180.376 1243.423) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(3354.330 1819.193) will be ignored. Increasing output
+	(1077.755 589.764) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(889.720 540.567) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1233.035 414.563) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1241.692 788.410) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1316.496 788.410) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1004.430) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1063.485) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1043.800) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 630.414) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1161.910) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1142.225) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 610.729) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 650.098) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 669.784) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 984.744) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 965.060) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1083.170) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1654.036 1376.477) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1673.721 1376.477) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2067.422 533.957) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2047.736 1376.476) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2067.422 1376.477) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2087.106 533.957) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2126.476 1376.476) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2241.279 381.516) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3064.768 982.154) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 650.099) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 630.414) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 610.729) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 886.319) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 1083.170) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 1063.485) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 1043.800) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.783 1161.909) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2645.973 1005.527) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2645.973 1103.953) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3364.221 797.425) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3544.090 797.425) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(889.720 540.567) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(776.280 1410.728) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1034.193 1575.468) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1054.036 1410.728) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1112.299 1575.468) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1281.547 1575.468) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(827.460 1410.728) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(4139.575 1028.952) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3354.330 1864.665) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3354.331 1864.665) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(4224.811 916.157) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(4224.811 916.158) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -66,7 +257,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01500                                  DARK 
@@ -116,13 +307,17 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Segment with same start and end points at
+	(4121.397 1512.776) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
 
 
   APERTURES USED:
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.01500                                  DARK 
@@ -152,13 +347,13 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: 0 width line found at (214.718 2757.212)
+    WARNING: 0 width line found at (214.717 2757.213)
            ... using undefined line width of 1.000
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
            ... using undefined line width of 1.000
 
-    WARNING: text composed 0 width line found at (664.218 4319.712)
+    WARNING: text composed 0 width line found at (664.217 4319.713)
            ... using undefined line width of 1.000
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
@@ -171,7 +366,7 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00100                                  DARK 
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
 
      DRILL created with warnings
 
@@ -198,7 +393,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09842                                  DARK 
@@ -223,7 +418,7 @@ Results from parameter file ...
   RECTANGLE  0.13583     x 0.10039      90.000 NO     DARK 
   OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
-     SOLDERMASK_TOP created with warnings
+     SOLDERMASK_TOP created.
 
 
 ================================================================
@@ -248,13 +443,13 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09842                                  DARK 
   CIRCLE     0.17716                                  DARK 
 
-     SOLDERMASK_BOTTOM created with warnings
+     SOLDERMASK_BOTTOM created.
 
 
 ================================================================
@@ -279,9 +474,9 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
 
-     SILKSCREEN_BOTTOM created with warnings
+     SILKSCREEN_BOTTOM created.
 
 
 ================================================================
@@ -314,7 +509,7 @@ Results from parameter file ...
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01968                                  DARK 
 
-     SILKSCREEN_TOP created with warnings
+     SILKSCREEN_TOP created.
 
 
 ================================================================
@@ -339,7 +534,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
   SQUARE     0.09055                     0.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
@@ -360,7 +555,7 @@ Results from parameter file ...
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
   OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
-     PASTEMASK_TOP created with warnings
+     PASTEMASK_TOP created.
 
 
 ================================================================
@@ -385,9 +580,9 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00394                                  DARK 
 
-     PASTEMASK_BOTTOM created with warnings
+     PASTEMASK_BOTTOM created.
 
 
 ------------------------------------------------------
@@ -395,11 +590,11 @@ Results from parameter file ...
         TOP created with warnings
         BOTTOM created with warnings
         DRILL created with warnings
-        SOLDERMASK_TOP created with warnings
-        SOLDERMASK_BOTTOM created with warnings
-        SILKSCREEN_BOTTOM created with warnings
-        SILKSCREEN_TOP created with warnings
-        PASTEMASK_TOP created with warnings
-        PASTEMASK_BOTTOM created with warnings
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        SILKSCREEN_BOTTOM created.
+        SILKSCREEN_TOP created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
 
  ARTWORK had warnings

@@ -6,12 +6,12 @@
 #include "sys.h"
 
 //IO方向设置
-#define AT24C02_SDA_IN()  {GPIOE->MODER&=~(3<<(12*2));GPIOE->MODER|=0<<12*2;}	//PD13输入模式
-#define AT24C02_SDA_OUT() {GPIOE->MODER&=~(3<<(12*2));GPIOE->MODER|=1<<12*2;} //PD13输出模式
+#define AT24C02_SDA_IN()  {GPIOF->MODER&=~(3<<(5*2));GPIOF->MODER|=0<<5*2;}	//PD13输入模式
+#define AT24C02_SDA_OUT() {GPIOF->MODER&=~(3<<(5*2));GPIOF->MODER|=1<<5*2;} //PD13输出模式
 //IO操作函数	 
-#define AT24C02_SCL    PEout(11)      //SCL
-#define AT24C02_SDA    PEout(12)      //SDA	 
-#define AT24C02_READ_SDA   PEin(12)   //读取SDA 
+#define AT24C02_SCL    PFout(4)      //SCL
+#define AT24C02_SDA    PFout(5)      //SDA	 
+#define AT24C02_READ_SDA   PFin(5)   //读取SDA 
 
 void SetDeviceInformation(u8 *Information,u8 Length);
 void GetDeviceInformation(void);

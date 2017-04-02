@@ -8,27 +8,22 @@ void TFT_LCD_Writ_Bus(char dat)   //串行数据写入
 	for(i=0;i<8;i++)
 	{			  
 		TFT_LCD_CLK_Clr;
-		delay_us(5);
 		if(dat&0x80)
 		   TFT_LCD_MOSI_Set;
 		else 
 		   TFT_LCD_MOSI_Clr;
-		delay_us(5);
 		TFT_LCD_CLK_Set;
-		delay_us(5);
 		dat<<=1;   
 	}			
 }
 void TFT_LCD_WR_DATA8(char da) //发送数据8位
 {	
 	TFT_LCD_DC_Set ;
-	delay_us(5);
 	TFT_LCD_Writ_Bus(da);  
 } 
 void TFT_LCD_WR_DATA(int da)   //发送数据16位
 {	
 	TFT_LCD_DC_Set ;
-	delay_us(5);
 	TFT_LCD_Writ_Bus(da>>8);  
   TFT_LCD_Writ_Bus(da);
 }	
@@ -36,7 +31,6 @@ void TFT_LCD_WR_DATA(int da)   //发送数据16位
 void TFT_LCD_WR_REG(char da)	//写寄存器
 {	
 	TFT_LCD_DC_Clr ;
-	delay_us(5);
 	TFT_LCD_Writ_Bus(da);
 }
 void LCD_WR_REG_DATA(int reg,int da)  //在寄存器里面写数据
@@ -134,117 +128,116 @@ void TFT_LCD_Init(void)   //初始化液晶显示
 	TFT_LCD_MOSI_Set ;
 	TFT_LCD_DC_Set ;
   TFT_LCD_RES_Clr;
-//	for(i=0;i<1000;i++)
-//		for(j=0;j<100;j++);
-	delay_ms(100);
+	for(i=0;i<1000;i++)
+		for(j=0;j<100;j++);
 	TFT_LCD_RES_Set ;
-	delay_ms(100);
-//	for(i=0;i<1000;i++)
-//		for(j=0;j<100;j++);
+	for(i=0;i<1000;i++)
+		for(j=0;j<100;j++);
 		
 	//************* Start Initial Sequence **********// 
-TFT_LCD_WR_REG(0xCF);  
-TFT_LCD_WR_DATA8(0x00); 
-TFT_LCD_WR_DATA8(0xD9); 
-TFT_LCD_WR_DATA8(0X30); 
- 
-TFT_LCD_WR_REG(0xED);  
-TFT_LCD_WR_DATA8(0x64); 
-TFT_LCD_WR_DATA8(0x03); 
-TFT_LCD_WR_DATA8(0X12); 
-TFT_LCD_WR_DATA8(0X81); 
- 
-TFT_LCD_WR_REG(0xE8);  
-TFT_LCD_WR_DATA8(0x85); 
-TFT_LCD_WR_DATA8(0x10); 
-TFT_LCD_WR_DATA8(0x78); 
- 
-TFT_LCD_WR_REG(0xCB);  
-TFT_LCD_WR_DATA8(0x39); 
-TFT_LCD_WR_DATA8(0x2C); 
-TFT_LCD_WR_DATA8(0x00); 
-TFT_LCD_WR_DATA8(0x34); 
-TFT_LCD_WR_DATA8(0x02); 
- 
-TFT_LCD_WR_REG(0xF7);  
-TFT_LCD_WR_DATA8(0x20); 
- 
-TFT_LCD_WR_REG(0xEA);  
-TFT_LCD_WR_DATA8(0x00); 
-TFT_LCD_WR_DATA8(0x00); 
- 
-TFT_LCD_WR_REG(0xC0);    //Power control 
-TFT_LCD_WR_DATA8(0x21);   //VRH[5:0] 
- 
-TFT_LCD_WR_REG(0xC1);    //Power control 
-TFT_LCD_WR_DATA8(0x12);   //SAP[2:0];BT[3:0] 
- 
-TFT_LCD_WR_REG(0xC5);    //VCM control 
-TFT_LCD_WR_DATA8(0x32); 
-TFT_LCD_WR_DATA8(0x3C); 
- 
-TFT_LCD_WR_REG(0xC7);    //VCM control2 
-TFT_LCD_WR_DATA8(0XC1); 
- 
-TFT_LCD_WR_REG(0x36);    // Memory Access Control 
-TFT_LCD_WR_DATA8(0x08); 
- 
-TFT_LCD_WR_REG(0x3A);   
-TFT_LCD_WR_DATA8(0x55); 
+	TFT_LCD_WR_REG(0xCF);  
+	TFT_LCD_WR_DATA8(0x00); 
+	TFT_LCD_WR_DATA8(0xD9); 
+	TFT_LCD_WR_DATA8(0X30); 
+	 
+	TFT_LCD_WR_REG(0xED);  
+	TFT_LCD_WR_DATA8(0x64); 
+	TFT_LCD_WR_DATA8(0x03); 
+	TFT_LCD_WR_DATA8(0X12); 
+	TFT_LCD_WR_DATA8(0X81); 
+	 
+	TFT_LCD_WR_REG(0xE8);  
+	TFT_LCD_WR_DATA8(0x85); 
+	TFT_LCD_WR_DATA8(0x10); 
+	TFT_LCD_WR_DATA8(0x78); 
+	 
+	TFT_LCD_WR_REG(0xCB);  
+	TFT_LCD_WR_DATA8(0x39); 
+	TFT_LCD_WR_DATA8(0x2C); 
+	TFT_LCD_WR_DATA8(0x00); 
+	TFT_LCD_WR_DATA8(0x34); 
+	TFT_LCD_WR_DATA8(0x02); 
+	 
+	TFT_LCD_WR_REG(0xF7);  
+	TFT_LCD_WR_DATA8(0x20); 
+	 
+	TFT_LCD_WR_REG(0xEA);  
+	TFT_LCD_WR_DATA8(0x00); 
+	TFT_LCD_WR_DATA8(0x00); 
+	 
+	TFT_LCD_WR_REG(0xC0);    //Power control 
+	TFT_LCD_WR_DATA8(0x21);   //VRH[5:0] 
+	 
+	TFT_LCD_WR_REG(0xC1);    //Power control 
+	TFT_LCD_WR_DATA8(0x12);   //SAP[2:0];BT[3:0] 
+	 
+	TFT_LCD_WR_REG(0xC5);    //VCM control 
+	TFT_LCD_WR_DATA8(0x32); 
+	TFT_LCD_WR_DATA8(0x3C); 
+	 
+	TFT_LCD_WR_REG(0xC7);    //VCM control2 
+	TFT_LCD_WR_DATA8(0XC1); 
+	 
+	TFT_LCD_WR_REG(0x36);    // Memory Access Control 
+	TFT_LCD_WR_DATA8(0x08); 
+	 
+	TFT_LCD_WR_REG(0x3A);   
+	TFT_LCD_WR_DATA8(0x55); 
 
-TFT_LCD_WR_REG(0xB1);   
-TFT_LCD_WR_DATA8(0x00);   
-TFT_LCD_WR_DATA8(0x18); 
- 
-TFT_LCD_WR_REG(0xB6);    // Display Function Control 
-TFT_LCD_WR_DATA8(0x0A); 
-TFT_LCD_WR_DATA8(0xA2); 
+	TFT_LCD_WR_REG(0xB1);   
+	TFT_LCD_WR_DATA8(0x00);   
+	TFT_LCD_WR_DATA8(0x18); 
+	 
+	TFT_LCD_WR_REG(0xB6);    // Display Function Control 
+	TFT_LCD_WR_DATA8(0x0A); 
+	TFT_LCD_WR_DATA8(0xA2); 
 
- 
- 
-TFT_LCD_WR_REG(0xF2);    // 3Gamma Function Disable 
-TFT_LCD_WR_DATA8(0x00); 
- 
-TFT_LCD_WR_REG(0x26);    //Gamma curve selected 
-TFT_LCD_WR_DATA8(0x01); 
- 
-TFT_LCD_WR_REG(0xE0);    //Set Gamma 
-TFT_LCD_WR_DATA8(0x0F); 
-TFT_LCD_WR_DATA8(0x20); 
-TFT_LCD_WR_DATA8(0x1E); 
-TFT_LCD_WR_DATA8(0x09); 
-TFT_LCD_WR_DATA8(0x12); 
-TFT_LCD_WR_DATA8(0x0B); 
-TFT_LCD_WR_DATA8(0x50); 
-TFT_LCD_WR_DATA8(0XBA); 
-TFT_LCD_WR_DATA8(0x44); 
-TFT_LCD_WR_DATA8(0x09); 
-TFT_LCD_WR_DATA8(0x14); 
-TFT_LCD_WR_DATA8(0x05); 
-TFT_LCD_WR_DATA8(0x23); 
-TFT_LCD_WR_DATA8(0x21); 
-TFT_LCD_WR_DATA8(0x00); 
- 
-TFT_LCD_WR_REG(0XE1);    //Set Gamma 
-TFT_LCD_WR_DATA8(0x00); 
-TFT_LCD_WR_DATA8(0x19); 
-TFT_LCD_WR_DATA8(0x19); 
-TFT_LCD_WR_DATA8(0x00); 
-TFT_LCD_WR_DATA8(0x12); 
-TFT_LCD_WR_DATA8(0x07); 
-TFT_LCD_WR_DATA8(0x2D); 
-TFT_LCD_WR_DATA8(0x28); 
-TFT_LCD_WR_DATA8(0x3F); 
-TFT_LCD_WR_DATA8(0x02); 
-TFT_LCD_WR_DATA8(0x0A); 
-TFT_LCD_WR_DATA8(0x08); 
-TFT_LCD_WR_DATA8(0x25); 
-TFT_LCD_WR_DATA8(0x2D); 
-TFT_LCD_WR_DATA8(0x0F); 
- 
-TFT_LCD_WR_REG(0x11);    //Exit Sleep 
-delay_ms(120); 
-TFT_LCD_WR_REG(0x29);    //Display on 
+	 
+	 
+	TFT_LCD_WR_REG(0xF2);    // 3Gamma Function Disable 
+	TFT_LCD_WR_DATA8(0x00); 
+	 
+	TFT_LCD_WR_REG(0x26);    //Gamma curve selected 
+	TFT_LCD_WR_DATA8(0x01); 
+	 
+	TFT_LCD_WR_REG(0xE0);    //Set Gamma 
+	TFT_LCD_WR_DATA8(0x0F); 
+	TFT_LCD_WR_DATA8(0x20); 
+	TFT_LCD_WR_DATA8(0x1E); 
+	TFT_LCD_WR_DATA8(0x09); 
+	TFT_LCD_WR_DATA8(0x12); 
+	TFT_LCD_WR_DATA8(0x0B); 
+	TFT_LCD_WR_DATA8(0x50); 
+	TFT_LCD_WR_DATA8(0XBA); 
+	TFT_LCD_WR_DATA8(0x44); 
+	TFT_LCD_WR_DATA8(0x09); 
+	TFT_LCD_WR_DATA8(0x14); 
+	TFT_LCD_WR_DATA8(0x05); 
+	TFT_LCD_WR_DATA8(0x23); 
+	TFT_LCD_WR_DATA8(0x21); 
+	TFT_LCD_WR_DATA8(0x00); 
+	 
+	TFT_LCD_WR_REG(0XE1);    //Set Gamma 
+	TFT_LCD_WR_DATA8(0x00); 
+	TFT_LCD_WR_DATA8(0x19); 
+	TFT_LCD_WR_DATA8(0x19); 
+	TFT_LCD_WR_DATA8(0x00); 
+	TFT_LCD_WR_DATA8(0x12); 
+	TFT_LCD_WR_DATA8(0x07); 
+	TFT_LCD_WR_DATA8(0x2D); 
+	TFT_LCD_WR_DATA8(0x28); 
+	TFT_LCD_WR_DATA8(0x3F); 
+	TFT_LCD_WR_DATA8(0x02); 
+	TFT_LCD_WR_DATA8(0x0A); 
+	TFT_LCD_WR_DATA8(0x08); 
+	TFT_LCD_WR_DATA8(0x25); 
+	TFT_LCD_WR_DATA8(0x2D); 
+	TFT_LCD_WR_DATA8(0x0F); 
+	 
+	TFT_LCD_WR_REG(0x11);    //Exit Sleep  
+	for(i=0;i<1000;i++)
+		for(j=0;j<100;j++);
+	TFT_LCD_WR_REG(0x29);    //Display on 
 }
 void TFT_LCD_Clear(u16 Color)
 {
