@@ -190,7 +190,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 0 934 0 257")
-        (Scroll "738 4")
+        (Scroll "0 0")
         (Zoom "180")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
@@ -200,8 +200,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 959 25 282")
-        (Scroll "13 616")
-        (Zoom "140")
+        (Scroll "1235 1977")
+        (Zoom "280")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
       (Schematic "Module")

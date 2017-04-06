@@ -5,9 +5,13 @@
 #include "stm32f4xx_gpio.h"
 #include "stm32f4xx_spi.h"
 
+
+
 #define TFT_LCD_W 240
 #define TFT_LCD_H 320
 
+#define TFT_LCD_BLK_Clr   PAout(0)=0 
+#define TFT_LCD_BLK_Set   PAout(0)=1   
 #define TFT_LCD_DC_Clr    PAout(1)=0 
 #define TFT_LCD_DC_Set    PAout(1)=1   
 #define TFT_LCD_RES_Clr   PAout(2)=0 
@@ -25,6 +29,17 @@ void LCD_WR_REG_DATA(int reg,int da);
 void Address_set(unsigned int x1,unsigned int y1,unsigned int x2,unsigned int y2);
 void TFT_LCD_Init(void) ;
 void TFT_LCD_Clear(u16 Color);
+void TFT_LCD_ShowChar(u16 x,u16 y,u8 Num);
+void TFT_LCD_ShowString(u16 x,u16 y,const u8 *p);
+void TFT_LCD_Display(void);
+void TFT_LCD_ShowChars(u16 x,u16 y,u8 Num);
+void TFT_LCD_ShowTop(void);
+void TFT_LCD_ShowADNum(u8 Value);
+void TFT_LCD_ShowPulse(u16 Value);
+void TFT_LCD_ShowRed(u8 Value);
+void TFT_LCD_ShowLaser(u8 Value);
+void TFT_LCD_ShowMode(u8 Value);
+void TFT_LCD_ShowWarning(u8 Value);
 
 //»­±ÊÑÕÉ«
 #define WHITE         	 0xFFFF

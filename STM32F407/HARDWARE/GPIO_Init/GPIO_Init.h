@@ -18,9 +18,9 @@
 #define S19  PDout(11)      
 #define S22  PDout(12) 
 
-#define K1  PDin(1) 
-#define K2  PDin(2)      
-#define K3  PDin(3) 
+#define K1  PDin(2) 
+#define K2  PDin(3)      
+#define K3  PDin(4) 
 
 
 
@@ -31,6 +31,7 @@
 #define B5  PEin(3) 
 #define B6  PEin(2)
 
+#define Relays PGin(11)
 #define Relay_On PGout(10)=0
 #define Relay_Off PGout(10)=1
 void Gpio_Init(void);

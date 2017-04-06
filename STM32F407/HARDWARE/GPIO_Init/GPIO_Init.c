@@ -2,14 +2,13 @@
 #include "lcd.h"
 #include "AT24C02.h"
 #include "delay.h"
+#include "TFT_LCD.h"
 extern volatile u8 ADNum;
 extern volatile u16 Pulse;
 extern volatile u16 Sine_Fre1;
 extern volatile u16 Sine_Amp1;
 extern volatile u16 Sine_Fre2;
 extern volatile u16 Sine_Amp2;
-extern volatile u8 Switch_Flag1;
-extern volatile u8 Switch_Flag2;
 void Gpio_Init(void)
 {
 	GPIO_InitTypeDef  GPIO_InitStructure;
@@ -33,8 +32,15 @@ void Gpio_Init(void)
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
   GPIO_Init(GPIOE, &GPIO_InitStructure);//初始化GPIO	
 	
-	//模数转换部分
+	//开关部分
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);//使能GPIOA时钟
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4;//
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;//普通输入模式
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;//100M
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;//下拉
+	GPIO_Init(GPIOD, &GPIO_InitStructure);//初始化GPIO
 	
+	//模数转换部分
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7;
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;//普通输出模式
@@ -67,15 +73,23 @@ void Gpio_Init(void)
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
   GPIO_Init(GPIOG, &GPIO_InitStructure);//初始化GPIO	
 	GPIO_SetBits(GPIOG,GPIO_Pin_10);
+	//继电器信号部分
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOG, ENABLE);//使能GPIOA时钟
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;//
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;//普通输入模式
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;//100M
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//下拉
+	GPIO_Init(GPIOG, &GPIO_InitStructure);//初始化GPIO
 	
 	//开关控制输出部分
-	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF, ENABLE);
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9;
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12 ;
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;//普通输出模式
   GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;//100MHz
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
-  GPIO_Init(GPIOF, &GPIO_InitStructure);//初始化GPIO	
+  GPIO_Init(GPIOD, &GPIO_InitStructure);//初始化GPIO	
+	GPIO_ResetBits(GPIOD,GPIO_Pin_10| GPIO_Pin_11 | GPIO_Pin_12);
 	
 	//模数转换旋钮、方波频率调节旋钮、正弦波频率调节旋钮、正弦波幅值调节旋钮
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);//使能GPIOA时钟
@@ -209,11 +223,9 @@ void EXTI0_IRQHandler(void)
 		Delays();
 		if(PDin(0)==0)   //低电平，开关闭合
 		{
-			Switch_Flag1=1;
 		}
 		else 
 		{
-			Switch_Flag1=0;
 		}
 		
 //		LCD_ShowSwitch_Flag(Switch_Flag);
@@ -223,56 +235,67 @@ void EXTI0_IRQHandler(void)
 //外部中断处理函数,开关接口
 void EXTI1_IRQHandler(void)
 {
-	if(EXTI_GetITStatus(EXTI_Line1) != RESET)
+	Delays();
+	if(PFin(1)==1)
 	{
-		Delays();
-		if(B4==1)   
+		if(EXTI_GetITStatus(EXTI_Line1) != RESET)
 		{
-			if(Sine_Amp1>=500)
-				Sine_Amp1=500;
-			else
-				Sine_Amp1+=10;
+			Delays();
+			if(B4==1)   
+			{
+				if(Sine_Amp1>=500)
+					Sine_Amp1=500;
+				else
+					Sine_Amp1+=10;
+			}
+			else 
+			{
+				if(Sine_Amp1<=0)
+					Sine_Amp1=0;
+				else
+					Sine_Amp1-=10;
+			}
+			AT24C02_WriteOneByte(0x03,Sine_Amp1/256);
+			AT24C02_WriteOneByte(0x04,Sine_Amp1%256);
+			LCD_ShowSine1(Sine_Amp1,Sine_Fre1);
+		  while(PFin(1)==1)	
+			Delays();
 		}
-		else 
-		{
-			if(Sine_Amp1<=0)
-				Sine_Amp1=0;
-			else
-				Sine_Amp1-=10;
-		}
-		AT24C02_WriteOneByte(0x03,Sine_Amp1/256);
-		AT24C02_WriteOneByte(0x04,Sine_Amp1%256);
-    LCD_ShowSine1(Sine_Amp1,Sine_Fre1);
-		EXTI_ClearITPendingBit(EXTI_Line1);
-		Delays();
 	}
+	EXTI_ClearITPendingBit(EXTI_Line1);
 }
 //外部中断处理函数,模数转换
 void EXTI2_IRQHandler(void)
 {
-	if(EXTI_GetITStatus(EXTI_Line2) != RESET)
+	Delays();
+	if(PFin(2)==1)
 	{
-		Delays();	
-		if(B5==1)   
+		if(EXTI_GetITStatus(EXTI_Line2) != RESET)
 		{
-			if(Pulse>=200)
-				Pulse=200;
-			else
-				Pulse+=10;
+			Delays();	
+			if(B5==1)   
+			{
+				if(Pulse>=200)
+					Pulse=200;
+				else
+					Pulse+=10;
+			}
+			else 
+			{
+				if(Pulse<=40)
+					Pulse=40;
+				else
+					Pulse-=10;
+			}
+			AT24C02_WriteOneByte(0x01,Pulse/256);
+			AT24C02_WriteOneByte(0x02,Pulse%256);
+			LCD_ShowPulse(Pulse);
+			TFT_LCD_ShowPulse(Pulse);
+			while(PFin(2)==1);
+			Delays();
 		}
-		else 
-		{
-			if(Pulse<=40)
-				Pulse=40;
-			else
-				Pulse-=10;
-		}
-		AT24C02_WriteOneByte(0x01,Pulse/256);
-		AT24C02_WriteOneByte(0x02,Pulse%256);
-    LCD_ShowPulse(Pulse);
-		EXTI_ClearITPendingBit(EXTI_Line2);
-		Delays();
 	}
+	EXTI_ClearITPendingBit(EXTI_Line2);
 }
 //外部中断处理函数,方波频率
 void EXTI3_IRQHandler(void)
@@ -280,6 +303,7 @@ void EXTI3_IRQHandler(void)
 	Delays();
 	if(PFin(3)==1)
 	{
+		Delays();	
 		if(B6==1)
 		{
 			if(ADNum>=255)
@@ -296,6 +320,7 @@ void EXTI3_IRQHandler(void)
 		}
 		AT24C02_WriteOneByte(0x00,ADNum);
     LCD_ShowADNum(ADNum);
+		TFT_LCD_ShowADNum(ADNum);
 		while(PFin(3)==1);
 		Delays();
 	}
@@ -306,85 +331,99 @@ void EXTI3_IRQHandler(void)
 //外部中断处理函数,正弦波频率
 void EXTI4_IRQHandler(void)
 {
-	if(EXTI_GetITStatus(EXTI_Line4) != RESET)
-	{
-		Delays();
-		if(B2==1)
+	Delays();
+//	if(PGin(4)==1)
+//	{
+		if(EXTI_GetITStatus(EXTI_Line4) != RESET)
 		{
-			if(Sine_Fre2>=300)
-				Sine_Fre2=300;
+			Delays();
+			if(B2==1)
+			{
+				if(Sine_Fre2>=300)
+					Sine_Fre2=300;
+				else
+					Sine_Fre2+=10;
+			}
 			else
-				Sine_Fre2+=10;
+			{
+				if(Sine_Fre2<=50)
+					Sine_Fre2=50;
+				else
+					Sine_Fre2-=10;
+			}
+			AT24C02_WriteOneByte(0x09,Sine_Fre2/256);
+			AT24C02_WriteOneByte(0x0A,Sine_Fre2%256);
+			LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
+			while(PGin(4)==1);
+			Delays();
 		}
-		else
-		{
-			if(Sine_Fre2<=50)
-				Sine_Fre2=50;
-			else
-				Sine_Fre2-=10;
-		}
-		AT24C02_WriteOneByte(0x09,Sine_Fre2/256);
-		AT24C02_WriteOneByte(0x0A,Sine_Fre2%256);
-    LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
-		EXTI_ClearITPendingBit(EXTI_Line4);
-		Delays();
-	}
+//	}
+	EXTI_ClearITPendingBit(EXTI_Line4);
 }
 
 //外部中断处理函数,正弦波幅值
 void EXTI9_5_IRQHandler(void)
 {
-	if(EXTI_GetITStatus(EXTI_Line8) != RESET)
-	{
-		Delays();
-		if(B3==1)
+	Delays();
+//	if(PCin(8)==1)
+//	{
+		if(EXTI_GetITStatus(EXTI_Line8) != RESET)
 		{
-			if(Sine_Amp2>=500)
-				Sine_Amp2=500;
+			Delays();
+			if(B3==1)
+			{
+				if(Sine_Amp2>=500)
+					Sine_Amp2=500;
+				else
+					Sine_Amp2+=10;
+			}
 			else
-				Sine_Amp2+=10;
+			{
+				if(Sine_Amp2<=0)
+					Sine_Amp2=0;
+				else
+					Sine_Amp2-=10;
+			}
+			AT24C02_WriteOneByte(0x07,Sine_Amp2/256);
+			AT24C02_WriteOneByte(0x08,Sine_Amp2%256);
+			LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
+			while(PCin(8)==1)
+			Delays();
 		}
-		else
-		{
-			if(Sine_Amp2<=0)
-				Sine_Amp2=0;
-			else
-				Sine_Amp2-=10;
-		}
-    AT24C02_WriteOneByte(0x07,Sine_Amp2/256);
-		AT24C02_WriteOneByte(0x08,Sine_Amp2%256);
-    LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
-		EXTI_ClearITPendingBit(EXTI_Line8);
-		Delays();
-	}
+//	}
+	EXTI_ClearITPendingBit(EXTI_Line8);
 }
 
 void EXTI15_10_IRQHandler(void)
 {
-	if(EXTI_GetITStatus(EXTI_Line11) != RESET)
+	Delays();
+	if(PAin(11)==1)
 	{
-		Delays();
-		if(B1==1)
+		if(EXTI_GetITStatus(EXTI_Line11) != RESET)
 		{
-			if(Sine_Fre1>=300)
-				Sine_Fre1=300;
+			Delays();
+			if(B1==1)
+			{
+				if(Sine_Fre1>=300)
+					Sine_Fre1=300;
+				else
+					Sine_Fre1+=10;
+			}
 			else
-				Sine_Fre1+=10;
-			Switch_Flag1++;
+			{
+				if(Sine_Fre1<=50)
+					Sine_Fre1=50;
+				else
+					Sine_Fre1-=10;
+			}
+			AT24C02_WriteOneByte(0x05,Sine_Fre1/256);
+			AT24C02_WriteOneByte(0x06,Sine_Fre1%256);
+			LCD_ShowSine1(Sine_Amp1,Sine_Fre1);
+			while(PAin(11)==1);
+			Delays();
 		}
-		else
-		{
-			if(Sine_Fre1<=50)
-				Sine_Fre1=50;
-			else
-				Sine_Fre1-=10;
-		}
-		AT24C02_WriteOneByte(0x05,Sine_Fre1/256);
-		AT24C02_WriteOneByte(0x06,Sine_Fre1%256);
-    LCD_ShowSine1(Sine_Amp1,Sine_Fre1);
-		EXTI_ClearITPendingBit(EXTI_Line11);
-		Delays();
 	}
+	EXTI_ClearITPendingBit(EXTI_Line11);
 }
 void Delays(void)    //延时消抖
 {

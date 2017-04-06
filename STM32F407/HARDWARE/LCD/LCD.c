@@ -724,7 +724,7 @@ void LCD_ShowSine2(u16 Amp,u16 Fre)
 }
 void LCD_ShowRed(u8 Value)
 {
-	u8 StartAddress=50;
+	u8 StartAddress=32;
 	u8 j;
 	LCD_Set_Pos(StartAddress,4);
 	if(Value==1)
@@ -749,7 +749,7 @@ void LCD_ShowRed(u8 Value)
 }
 void LCD_ShowLaser(u8 Value)
 {
-	u8 StartAddress=50;
+	u8 StartAddress=42;
 	u8 j;
 	LCD_Set_Pos(StartAddress,5);
 	if(Value==1)
@@ -774,7 +774,7 @@ void LCD_ShowLaser(u8 Value)
 }
 void LCD_ShowMode(u8 Value)
 {
-	u8 StartAddress=56;
+	u8 StartAddress=36;
 	u8 j;
 	LCD_Set_Pos(StartAddress,6);
 	if(Value==1)
@@ -791,18 +791,18 @@ void LCD_ShowMode(u8 Value)
 
 void LCD_ShowWarning(u8 Value)
 {
-	u8 StartAddress=56;
+	u8 StartAddress=55;
 	u8 j;
 	LCD_Set_Pos(StartAddress,7);
 	if(Value==1)
 	{
 		for(j=0;j<6;j++)       
-			LCD_WrDat(F6x8[17][j]);	
+			LCD_WrDat(F6x8[16][j]);	
 	}
 	else
 	{	
 		for(j=0;j<6;j++)       
-			LCD_WrDat(F6x8[16][j]); 
+			LCD_WrDat(F6x8[17][j]); 
 	}
 }
 

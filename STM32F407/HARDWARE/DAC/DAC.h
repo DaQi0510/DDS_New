@@ -16,5 +16,4 @@ void GPIO_Configuration2(void);
 void DAC_DMA_Configuration1(void);
 void DAC_DMA_Configuration2(void);
 void TIM1_PWM_Init(u32 arr,u32 psc);
-
 #endif

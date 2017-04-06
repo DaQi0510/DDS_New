@@ -2,13 +2,13 @@
 #include "math.h"
 
 #define DAC_DHR12R1_ADDRESS     0x40007408
-#define DAC_DHR12R2_ADDRESS     0x40007808
+#define DAC_DHR12R2_ADDRESS     0x40007414
 
 extern volatile u16 tableSize1;
 volatile u16 sinTable1[1024];
 extern volatile u16 tableSize2;
 volatile u16 sinTable2[1024];
-
+extern volatile u8 K3_Flagt;
 void sin_Generation1(u16 Fre,u16 Vol)
 {
 	u32 Voltage;
@@ -224,12 +224,18 @@ void DAC_DMA_Configuration2(void)
 	DMA_InitStructure.DMA_MemoryBurst = DMA_MemoryBurst_Single;
 	DMA_InitStructure.DMA_PeripheralBurst = DMA_PeripheralBurst_Single;
 	DMA_Init(DMA1_Stream6, &DMA_InitStructure);    
-	
-	DMA_Cmd(DMA1_Stream6, ENABLE);
-	
-	DAC_Cmd(DAC_Channel_2, ENABLE);
-	
-	DAC_DMACmd(DAC_Channel_2, ENABLE);
+	if(K3_Flagt==1)
+	{
+		DMA_Cmd(DMA1_Stream6, ENABLE);
+		DAC_Cmd(DAC_Channel_2, ENABLE);
+		DAC_DMACmd(DAC_Channel_2, ENABLE);
+	}
+	else
+	{
+		DMA_Cmd(DMA1_Stream6, DISABLE);
+		DAC_Cmd(DAC_Channel_2, DISABLE);
+		DAC_DMACmd(DAC_Channel_2, DISABLE);
+	}
 } 
 
 void Sine_Set1(u16 Fre,u16 Vol)
@@ -258,7 +264,7 @@ void TIM1_PWM_Init(u32 arr,u32 psc)
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM1,ENABLE);    //TIM4时钟使能    
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE); 	//使能PORTF时钟	
 	
-	GPIO_PinAFConfig(GPIOA,GPIO_PinSource9,GPIO_AF_TIM1); //GPIOB8复用为定时器4
+	
 	
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;           //GPIOF9
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;        //复用功能
@@ -267,28 +273,32 @@ void TIM1_PWM_Init(u32 arr,u32 psc)
 	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;        //上拉
 	GPIO_Init(GPIOA,&GPIO_InitStructure);              //初始化PF9
 	  
-	TIM_TimeBaseStructure.TIM_Prescaler=psc;  //定时器分频
-	TIM_TimeBaseStructure.TIM_CounterMode=TIM_CounterMode_Up; //向上计数模式
-	TIM_TimeBaseStructure.TIM_Period=arr;   //自动重装载值
-	TIM_TimeBaseStructure.TIM_ClockDivision=TIM_CKD_DIV1; 
-//	TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1; 
-	TIM_TimeBaseInit(TIM1,&TIM_TimeBaseStructure);//初始化定时器14
+	GPIO_PinAFConfig(GPIOA,GPIO_PinSource9,GPIO_AF_TIM1); //GPIOB8复用为定时器4
 	
-	//初始化TIM4 Channel1 PWM模式	 
-	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1; //选择定时器模式:TIM脉冲宽度调制模式2
- 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable; //比较输出使能
-	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_Low; //输出极性:TIM输出比较极性低
-	TIM_OC2Init(TIM1, &TIM_OCInitStructure);  //根据T指定的参数初始化外设TIM1 4OC1
-	TIM_OC2PreloadConfig(TIM1, TIM_OCPreload_Enable);  //使能TIM4在CCR3上的预装载寄存器
-  TIM_ARRPreloadConfig(TIM1,ENABLE);//ARPE使能 
-	
-	TIM_Cmd(TIM1, ENABLE);  //使能TIM14
-	TIM_CtrlPWMOutputs(TIM1,ENABLE);
-//	TIM_SetCompare2(TIM1,(arr+1)/2-1);
-  									  
+  TIM_DeInit(TIM1);
+	TIM_OC2PreloadConfig(TIM1, TIM_OCPreload_Disable);
+	TIM_ARRPreloadConfig(TIM1, DISABLE);
+	TIM_Cmd(TIM1, DISABLE);
+	TIM_TimeBaseStructure.TIM_Period = arr;
+	TIM_TimeBaseStructure.TIM_Prescaler = psc;
+	TIM_TimeBaseStructure.TIM_ClockDivision = 0;
+	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
+	TIM_TimeBaseStructure.TIM_RepetitionCounter = 0x0000;		/* TIM1 和 TIM8 必须设置 */	
+
+	TIM_TimeBaseInit(TIM1, &TIM_TimeBaseStructure);
+
+	/* PWM1 Mode configuration: Channel1 */
+	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
+	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
+	TIM_OCInitStructure.TIM_Pulse = (arr+1)/2;
+	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
+  
+	TIM_OC2Init(TIM1, &TIM_OCInitStructure);
+	TIM_OC2PreloadConfig(TIM1, TIM_OCPreload_Enable);
+	TIM_ARRPreloadConfig(TIM1, ENABLE);
+	TIM_Cmd(TIM1, ENABLE);
+	TIM_CtrlPWMOutputs(TIM1, ENABLE);
+								  
 }  
-
-
-
 
 

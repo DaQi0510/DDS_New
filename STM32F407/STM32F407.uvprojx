@@ -334,7 +334,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\SYSTEM\sys;.\SYSTEM\delay;.\CORE;.\USER;.\FWLIB\inc;.\HARDWARE\AT24C02;.\HARDWARE\LCD;.\HARDWARE\GPIO_Init;.\HARDWARE\AD9851;.\HARDWARE\X9C503;.\HARDWARE\DAC;.\HARDWARE\TFT_LCD</IncludePath>
+              <IncludePath>.\SYSTEM\sys;.\SYSTEM\delay;.\CORE;.\USER;.\FWLIB\inc;.\HARDWARE\AT24C02;.\HARDWARE\LCD;.\HARDWARE\GPIO_Init;.\HARDWARE\AD9851;.\HARDWARE\X9C503;.\HARDWARE\DAC;.\HARDWARE\TFT_LCD;.\HARDWARE\PWM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -496,6 +496,11 @@
               <FileName>TFT_LCD.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\HARDWARE\TFT_LCD\TFT_LCD.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_tim_pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\PWM\bsp_tim_pwm.c</FilePath>
             </File>
           </Files>
         </Group>
