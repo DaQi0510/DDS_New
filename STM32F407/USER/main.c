@@ -203,7 +203,7 @@ void StartInit(void)
 	else 
 		Relay_Off ;
 	LCD_ShowWarning(Relay_Flagt);
-	TFT_LCD_ShowWarning(Relay_Flagt);
+//	TFT_LCD_ShowWarning(Relay_Flagt);
 }
 void AD_Scan(void)
 {
@@ -337,7 +337,9 @@ void K3_Scan(void)
 void Realys_Scan(void)
 {
 	if(Relays==0)   //¼ÌµçÆ÷Ó¦±ÕºÏ
+	{
 		Relay_Flag =1;
+	}
 	else 
 		Relay_Flag =0;
 	if(Relay_Flagt!=Relay_Flag)
@@ -348,18 +350,6 @@ void Realys_Scan(void)
 		else 
 			Relay_Off ;
 		LCD_ShowWarning(Relay_Flagt);
-		TFT_LCD_ShowWarning(Relay_Flagt);
 	}
 }
-//void CheckFlag(void)
-//{
-//	if(PDin(0)==0)
-//		Switch_Flag1=1;
-//	else
-//		Switch_Flag1=0;
-//	if(PDin(1)==0)
-//		Switch_Flag2=1;
-//	else
-//		Switch_Flag2=0;
-//	delay_ms(10);
-//}
+

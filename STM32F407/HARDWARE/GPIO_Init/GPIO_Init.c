@@ -215,26 +215,11 @@ void Gpio_Init(void)
 	
 	
 }
-//外部中断处理函数,开关接口
-void EXTI0_IRQHandler(void)
-{
-	if(EXTI_GetITStatus(EXTI_Line0) != RESET)
-	{
-		Delays();
-		if(PDin(0)==0)   //低电平，开关闭合
-		{
-		}
-		else 
-		{
-		}
-		
-//		LCD_ShowSwitch_Flag(Switch_Flag);
-		EXTI_ClearITPendingBit(EXTI_Line0);
-	}
-}
+
 //外部中断处理函数,开关接口
 void EXTI1_IRQHandler(void)
 {
+	u8 i=0;
 	Delays();
 	if(PFin(1)==1)
 	{
@@ -258,8 +243,13 @@ void EXTI1_IRQHandler(void)
 			AT24C02_WriteOneByte(0x03,Sine_Amp1/256);
 			AT24C02_WriteOneByte(0x04,Sine_Amp1%256);
 			LCD_ShowSine1(Sine_Amp1,Sine_Fre1);
-		  while(PFin(1)==1)	
-			Delays();
+			while(PFin(1)==1)
+			{
+				Delays();
+				i++;
+				if(i>3)
+					break;
+			}
 		}
 	}
 	EXTI_ClearITPendingBit(EXTI_Line1);
@@ -267,6 +257,7 @@ void EXTI1_IRQHandler(void)
 //外部中断处理函数,模数转换
 void EXTI2_IRQHandler(void)
 {
+	u8 i=0;
 	Delays();
 	if(PFin(2)==1)
 	{
@@ -291,8 +282,13 @@ void EXTI2_IRQHandler(void)
 			AT24C02_WriteOneByte(0x02,Pulse%256);
 			LCD_ShowPulse(Pulse);
 			TFT_LCD_ShowPulse(Pulse);
-			while(PFin(2)==1);
-			Delays();
+			while(PFin(2)==1)
+			{
+				Delays();
+				i++;
+				if(i>3)
+					break;
+			}
 		}
 	}
 	EXTI_ClearITPendingBit(EXTI_Line2);
@@ -300,6 +296,7 @@ void EXTI2_IRQHandler(void)
 //外部中断处理函数,方波频率
 void EXTI3_IRQHandler(void)
 {
+	u8 i=0;
 	Delays();
 	if(PFin(3)==1)
 	{
@@ -321,8 +318,13 @@ void EXTI3_IRQHandler(void)
 		AT24C02_WriteOneByte(0x00,ADNum);
     LCD_ShowADNum(ADNum);
 		TFT_LCD_ShowADNum(ADNum);
-		while(PFin(3)==1);
-		Delays();
+		while(PFin(3)==1)
+		{
+			Delays();
+			i++;
+			if(i>3)
+				break;
+		}
 	}
 	EXTI_ClearITPendingBit(EXTI_Line3);
 	Delays();
@@ -331,9 +333,10 @@ void EXTI3_IRQHandler(void)
 //外部中断处理函数,正弦波频率
 void EXTI4_IRQHandler(void)
 {
+	u8 i=0;
 	Delays();
-//	if(PGin(4)==1)
-//	{
+	if(PGin(4)==1)
+	{
 		if(EXTI_GetITStatus(EXTI_Line4) != RESET)
 		{
 			Delays();
@@ -354,19 +357,25 @@ void EXTI4_IRQHandler(void)
 			AT24C02_WriteOneByte(0x09,Sine_Fre2/256);
 			AT24C02_WriteOneByte(0x0A,Sine_Fre2%256);
 			LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
-			while(PGin(4)==1);
-			Delays();
+			while(PGin(4)==1)
+			{
+				Delays();
+				i++;
+				if(i>3)
+					break;
+			}
 		}
-//	}
+	}
 	EXTI_ClearITPendingBit(EXTI_Line4);
 }
 
 //外部中断处理函数,正弦波幅值
 void EXTI9_5_IRQHandler(void)
 {
+	u8 i=0;
 	Delays();
-//	if(PCin(8)==1)
-//	{
+	if(PCin(8)==1)
+	{
 		if(EXTI_GetITStatus(EXTI_Line8) != RESET)
 		{
 			Delays();
@@ -388,14 +397,20 @@ void EXTI9_5_IRQHandler(void)
 			AT24C02_WriteOneByte(0x08,Sine_Amp2%256);
 			LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
 			while(PCin(8)==1)
-			Delays();
+			{
+				Delays();
+				i++;
+				if(i>3)
+					break;
+			}
 		}
-//	}
+	}
 	EXTI_ClearITPendingBit(EXTI_Line8);
 }
 
 void EXTI15_10_IRQHandler(void)
 {
+	u8 i=0;
 	Delays();
 	if(PAin(11)==1)
 	{
@@ -419,8 +434,13 @@ void EXTI15_10_IRQHandler(void)
 			AT24C02_WriteOneByte(0x05,Sine_Fre1/256);
 			AT24C02_WriteOneByte(0x06,Sine_Fre1%256);
 			LCD_ShowSine1(Sine_Amp1,Sine_Fre1);
-			while(PAin(11)==1);
-			Delays();
+			while(PAin(11)==1)
+			{
+				Delays();
+				i++;
+				if(i>3)
+					break;
+			}
 		}
 	}
 	EXTI_ClearITPendingBit(EXTI_Line11);

@@ -159,7 +159,7 @@
       (Path "Design Resources" ".\dds.dsn" "Module")
       (Path "Design Resources" ".\dds.dsn" "Power")
       (Path "Outputs")
-      (Select "Design Resources" ".\dds.dsn" "MCU" "MCU"))
+      (Select "Design Resources" ".\dds.dsn" "Module" "Module"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -180,8 +180,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 884 0 364")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Scroll "-175 0")
+        (Zoom "50")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
       (Schematic "DDS")
@@ -189,8 +189,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 934 0 257")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -30 0 934 0 257")
+        (Scroll "0 72")
         (Zoom "180")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
@@ -199,8 +199,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 959 25 282")
-        (Scroll "1235 1977")
+        (Placement "44 2 3 -1 -1 -8 -30 -212 722 47 304")
+        (Scroll "0 1408")
         (Zoom "280")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")
@@ -210,7 +210,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 1009 75 332")
-        (Scroll "269 0")
+        (Scroll "23 0")
         (Zoom "132")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.DSN")

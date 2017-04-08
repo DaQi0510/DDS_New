@@ -13,9 +13,11 @@ void sin_Generation1(u16 Fre,u16 Vol)
 {
 	u32 Voltage;
 	u16 n;
-	if(Vol>490)
-		Vol =490;
-	Voltage= Vol*4090/500;
+	if(Vol>480)
+		Vol =480;
+	Voltage= Vol*4080/500;
+		if(Voltage>4000)
+		Voltage=4000;
 	if(Fre>150)
 		tableSize1=512;
 	else
@@ -64,9 +66,11 @@ void sin_Generation2(u16 Fre,u16 Vol)
 {
 	u32 Voltage;
 	u16 n;
-	if(Vol>490)
-		Vol =490;
-	Voltage= Vol*4090/500;
+	if(Vol>480)
+		Vol =480;
+	Voltage= Vol*4080/500;
+	if(Voltage>4000)
+		Voltage=4000;
 	if(Fre>150)
 		tableSize2=512;
 	else
