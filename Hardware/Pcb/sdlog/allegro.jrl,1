@@ -1,0 +1,23 @@
+\t (00:00:09) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:09)     Journal start - Tue Apr 18 16:16:44 2017
+\t (00:00:09)         Host=DAQI-PC User=DaQi Pid=10804 CPUs=4
+\t (00:00:09) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:09) 
+   (00:00:09) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\d (00:00:09) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
+\i (00:00:09) trapsize 16109
+\i (00:00:09) trapsize 15675
+\i (00:00:09) trapsize 16183
+\i (00:00:12) trapsize 13486
+\i (00:00:12) trapsize 13541
+\i (00:00:12) generaledit 
+\i (00:00:23) open 
+\i (00:00:43) fillin "F:\CADENCE LIB\cadence-lib-new\foorprint\AQW610EH\AQW610EH.dra"
+\i (00:00:43) cd "F:\CADENCE LIB\cadence-lib-new\foorprint\AQW610EH"
+\t (00:00:43) Opening existing design...
+\i (00:00:44) trapsize 1905
+\i (00:00:44) trapsize 1786
+\i (00:00:44) trapsize 1834
+\i (00:00:46) trapsize 2033
+\t (00:00:46)     Journal end - Tue Apr 18 16:17:22 2017

@@ -1,31 +1,24 @@
-\t (00:00:06) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:06)     Journal start - Sat Apr 08 12:03:23 2017
-\t (00:00:06)         Host=DAQI-PC User=DaQi Pid=8284 CPUs=4
-\t (00:00:06) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:06) 
-   (00:00:07) Loading axlcore.cxt 
-\t (00:00:08) Opening existing design...
-\d (00:00:08) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
-\i (00:00:08) trapsize 16109
-\i (00:00:08) trapsize 15675
-\i (00:00:08) trapsize 16183
-\i (00:00:10) trapsize 13486
-\i (00:00:10) trapsize 13486
-\i (00:00:11) generaledit 
-\i (00:00:12) zoom out 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom out 2463.400 2366.974
-\i (00:00:12) trapsize 26972
-\i (00:00:12) zoom out 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom out 2458.005 2361.580
-\i (00:00:12) trapsize 53945
-\i (00:00:16) open 
-\i (00:00:54) fillin "F:\CADENCE LIB\cadence-lib-new\foorprint\DB25-G\DB25-G.dra"
-\i (00:00:54) cd "F:\CADENCE LIB\cadence-lib-new\foorprint\DB25-G"
-\t (00:00:54) Opening existing design...
-\i (00:00:55) trapsize 3176
-\i (00:00:55) trapsize 3092
-\i (00:00:55) trapsize 3176
-\i (00:00:57) trapsize 3176
-\t (00:00:57)     Journal end - Sat Apr 08 12:04:13 2017
+\t (00:48:39) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:48:39)     Journal start - Mon Apr 10 09:57:36 2017
+\t (00:48:39)         Host=DAQI-PC User=DaQi Pid=1320 CPUs=4
+\t (00:48:39) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:48:39) 
+\d (00:48:39) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
+\i (00:48:39) generaledit 
+\i (00:48:46) techfile out 
+\i (00:48:50) setwindow form.tech_out
+\i (00:48:50) FORM tech_out browse  
+\i (00:49:15) fillin "Ruler.tcf"
+\i (00:49:17) FORM tech_out execute  
+\t (00:49:17) Starting Export techfile...
+\i (00:49:21) FORM tech_out cancel  
+\i (00:49:21) setwindow pcb
+\i (00:49:21) generaledit 
+\i (00:49:24) open 
+\e (00:49:24) Do you want to save the changes you made to DDS.brd?
+\i (00:49:26) fillin no 
+\i (00:49:38) fillin "F:\计量采集模块部分\Ven1.0\Pcb\DataCollection.brd"
+\i (00:49:38) cd "F:\计量采集模块部分\Ven1.0\Pcb"
+\t (00:49:38) Opening existing design...
+\i (00:49:38) trapsize 3126
+\t (00:49:38)     Journal end - Mon Apr 10 09:58:36 2017

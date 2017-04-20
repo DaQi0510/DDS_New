@@ -1,0 +1,30 @@
+\t (00:00:27) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:27)     Journal start - Tue Apr 18 20:57:44 2017
+\t (00:00:27)         Host=DAQI-PC User=DaQi Pid=11640 CPUs=4
+\t (00:00:27) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:27) 
+\d (00:00:27) Design opened: F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd
+\i (00:00:27) generaledit 
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 3014.605 2119.357
+\i (00:00:28) trapsize 27082
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 3345.073 2119.357
+\i (00:00:28) trapsize 54165
+\i (00:00:36) techfile out 
+\i (00:00:37) setwindow form.tech_out
+\i (00:00:37) FORM tech_out browse  
+\i (00:00:44) fillin "menu_cancel"
+\i (00:00:46) FORM tech_out browse  
+\i (00:01:04) fillin "F:\AllegroSkill\Techfile\Techfile.tcf"
+\i (00:01:06) FORM tech_out execute  
+\t (00:01:06) Starting Export techfile...
+\i (00:01:13) FORM tech_out cancel  
+\i (00:01:13) setwindow pcb
+\i (00:01:13) generaledit 
+\i (00:01:16) exit 
+\e (00:01:16) Do you want to save the changes you made to DDS.brd?
+\i (00:01:17) fillin no 
+\t (00:01:18)     Journal end - Tue Apr 18 20:58:35 2017
