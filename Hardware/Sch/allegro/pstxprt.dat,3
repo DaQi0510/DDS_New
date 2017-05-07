@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-04-2017 at 08:59:56 }
+{ Using PSTWRITER 16.6.0 d001May-05-2017 at 22:17:08 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='DDS';
@@ -698,12 +698,122 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C72 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS197843@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins197843@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins197843@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C73 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS197923@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins197923@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins197923@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C74 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS198122@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins198122@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins198122@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C75 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS198138@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins198138@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins198138@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C76 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS198154@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins198154@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins198154@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C77 'CAP_0603_0.01UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS205755@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins205755@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins205755@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C78 'CAP_1206_22UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS206324@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins206324@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins206324@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C79 'CAP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS205771@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins205771@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins205771@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  C8 'CAP_0603_1NF':;
 
 SECTION_NUMBER 1
  '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS195327@MYLIBRARY.CAP.NORMAL(CHIPS)':
  C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins195327@mylibrary.\cap.normal\(chips)',
  P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins195327@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C80 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS205841@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins205841@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins205841@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C81 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS205809@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins205809@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins205809@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C82 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS205825@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins205825@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins205825@mylibrary.\cap.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1044,16 +1154,6 @@ SECTION_NUMBER 1
  '@DDS.TOP(SCH_1):MCU@DDS.MCU(SCH_1):INS127416@MYLIBRARY.RES.NORMAL(CHIPS)':
  C_PATH='@dds.top(sch_1):mcu@dds.mcu(sch_1):ins127416@mylibrary.\res.normal\(chips)',
  P_PATH='@dds.top(sch_1):page1_mcu@dds.mcu(sch_1):page3_ins127416@mylibrary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R2 'RES_0603_1K':;
-
-SECTION_NUMBER 1
- '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS193290@MYLIBRARY.RES.NORMAL(CHIPS)':
- C_PATH='@dds.top(sch_1):dds@dds.dds(sch_1):ins193290@mylibrary.\res.normal\(chips)',
- P_PATH='@dds.top(sch_1):page1_dds@dds.dds(sch_1):page2_ins193290@mylibrary.\res.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1428,6 +1528,66 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R54 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):MODULE@DDS.MODULE(SCH_1):INS241484@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):module@dds.module(sch_1):ins241484@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_module@dds.module(sch_1):page4_ins241484@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):MODULE@DDS.MODULE(SCH_1):INS243418@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):module@dds.module(sch_1):ins243418@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_module@dds.module(sch_1):page4_ins243418@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R56 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):MODULE@DDS.MODULE(SCH_1):INS244966@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):module@dds.module(sch_1):ins244966@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_module@dds.module(sch_1):page4_ins244966@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):MODULE@DDS.MODULE(SCH_1):INS245869@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):module@dds.module(sch_1):ins245869@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_module@dds.module(sch_1):page4_ins245869@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):MODULE@DDS.MODULE(SCH_1):INS247122@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):module@dds.module(sch_1):ins247122@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_module@dds.module(sch_1):page4_ins247122@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 'RES_0603_10K':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):MODULE@DDS.MODULE(SCH_1):INS247528@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):module@dds.module(sch_1):ins247528@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_module@dds.module(sch_1):page4_ins247528@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R6 'RES_0603_50R':;
 
 SECTION_NUMBER 1
@@ -1534,6 +1694,16 @@ SECTION_NUMBER 1
  '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS201917@MYLIBRARY.LED.NORMAL(CHIPS)':
  C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins201917@mylibrary.\led.normal\(chips)',
  P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins201917@mylibrary.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'LT1964-5_LT1964-5-SOT23_LT1964-':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS205787@MYLIBRARY.LT1964-5.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins205787@mylibrary.\lt1964-5.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins205787@mylibrary.\lt1964-5.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

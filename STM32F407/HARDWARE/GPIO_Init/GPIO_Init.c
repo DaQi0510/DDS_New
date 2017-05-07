@@ -342,17 +342,17 @@ void EXTI4_IRQHandler(void)
 			Delays();
 			if(B2==1)
 			{
-				if(Sine_Fre2>=300)
-					Sine_Fre2=300;
+				if(Sine_Fre2>=500)
+					Sine_Fre2=500;
 				else
-					Sine_Fre2+=10;
+					Sine_Fre2+=1;
 			}
 			else
 			{
-				if(Sine_Fre2<=50)
-					Sine_Fre2=50;
+				if(Sine_Fre2<=10)
+					Sine_Fre2=10;
 				else
-					Sine_Fre2-=10;
+					Sine_Fre2-=1;
 			}
 			AT24C02_WriteOneByte(0x09,Sine_Fre2/256);
 			AT24C02_WriteOneByte(0x0A,Sine_Fre2%256);
@@ -419,17 +419,17 @@ void EXTI15_10_IRQHandler(void)
 			Delays();
 			if(B1==1)
 			{
-				if(Sine_Fre1>=300)
-					Sine_Fre1=300;
+				if(Sine_Fre1>=500)
+					Sine_Fre1=500;
 				else
-					Sine_Fre1+=10;
+					Sine_Fre1+=1;
 			}
 			else
 			{
-				if(Sine_Fre1<=50)
-					Sine_Fre1=50;
+				if(Sine_Fre1<=10)
+					Sine_Fre1=10;
 				else
-					Sine_Fre1-=10;
+					Sine_Fre1-=1;
 			}
 			AT24C02_WriteOneByte(0x05,Sine_Fre1/256);
 			AT24C02_WriteOneByte(0x06,Sine_Fre1%256);
