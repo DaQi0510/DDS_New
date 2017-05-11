@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sun May 07 11:18:32 2017                      )
+(    Date/Time        : Mon May 08 09:05:24 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -48,12 +48,11 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (126).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
     WARNING: Segment with same start and end points at
 	(3180.376 1243.423) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(329.889 941.778) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -61,11 +60,15 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(329.888 1308.694) will be ignored. Increasing output
+	(329.889 941.778) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(329.888 1186.389) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(329.888 1308.694) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -85,10 +88,6 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(1577.264 630.414) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(1577.264 1063.485) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -101,15 +100,11 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(1577.264 1161.910) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1577.264 1142.225) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(1577.264 610.729) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 630.414) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -121,10 +116,6 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(1577.264 965.060) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(1577.264 1083.170) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -133,11 +124,27 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(1673.721 1376.477) will be ignored. Increasing output
+	(1577.264 965.060) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1161.910) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1142.225) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(1654.036 1376.477) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1673.721 1376.477) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2047.736 1376.476) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -153,19 +160,11 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2047.736 1376.476) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(2067.422 1376.477) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(2241.279 381.516) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(3064.768 982.154) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -193,19 +192,23 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2419.783 1161.909) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(2419.784 1043.800) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2645.973 1103.953) will be ignored. Increasing output
+	(2419.783 1161.909) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3064.768 982.154) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(2645.973 1005.527) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2645.973 1103.953) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -221,11 +224,11 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(3584.861 391.903) will be ignored. Increasing output
+	(3544.090 797.425) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(3544.090 797.425) will be ignored. Increasing output
+	(3584.861 391.903) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -257,11 +260,11 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(4224.811 916.158) will be ignored. Increasing output
+	(4224.811 916.157) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(4224.811 916.157) will be ignored. Increasing output
+	(4224.811 916.158) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -321,6 +324,9 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (220).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
     WARNING: Segment with same start and end points at
 	(4121.397 1512.776) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
@@ -337,6 +343,7 @@ Results from parameter file ...
   CIRCLE     0.01500                                  DARK 
   CIRCLE     0.02000                                  DARK 
   CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.03500                                  DARK 
   CIRCLE     0.05906                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.09842                                  DARK 

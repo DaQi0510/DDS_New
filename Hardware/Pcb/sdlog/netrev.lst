@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Fri May 05 22:24:17 2017                      )
+(    Date/Time        : Sun May 07 21:13:33 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,16 +22,16 @@ Design Directory:            '.'
 Old design name:             'F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd'
 New design name:             'F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd'
 
-CmdLine: netrev -$ -i F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro -y 2 -q netrev_constraint_report.xml F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/#Taaaaaj11376.tmp
+CmdLine: netrev -$ -i F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro -y 2 -q netrev_constraint_report.xml F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/#Taaaaak05424.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstchip.dat 
-   Finished reading F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstchip.dat (00:00:00.19)
+   Finished reading F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstchip.dat (00:00:00.11)
 Starting to read F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstxprt.dat 
-   Finished reading F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstxprt.dat (00:00:00.05)
+   Finished reading F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstxprt.dat (00:00:00.00)
 Starting to read F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstxnet.dat 
-   Finished reading F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstxnet.dat (00:00:00.03)
+   Finished reading F:/对外部分项目/信号发生器改版V1.0/Hardware/Sch/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -48,7 +48,7 @@ PADPATH =  F:/CADENCE LIB/cadence-lib-new/PAD/
 ------ Summary Statistics ------
 
 
-netrev run on May 5 22:24:17 2017
+netrev run on May 7 21:13:33 2017
    DESIGN NAME : 'DDS'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -73,6 +73,6 @@ netrev run on May 5 22:24:17 2017
  No oversight detected
  No warning detected
 
-cpu time      0:05:17
-elapsed time  0:00:03
+cpu time      0:01:29
+elapsed time  0:00:01
 

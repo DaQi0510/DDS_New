@@ -1,20 +1,20 @@
-\t (00:00:02) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:02)     Journal start - Sun May 07 11:19:57 2017
-\t (00:00:02)         Host=DAQI-PC User=DaQi Pid=912 CPUs=4
-\t (00:00:02) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
+\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:01)     Journal start - Mon May 08 10:13:24 2017
+\t (00:00:01)         Host=DAQI-PC User=DaQi Pid=10916 CPUs=4
+\t (00:00:01) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
    (00:00:02) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
-\i (00:00:05) trapsize 56156
-\i (00:00:05) trapsize 55147
-\i (00:00:05) trapsize 56328
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
+\i (00:00:04) trapsize 56156
+\i (00:00:04) trapsize 55147
+\i (00:00:04) trapsize 56328
 \i (00:00:07) trapsize 49751
 \i (00:00:07) trapsize 49751
 \i (00:00:08) placementedit 
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 9086.228 2091.200
-\i (00:00:08) trapsize 99502
-\i (00:00:10) exit 
-\t (00:00:11)     Journal end - Sun May 07 11:20:06 2017
+\i (00:00:12) open 
+\i (00:00:25) fillin "F:\对外部分项目\信号发生器改版V2.0\Hardware\Pcb\DDS.brd"
+\i (00:00:25) cd "F:\对外部分项目\信号发生器改版V2.0\Hardware\Pcb"
+\t (00:00:25) Opening existing design...
+\i (00:00:25) trapsize 29722
+\t (00:00:25)     Journal end - Mon May 08 10:13:47 2017

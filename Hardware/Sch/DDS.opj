@@ -114,6 +114,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (NCV551SN50T1
+      (FullPartName "NCV551SN50T1.Normal")
+      (LibraryName "F:\CADENCE LIB\CADENCE-LIB-NEW\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "F:\CADENCE LIB\CADENCE-LIB-NEW\MYLIBRARY.OLB")
@@ -189,8 +193,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1384 50 622")
-        (Scroll "0 660")
-        (Zoom "216")
+        (Scroll "379 600")
+        (Zoom "174")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Power")
@@ -199,8 +203,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1338 25 576")
-        (Scroll "-72 0")
-        (Zoom "100")
+        (Scroll "-252 0")
+        (Zoom "68")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Module")
@@ -209,8 +213,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1363 50 601")
-        (Scroll "-108 19")
-        (Zoom "108")
+        (Scroll "259 396")
+        (Zoom "216")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "DDS")
@@ -228,8 +232,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 1388 0 469")
-        (Scroll "-165 0")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1388 0 469")
+        (Scroll "-185 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")

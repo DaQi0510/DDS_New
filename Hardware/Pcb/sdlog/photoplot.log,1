@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sat Apr 22 10:49:53 2017                      )
+(    Date/Time        : Sat Apr 22 11:00:24 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -52,11 +52,11 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(329.889 941.778) will be ignored. Increasing output
+	(329.888 1002.935) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(329.888 1002.935) will be ignored. Increasing output
+	(329.889 941.778) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -76,39 +76,19 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(1241.692 788.410) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(1316.496 788.410) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(1577.264 1004.430) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1577.264 1063.485) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1577.264 1043.800) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1577.264 630.414) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1577.264 1161.910) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1577.264 1142.225) will be ignored. Increasing output
+	(1241.692 788.410) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(1577.264 610.729) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 630.414) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -117,6 +97,10 @@ Results from parameter file ...
 
     WARNING: Segment with same start and end points at
 	(1577.264 669.784) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1004.430) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -132,6 +116,22 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
+	(1577.264 1063.485) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1043.800) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1161.910) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1577.264 1142.225) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
 	(1654.036 1376.477) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -140,7 +140,15 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
+	(2087.106 533.957) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
 	(2067.422 533.957) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2126.476 1376.476) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -152,14 +160,6 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2087.106 533.957) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(2126.476 1376.476) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(2241.279 381.516) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -168,15 +168,15 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2419.784 650.099) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(2419.784 630.414) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(2419.784 610.729) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2419.784 650.099) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -192,19 +192,19 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2419.784 1043.800) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(2419.783 1161.909) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(2645.973 1005.527) will be ignored. Increasing output
+	(2419.784 1043.800) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(2645.973 1103.953) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2645.973 1005.527) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
