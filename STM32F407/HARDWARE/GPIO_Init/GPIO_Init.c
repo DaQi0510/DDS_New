@@ -486,3 +486,4 @@ void SetAD(u8 SetNum)  //完成模数转换
 	else
 		AD8=0;
 }
+

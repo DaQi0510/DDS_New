@@ -79,6 +79,7 @@ int main(void)
 
 void StartInit(void)
 {
+	u16 Fres;
 	LCD_Display();
 //	//AD设置部分
 	ADNum = AT24C02_ReadOneByte(0x00);
@@ -109,6 +110,8 @@ void StartInit(void)
 	Sine_Fre1t=Sine_Fre1;
 	sin_Generation1(Sine_Fre1t,Sine_Amp1);	
 	Sine_FreNum1=42000000/Sine_Fre1t/tableSize1-1;
+	Fres=4200000/Sine_Fre1t-1;
+	TIM3_Int_Init(Fres);
 	TIM6_Configuration(Sine_FreNum1);
 	DAC_DMA_Configuration1(); 
 	//三角形波1
@@ -226,7 +229,7 @@ void Pulse_Scan(void)
 }
 void Sine1_Scan(void)
 {
-
+  u16 Fres;
 	if((Sine_Amp1t!=Sine_Amp1)||(Sine_Fre1t!=Sine_Fre1))
 	{
 		delay_ms(10);
@@ -234,6 +237,8 @@ void Sine1_Scan(void)
 		Sine_Fre1t=Sine_Fre1;
 		sin_Generation1(Sine_Fre1t,Sine_Amp1);	
 		Sine_FreNum1 =42000000/Sine_Fre1t/tableSize1-1;
+		Fres=4200000/Sine_Fre1t-1;
+		TIM3_Int_Init(Fres);
 		TIM6_Configuration(Sine_FreNum1);
 		DAC_DMA_Configuration1(); 
 	}
@@ -247,7 +252,7 @@ void Sine2_Scan(void)
 		Sine_Amp2t =Sine_Amp2;
 		Sine_Fre2t=Sine_Fre2;
 		sin_Generation2(Sine_Fre2t,Sine_Amp2);	
-		Sine_FreNum2 =42000000/Sine_Fre2t/tableSize2-2;
+		Sine_FreNum2 =42000000/Sine_Fre2t/tableSize2-1;
 		TIM7_Configuration(Sine_FreNum2);
 		DAC_DMA_Configuration2(); 
 	}
@@ -268,13 +273,13 @@ void K1_Scan(void)
 		if(K1_Flagt==1)
 		{
 			S18=1;
-			delay_ms(100);
-			S19 =1;
+//			delay_ms(100);
+//			S19 =1;
 		}
 		else
 		{
 			S18=0;
-			S19=0;
+//			S19=0;
 		}
 		TFT_LCD_ShowLaser(K1_Flagt);
 		LCD_ShowLaser(K1_Flagt);

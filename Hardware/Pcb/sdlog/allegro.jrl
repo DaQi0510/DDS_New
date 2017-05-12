@@ -1,20 +1,805 @@
-\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:01)     Journal start - Mon May 08 10:13:24 2017
-\t (00:00:01)         Host=DAQI-PC User=DaQi Pid=10916 CPUs=4
-\t (00:00:01) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:01) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
-\i (00:00:04) trapsize 56156
-\i (00:00:04) trapsize 55147
-\i (00:00:04) trapsize 56328
-\i (00:00:07) trapsize 49751
-\i (00:00:07) trapsize 49751
-\i (00:00:08) placementedit 
-\i (00:00:12) open 
-\i (00:00:25) fillin "F:\对外部分项目\信号发生器改版V2.0\Hardware\Pcb\DDS.brd"
-\i (00:00:25) cd "F:\对外部分项目\信号发生器改版V2.0\Hardware\Pcb"
-\t (00:00:25) Opening existing design...
-\i (00:00:25) trapsize 29722
-\t (00:00:25)     Journal end - Mon May 08 10:13:47 2017
+\t (00:00:34) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:34)     Journal start - Fri May 12 08:48:14 2017
+\t (00:00:34)         Host=DAQI-PC User=DaQi Pid=1360 CPUs=4
+\t (00:00:34) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:34) 
+\d (00:00:34) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
+\i (00:00:34) generaledit 
+\i (00:00:35) settoggle no_etch_shape_display 
+\i (00:00:35) redraw 
+\i (00:00:36) trapsize 49751
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in 1683.239 41.447
+\i (00:00:37) trapsize 24876
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in 1703.140 31.497
+\i (00:00:37) trapsize 12438
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 4033.987 349.906
+\i (00:00:38) trapsize 24876
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 688.214 658.364
+\i (00:00:39) trapsize 12438
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 693.189 606.125
+\i (00:00:40) trapsize 6219
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 1112.343 613.588
+\i (00:00:41) trapsize 12438
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 385.975 514.086
+\i (00:00:42) trapsize 6219
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 385.975 514.086
+\i (00:00:42) trapsize 3109
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 290.826 558.241
+\i (00:00:43) trapsize 6219
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 290.827 558.240
+\i (00:00:44) trapsize 12438
+\i (00:00:49) color192 
+\i (00:00:49) setwindow cvf.dialog
+\i (00:00:49) cvf layer_mode
+\i (00:00:49) setwindow pcb
+\i (00:00:49) generaledit 
+\i (00:00:54) setwindow cvf.dialog
+\i (00:00:54) cvf layers_visible stack-up drc/top FALSE
+\i (00:00:55) cvf layers_visible stack-up drc/bottom FALSE
+\i (00:00:57) cvf okay
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 293.314 466.201
+\i (00:01:00) trapsize 24876
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 3900.281 396.549
+\i (00:01:01) trapsize 12438
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 3900.281 396.549
+\i (00:01:01) trapsize 6219
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in 3880.380 778.390
+\i (00:01:02) trapsize 3109
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in 3880.381 778.391
+\i (00:01:02) trapsize 1555
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 3862.968 769.995
+\i (00:01:03) trapsize 3109
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 3854.883 760.045
+\i (00:01:03) trapsize 6219
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 3975.530 738.902
+\i (00:01:03) trapsize 3109
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 3975.531 738.902
+\i (00:01:03) trapsize 1555
+\i (00:01:04) zoom in 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom in 3966.203 708.429
+\i (00:01:04) trapsize 777
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 3876.806 672.981
+\i (00:03:49) trapsize 1555
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 3879.916 668.940
+\i (00:03:49) trapsize 3109
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 3889.244 660.233
+\i (00:03:49) trapsize 6219
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 3894.219 657.745
+\i (00:03:49) trapsize 12438
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 3894.219 655.258
+\i (00:03:49) trapsize 24876
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 4297.205 889.088
+\i (00:03:50) trapsize 49751
+\i (00:03:50) zoom in 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom in 1116.075 1334.980
+\i (00:03:50) trapsize 24876
+\i (00:03:50) zoom in 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom in 1116.075 1334.980
+\i (00:03:50) trapsize 12438
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 1116.076 1334.980
+\i (00:03:51) trapsize 6219
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 1210.604 1580.005
+\i (00:03:51) trapsize 3109
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 1211.226 1580.627
+\i (00:03:51) trapsize 1555
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 1317.569 1564.147
+\i (00:03:51) trapsize 777
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out 1324.877 1563.525
+\i (00:03:52) trapsize 1555
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out 1326.120 1563.215
+\i (00:03:52) trapsize 3109
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 1109.703 1543.315
+\i (00:03:53) trapsize 1555
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 1109.703 1543.315
+\i (00:03:53) trapsize 777
+\i (00:03:54) zoom out 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom out 1171.737 1535.075
+\i (00:03:54) trapsize 1555
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 1171.737 1535.075
+\i (00:03:55) trapsize 3109
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 1107.682 1517.662
+\i (00:03:57) trapsize 1555
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 1107.682 1517.662
+\i (00:03:57) trapsize 777
+\i (00:03:58) zoom out 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom out 1115.145 1517.041
+\i (00:03:58) trapsize 1555
+\i (00:03:58) zoom out 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom out 1115.145 1516.108
+\i (00:03:58) trapsize 3109
+\i (00:04:00) zoom in 1 
+\i (00:04:00) setwindow pcb
+\i (00:04:00) zoom in 1049.846 1399.192
+\i (00:04:00) trapsize 1555
+\i (00:04:01) zoom out 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) zoom out 1050.468 1399.192
+\i (00:04:01) trapsize 3109
+\i (00:04:01) zoom out 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) zoom out 1050.469 1399.192
+\i (00:04:01) trapsize 6219
+\i (00:04:02) zoom in 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom in 1452.209 1900.436
+\i (00:04:02) trapsize 3109
+\i (00:04:04) zoom in 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom in 1238.279 1967.600
+\i (00:04:04) trapsize 1555
+\i (00:04:04) zoom in 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom in 1243.565 1964.180
+\i (00:04:04) trapsize 777
+\i (00:04:04) zoom out 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom out 1257.713 1959.516
+\i (00:04:04) trapsize 1555
+\i (00:04:05) zoom out 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom out 1258.024 1959.515
+\i (00:04:05) trapsize 3109
+\i (00:05:24) xhilite 
+\i (00:05:24) xrefdes R29 
+\i (00:05:24) xname_flush 
+\i (00:05:24) trapsize 2234
+\t (00:05:24) Symbol "R29" highlighted.
+\i (00:05:24) done 
+\i (00:05:24) generaledit 
+\i (00:05:29) zoom out 1 
+\i (00:05:29) setwindow pcb
+\i (00:05:29) zoom out 1146.902 1509.898
+\i (00:05:29) trapsize 4467
+\i (00:18:58) pick grid 1152.262 1507.217
+\t (00:18:58) last pick:  1152.284 1507.240
+\i (00:18:58) pick grid dbl 1152.262 1507.217
+\t (00:18:58) last pick:  1152.284 1507.240
+\i (00:18:58) pick grid 1152.262 1507.217
+\t (00:18:58) last pick:  1152.284 1507.240
+\i (00:18:59) pick grid 1712.468 1760.070
+\t (00:18:59) last pick:  1712.452 1760.080
+\i (00:19:00) pick grid dbl 1712.468 1760.070
+\t (00:19:00) last pick:  1712.452 1760.080
+\i (00:19:01) zoom out 1 
+\i (00:19:01) setwindow pcb
+\i (00:19:01) zoom out 1865.251 1770.791
+\i (00:19:01) trapsize 8935
+\i (00:19:01) zoom out 1 
+\i (00:19:01) setwindow pcb
+\i (00:19:01) zoom out 1863.465 1765.431
+\i (00:19:01) trapsize 17869
+\i (00:19:02) zoom in 1 
+\i (00:19:02) setwindow pcb
+\i (00:19:02) zoom in 1776.923 1511.685
+\i (00:19:02) trapsize 8935
+\i (00:19:02) zoom in 1 
+\i (00:19:02) setwindow pcb
+\i (00:19:02) zoom in 1517.817 1375.877
+\i (00:19:02) trapsize 4467
+\i (00:19:03) zoom out 1 
+\i (00:19:03) setwindow pcb
+\i (00:19:03) zoom out 1658.986 1361.582
+\i (00:19:03) trapsize 8935
+\i (00:19:05) zoom in 1 
+\i (00:19:05) setwindow pcb
+\i (00:19:05) zoom in 1004.966 948.799
+\i (00:19:05) trapsize 4467
+\i (00:19:06) zoom in 1 
+\i (00:19:06) setwindow pcb
+\i (00:19:06) zoom in 1163.110 985.432
+\i (00:19:06) trapsize 2234
+\i (00:19:06) zoom in 1 
+\i (00:19:06) setwindow pcb
+\i (00:19:06) zoom in 1163.110 985.432
+\i (00:19:06) trapsize 1117
+\i (00:19:07) zoom out 1 
+\i (00:19:07) setwindow pcb
+\i (00:19:07) zoom out 1163.110 985.433
+\i (00:19:07) trapsize 2234
+\i (00:19:09) zoom in 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom in 1064.828 1064.951
+\i (00:19:09) trapsize 1117
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out 1064.828 1064.951
+\i (00:19:09) trapsize 2234
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out 1065.721 1064.505
+\i (00:19:09) trapsize 4467
+\i (06:20:36) zoom out 1 
+\i (06:20:36) setwindow pcb
+\i (06:20:36) zoom out 1206.891 1033.232
+\i (06:20:36) trapsize 8935
+\i (06:20:36) zoom out 1 
+\i (06:20:36) setwindow pcb
+\i (06:20:36) zoom out 1206.891 1033.233
+\i (06:20:36) trapsize 17869
+\i (06:20:37) zoom in 1 
+\i (06:20:37) setwindow pcb
+\i (06:20:37) zoom in 3115.348 372.064
+\i (06:20:37) trapsize 8935
+\i (06:20:37) zoom in 1 
+\i (06:20:37) setwindow pcb
+\i (06:20:37) zoom in 3077.823 384.573
+\i (06:20:37) trapsize 4467
+\i (09:02:35) pick grid 2408.612 392.615
+\t (09:02:35) last pick:  2408.644 392.588
+\i (09:02:35) pick grid dbl 2408.612 392.615
+\t (09:02:35) last pick:  2408.644 392.588
+\i (09:02:36) pick grid 2408.612 392.615
+\t (09:02:36) last pick:  2408.644 392.588
+\i (09:02:36) pick grid dbl 2408.612 392.615
+\t (09:02:36) last pick:  2408.644 392.588
+\i (09:02:36) pick grid 2408.612 392.615
+\t (09:02:36) last pick:  2408.644 392.588
+\i (09:02:36) pick grid dbl 2408.612 392.615
+\t (09:02:36) last pick:  2408.644 392.588
+\i (09:02:36) pick grid 2408.612 392.615
+\t (09:02:36) last pick:  2408.644 392.588
+\i (09:02:37) pick grid dbl 2408.612 392.615
+\t (09:02:37) last pick:  2408.644 392.588
+\i (09:42:45) zoom in 1 
+\i (09:42:45) setwindow pcb
+\i (09:42:45) zoom in 2555.142 475.708
+\i (09:42:45) trapsize 2234
+\i (09:42:45) zoom in 1 
+\i (09:42:45) setwindow pcb
+\i (09:42:45) zoom in 2555.142 475.708
+\i (09:42:45) trapsize 1117
+\i (09:42:45) zoom in 1 
+\i (09:42:45) setwindow pcb
+\i (09:42:45) zoom in 2555.142 475.708
+\i (09:42:45) trapsize 558
+\i (09:42:45) zoom out 1 
+\i (09:42:45) setwindow pcb
+\i (09:42:45) zoom out 2530.572 470.571
+\i (09:42:45) trapsize 1117
+\i (09:42:45) zoom out 1 
+\i (09:42:45) setwindow pcb
+\i (09:42:45) zoom out 2530.572 470.570
+\i (09:42:45) trapsize 2234
+\i (09:42:46) zoom out 1 
+\i (09:42:46) setwindow pcb
+\i (09:42:46) zoom out 2530.125 470.570
+\i (09:42:46) trapsize 4467
+\i (09:42:46) zoom out 1 
+\i (09:42:46) setwindow pcb
+\i (09:42:46) zoom out 2531.018 470.571
+\i (09:42:46) trapsize 8935
+\i (09:42:46) zoom out 1 
+\i (09:42:46) setwindow pcb
+\i (09:42:46) zoom out 3896.248 318.680
+\i (09:42:46) trapsize 17870
+\i (09:42:47) zoom in 1 
+\i (09:42:47) setwindow pcb
+\i (09:42:47) zoom in 4571.715 200.740
+\i (09:42:47) trapsize 8935
+\i (09:42:47) zoom in 1 
+\i (09:42:47) setwindow pcb
+\i (09:42:47) zoom in 4575.290 206.101
+\i (09:42:47) trapsize 4467
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:54) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:55) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:56) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:57) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:58) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:43:59) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:00) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:01) Command not found: Insert
+\e (09:44:08) Command not found: Del
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:18) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:19) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:20) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:21) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:22) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:23) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:24) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\e (09:44:25) Command not found: Insert
+\i (10:27:23) pick grid 4475.221 140.877
+\t (10:27:23) last pick:  4475.268 140.924
+\i (10:27:23) pick grid 4475.221 128.369
+\t (10:27:23) last pick:  4475.268 128.380
+\i (10:27:24) pick grid 4475.221 126.582
+\t (10:27:24) last pick:  4475.268 126.616
+\i (10:27:24) pick grid 4473.434 124.795
+\t (10:27:24) last pick:  4473.406 124.754
+\i (10:27:24) pick grid 4468.966 115.860
+\t (10:27:24) last pick:  4468.996 115.836
+\i (10:28:09) exit 
+\e (10:28:09) Do you want to save the changes you made to DDS.brd?
+\i (10:28:10) fillin yes 
+\t (10:28:13)     Journal end - Fri May 12 19:15:54 2017
