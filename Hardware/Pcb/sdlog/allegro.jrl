@@ -1,805 +1,813 @@
-\t (00:00:34) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:34)     Journal start - Fri May 12 08:48:14 2017
-\t (00:00:34)         Host=DAQI-PC User=DaQi Pid=1360 CPUs=4
-\t (00:00:34) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:34) 
-\d (00:00:34) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
-\i (00:00:34) generaledit 
-\i (00:00:35) settoggle no_etch_shape_display 
-\i (00:00:35) redraw 
-\i (00:00:36) trapsize 49751
-\i (00:00:37) zoom in 1 
-\i (00:00:37) setwindow pcb
-\i (00:00:37) zoom in 1683.239 41.447
-\i (00:00:37) trapsize 24876
-\i (00:00:37) zoom in 1 
-\i (00:00:37) setwindow pcb
-\i (00:00:37) zoom in 1703.140 31.497
-\i (00:00:37) trapsize 12438
-\i (00:00:38) zoom out 1 
-\i (00:00:38) setwindow pcb
-\i (00:00:38) zoom out 4033.987 349.906
-\i (00:00:38) trapsize 24876
-\i (00:00:39) zoom in 1 
-\i (00:00:39) setwindow pcb
-\i (00:00:39) zoom in 688.214 658.364
-\i (00:00:39) trapsize 12438
-\i (00:00:40) zoom in 1 
-\i (00:00:40) setwindow pcb
-\i (00:00:40) zoom in 693.189 606.125
-\i (00:00:40) trapsize 6219
-\i (00:00:41) zoom out 1 
-\i (00:00:41) setwindow pcb
-\i (00:00:41) zoom out 1112.343 613.588
-\i (00:00:41) trapsize 12438
-\i (00:00:42) zoom in 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom in 385.975 514.086
-\i (00:00:42) trapsize 6219
-\i (00:00:42) zoom in 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom in 385.975 514.086
-\i (00:00:42) trapsize 3109
-\i (00:00:43) zoom out 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom out 290.826 558.241
-\i (00:00:43) trapsize 6219
-\i (00:00:44) zoom out 1 
-\i (00:00:44) setwindow pcb
-\i (00:00:44) zoom out 290.827 558.240
-\i (00:00:44) trapsize 12438
-\i (00:00:49) color192 
-\i (00:00:49) setwindow cvf.dialog
-\i (00:00:49) cvf layer_mode
-\i (00:00:49) setwindow pcb
-\i (00:00:49) generaledit 
-\i (00:00:54) setwindow cvf.dialog
-\i (00:00:54) cvf layers_visible stack-up drc/top FALSE
-\i (00:00:55) cvf layers_visible stack-up drc/bottom FALSE
-\i (00:00:57) cvf okay
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out 293.314 466.201
-\i (00:01:00) trapsize 24876
-\i (00:01:01) zoom in 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom in 3900.281 396.549
-\i (00:01:01) trapsize 12438
-\i (00:01:01) zoom in 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom in 3900.281 396.549
-\i (00:01:01) trapsize 6219
-\i (00:01:02) zoom in 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom in 3880.380 778.390
-\i (00:01:02) trapsize 3109
-\i (00:01:02) zoom in 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom in 3880.381 778.391
-\i (00:01:02) trapsize 1555
-\i (00:01:03) zoom out 1 
-\i (00:01:03) setwindow pcb
-\i (00:01:03) zoom out 3862.968 769.995
-\i (00:01:03) trapsize 3109
-\i (00:01:03) zoom out 1 
-\i (00:01:03) setwindow pcb
-\i (00:01:03) zoom out 3854.883 760.045
-\i (00:01:03) trapsize 6219
-\i (00:01:03) zoom in 1 
-\i (00:01:03) setwindow pcb
-\i (00:01:03) zoom in 3975.530 738.902
-\i (00:01:03) trapsize 3109
-\i (00:01:03) zoom in 1 
-\i (00:01:03) setwindow pcb
-\i (00:01:03) zoom in 3975.531 738.902
-\i (00:01:03) trapsize 1555
-\i (00:01:04) zoom in 1 
-\i (00:01:04) setwindow pcb
-\i (00:01:04) zoom in 3966.203 708.429
-\i (00:01:04) trapsize 777
-\i (00:03:49) zoom out 1 
-\i (00:03:49) setwindow pcb
-\i (00:03:49) zoom out 3876.806 672.981
-\i (00:03:49) trapsize 1555
-\i (00:03:49) zoom out 1 
-\i (00:03:49) setwindow pcb
-\i (00:03:49) zoom out 3879.916 668.940
-\i (00:03:49) trapsize 3109
-\i (00:03:49) zoom out 1 
-\i (00:03:49) setwindow pcb
-\i (00:03:49) zoom out 3889.244 660.233
-\i (00:03:49) trapsize 6219
-\i (00:03:49) zoom out 1 
-\i (00:03:49) setwindow pcb
-\i (00:03:49) zoom out 3894.219 657.745
-\i (00:03:49) trapsize 12438
-\i (00:03:49) zoom out 1 
-\i (00:03:49) setwindow pcb
-\i (00:03:49) zoom out 3894.219 655.258
-\i (00:03:49) trapsize 24876
-\i (00:03:50) zoom out 1 
-\i (00:03:50) setwindow pcb
-\i (00:03:50) zoom out 4297.205 889.088
-\i (00:03:50) trapsize 49751
-\i (00:03:50) zoom in 1 
-\i (00:03:50) setwindow pcb
-\i (00:03:50) zoom in 1116.075 1334.980
-\i (00:03:50) trapsize 24876
-\i (00:03:50) zoom in 1 
-\i (00:03:50) setwindow pcb
-\i (00:03:50) zoom in 1116.075 1334.980
-\i (00:03:50) trapsize 12438
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 1116.076 1334.980
-\i (00:03:51) trapsize 6219
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 1210.604 1580.005
-\i (00:03:51) trapsize 3109
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 1211.226 1580.627
-\i (00:03:51) trapsize 1555
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 1317.569 1564.147
-\i (00:03:51) trapsize 777
-\i (00:03:52) zoom out 1 
-\i (00:03:52) setwindow pcb
-\i (00:03:52) zoom out 1324.877 1563.525
-\i (00:03:52) trapsize 1555
-\i (00:03:52) zoom out 1 
-\i (00:03:52) setwindow pcb
-\i (00:03:52) zoom out 1326.120 1563.215
-\i (00:03:52) trapsize 3109
-\i (00:03:53) zoom in 1 
-\i (00:03:53) setwindow pcb
-\i (00:03:53) zoom in 1109.703 1543.315
-\i (00:03:53) trapsize 1555
-\i (00:03:53) zoom in 1 
-\i (00:03:53) setwindow pcb
-\i (00:03:53) zoom in 1109.703 1543.315
-\i (00:03:53) trapsize 777
-\i (00:03:54) zoom out 1 
-\i (00:03:54) setwindow pcb
-\i (00:03:54) zoom out 1171.737 1535.075
-\i (00:03:54) trapsize 1555
-\i (00:03:55) zoom out 1 
-\i (00:03:55) setwindow pcb
-\i (00:03:55) zoom out 1171.737 1535.075
-\i (00:03:55) trapsize 3109
-\i (00:03:57) zoom in 1 
-\i (00:03:57) setwindow pcb
-\i (00:03:57) zoom in 1107.682 1517.662
-\i (00:03:57) trapsize 1555
-\i (00:03:57) zoom in 1 
-\i (00:03:57) setwindow pcb
-\i (00:03:57) zoom in 1107.682 1517.662
-\i (00:03:57) trapsize 777
-\i (00:03:58) zoom out 1 
-\i (00:03:58) setwindow pcb
-\i (00:03:58) zoom out 1115.145 1517.041
-\i (00:03:58) trapsize 1555
-\i (00:03:58) zoom out 1 
-\i (00:03:58) setwindow pcb
-\i (00:03:58) zoom out 1115.145 1516.108
-\i (00:03:58) trapsize 3109
-\i (00:04:00) zoom in 1 
-\i (00:04:00) setwindow pcb
-\i (00:04:00) zoom in 1049.846 1399.192
-\i (00:04:00) trapsize 1555
-\i (00:04:01) zoom out 1 
-\i (00:04:01) setwindow pcb
-\i (00:04:01) zoom out 1050.468 1399.192
-\i (00:04:01) trapsize 3109
-\i (00:04:01) zoom out 1 
-\i (00:04:01) setwindow pcb
-\i (00:04:01) zoom out 1050.469 1399.192
-\i (00:04:01) trapsize 6219
-\i (00:04:02) zoom in 1 
-\i (00:04:02) setwindow pcb
-\i (00:04:02) zoom in 1452.209 1900.436
-\i (00:04:02) trapsize 3109
-\i (00:04:04) zoom in 1 
-\i (00:04:04) setwindow pcb
-\i (00:04:04) zoom in 1238.279 1967.600
-\i (00:04:04) trapsize 1555
-\i (00:04:04) zoom in 1 
-\i (00:04:04) setwindow pcb
-\i (00:04:04) zoom in 1243.565 1964.180
-\i (00:04:04) trapsize 777
-\i (00:04:04) zoom out 1 
-\i (00:04:04) setwindow pcb
-\i (00:04:04) zoom out 1257.713 1959.516
-\i (00:04:04) trapsize 1555
-\i (00:04:05) zoom out 1 
-\i (00:04:05) setwindow pcb
-\i (00:04:05) zoom out 1258.024 1959.515
-\i (00:04:05) trapsize 3109
-\i (00:05:24) xhilite 
-\i (00:05:24) xrefdes R29 
-\i (00:05:24) xname_flush 
-\i (00:05:24) trapsize 2234
-\t (00:05:24) Symbol "R29" highlighted.
-\i (00:05:24) done 
-\i (00:05:24) generaledit 
-\i (00:05:29) zoom out 1 
-\i (00:05:29) setwindow pcb
-\i (00:05:29) zoom out 1146.902 1509.898
-\i (00:05:29) trapsize 4467
-\i (00:18:58) pick grid 1152.262 1507.217
-\t (00:18:58) last pick:  1152.284 1507.240
-\i (00:18:58) pick grid dbl 1152.262 1507.217
-\t (00:18:58) last pick:  1152.284 1507.240
-\i (00:18:58) pick grid 1152.262 1507.217
-\t (00:18:58) last pick:  1152.284 1507.240
-\i (00:18:59) pick grid 1712.468 1760.070
-\t (00:18:59) last pick:  1712.452 1760.080
-\i (00:19:00) pick grid dbl 1712.468 1760.070
-\t (00:19:00) last pick:  1712.452 1760.080
-\i (00:19:01) zoom out 1 
-\i (00:19:01) setwindow pcb
-\i (00:19:01) zoom out 1865.251 1770.791
-\i (00:19:01) trapsize 8935
-\i (00:19:01) zoom out 1 
-\i (00:19:01) setwindow pcb
-\i (00:19:01) zoom out 1863.465 1765.431
-\i (00:19:01) trapsize 17869
-\i (00:19:02) zoom in 1 
-\i (00:19:02) setwindow pcb
-\i (00:19:02) zoom in 1776.923 1511.685
-\i (00:19:02) trapsize 8935
-\i (00:19:02) zoom in 1 
-\i (00:19:02) setwindow pcb
-\i (00:19:02) zoom in 1517.817 1375.877
-\i (00:19:02) trapsize 4467
-\i (00:19:03) zoom out 1 
-\i (00:19:03) setwindow pcb
-\i (00:19:03) zoom out 1658.986 1361.582
-\i (00:19:03) trapsize 8935
-\i (00:19:05) zoom in 1 
-\i (00:19:05) setwindow pcb
-\i (00:19:05) zoom in 1004.966 948.799
-\i (00:19:05) trapsize 4467
-\i (00:19:06) zoom in 1 
-\i (00:19:06) setwindow pcb
-\i (00:19:06) zoom in 1163.110 985.432
-\i (00:19:06) trapsize 2234
-\i (00:19:06) zoom in 1 
-\i (00:19:06) setwindow pcb
-\i (00:19:06) zoom in 1163.110 985.432
-\i (00:19:06) trapsize 1117
-\i (00:19:07) zoom out 1 
-\i (00:19:07) setwindow pcb
-\i (00:19:07) zoom out 1163.110 985.433
-\i (00:19:07) trapsize 2234
-\i (00:19:09) zoom in 1 
-\i (00:19:09) setwindow pcb
-\i (00:19:09) zoom in 1064.828 1064.951
-\i (00:19:09) trapsize 1117
-\i (00:19:09) zoom out 1 
-\i (00:19:09) setwindow pcb
-\i (00:19:09) zoom out 1064.828 1064.951
-\i (00:19:09) trapsize 2234
-\i (00:19:09) zoom out 1 
-\i (00:19:09) setwindow pcb
-\i (00:19:09) zoom out 1065.721 1064.505
-\i (00:19:09) trapsize 4467
-\i (06:20:36) zoom out 1 
-\i (06:20:36) setwindow pcb
-\i (06:20:36) zoom out 1206.891 1033.232
-\i (06:20:36) trapsize 8935
-\i (06:20:36) zoom out 1 
-\i (06:20:36) setwindow pcb
-\i (06:20:36) zoom out 1206.891 1033.233
-\i (06:20:36) trapsize 17869
-\i (06:20:37) zoom in 1 
-\i (06:20:37) setwindow pcb
-\i (06:20:37) zoom in 3115.348 372.064
-\i (06:20:37) trapsize 8935
-\i (06:20:37) zoom in 1 
-\i (06:20:37) setwindow pcb
-\i (06:20:37) zoom in 3077.823 384.573
-\i (06:20:37) trapsize 4467
-\i (09:02:35) pick grid 2408.612 392.615
-\t (09:02:35) last pick:  2408.644 392.588
-\i (09:02:35) pick grid dbl 2408.612 392.615
-\t (09:02:35) last pick:  2408.644 392.588
-\i (09:02:36) pick grid 2408.612 392.615
-\t (09:02:36) last pick:  2408.644 392.588
-\i (09:02:36) pick grid dbl 2408.612 392.615
-\t (09:02:36) last pick:  2408.644 392.588
-\i (09:02:36) pick grid 2408.612 392.615
-\t (09:02:36) last pick:  2408.644 392.588
-\i (09:02:36) pick grid dbl 2408.612 392.615
-\t (09:02:36) last pick:  2408.644 392.588
-\i (09:02:36) pick grid 2408.612 392.615
-\t (09:02:36) last pick:  2408.644 392.588
-\i (09:02:37) pick grid dbl 2408.612 392.615
-\t (09:02:37) last pick:  2408.644 392.588
-\i (09:42:45) zoom in 1 
-\i (09:42:45) setwindow pcb
-\i (09:42:45) zoom in 2555.142 475.708
-\i (09:42:45) trapsize 2234
-\i (09:42:45) zoom in 1 
-\i (09:42:45) setwindow pcb
-\i (09:42:45) zoom in 2555.142 475.708
-\i (09:42:45) trapsize 1117
-\i (09:42:45) zoom in 1 
-\i (09:42:45) setwindow pcb
-\i (09:42:45) zoom in 2555.142 475.708
-\i (09:42:45) trapsize 558
-\i (09:42:45) zoom out 1 
-\i (09:42:45) setwindow pcb
-\i (09:42:45) zoom out 2530.572 470.571
-\i (09:42:45) trapsize 1117
-\i (09:42:45) zoom out 1 
-\i (09:42:45) setwindow pcb
-\i (09:42:45) zoom out 2530.572 470.570
-\i (09:42:45) trapsize 2234
-\i (09:42:46) zoom out 1 
-\i (09:42:46) setwindow pcb
-\i (09:42:46) zoom out 2530.125 470.570
-\i (09:42:46) trapsize 4467
-\i (09:42:46) zoom out 1 
-\i (09:42:46) setwindow pcb
-\i (09:42:46) zoom out 2531.018 470.571
-\i (09:42:46) trapsize 8935
-\i (09:42:46) zoom out 1 
-\i (09:42:46) setwindow pcb
-\i (09:42:46) zoom out 3896.248 318.680
-\i (09:42:46) trapsize 17870
-\i (09:42:47) zoom in 1 
-\i (09:42:47) setwindow pcb
-\i (09:42:47) zoom in 4571.715 200.740
-\i (09:42:47) trapsize 8935
-\i (09:42:47) zoom in 1 
-\i (09:42:47) setwindow pcb
-\i (09:42:47) zoom in 4575.290 206.101
-\i (09:42:47) trapsize 4467
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:54) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:55) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:56) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:57) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:58) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:43:59) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:00) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:01) Command not found: Insert
-\e (09:44:08) Command not found: Del
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:18) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:19) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:20) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:21) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:22) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:23) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:24) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\e (09:44:25) Command not found: Insert
-\i (10:27:23) pick grid 4475.221 140.877
-\t (10:27:23) last pick:  4475.268 140.924
-\i (10:27:23) pick grid 4475.221 128.369
-\t (10:27:23) last pick:  4475.268 128.380
-\i (10:27:24) pick grid 4475.221 126.582
-\t (10:27:24) last pick:  4475.268 126.616
-\i (10:27:24) pick grid 4473.434 124.795
-\t (10:27:24) last pick:  4473.406 124.754
-\i (10:27:24) pick grid 4468.966 115.860
-\t (10:27:24) last pick:  4468.996 115.836
-\i (10:28:09) exit 
-\e (10:28:09) Do you want to save the changes you made to DDS.brd?
-\i (10:28:10) fillin yes 
-\t (10:28:13)     Journal end - Fri May 12 19:15:54 2017
+\t (00:00:05) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:05)     Journal start - Fri May 12 20:41:12 2017
+\t (00:00:05)         Host=DAQI-PC User=DaQi Pid=3436 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
+\i (00:00:06) trapsize 5042
+\i (00:00:06) trapsize 4952
+\i (00:00:06) trapsize 5058
+\i (00:00:09) trapsize 4467
+\i (00:00:09) trapsize 4467
+\i (00:00:09) generaledit 
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 4023.122 304.383
+\i (00:00:20) trapsize 8935
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 4023.122 304.384
+\i (00:00:21) trapsize 17870
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 4023.123 304.383
+\i (00:00:21) trapsize 35739
+\i (00:00:22) settoggle no_etch_shape_display 
+\i (00:00:22) redraw 
+\i (00:00:22) trapsize 35739
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 1233.711 2312.915
+\i (00:00:23) trapsize 17870
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 1240.859 2298.620
+\i (00:00:23) trapsize 8935
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 1244.434 2291.472
+\i (00:00:23) trapsize 4467
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 1373.094 2012.708
+\i (00:00:24) trapsize 8935
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 1494.607 1950.164
+\i (00:00:25) trapsize 17870
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 1494.607 1953.738
+\i (00:00:25) trapsize 35739
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1498.180 2053.808
+\i (00:00:26) trapsize 17870
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1487.458 1939.443
+\i (00:00:26) trapsize 8935
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1489.245 1939.443
+\i (00:00:26) trapsize 4467
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1489.245 1939.443
+\i (00:00:26) trapsize 2234
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 1489.245 1939.443
+\i (00:00:27) trapsize 1117
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 1525.431 1971.609
+\i (00:00:27) trapsize 2234
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 1525.431 1971.609
+\i (00:00:27) trapsize 4467
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 1525.430 1971.608
+\i (00:00:27) trapsize 8935
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 1525.431 1971.609
+\i (00:00:28) trapsize 17870
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 1550.448 1900.131
+\i (00:00:30) trapsize 8935
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 1586.188 1934.083
+\i (00:00:30) trapsize 4467
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 1622.821 1951.952
+\i (00:00:30) trapsize 2234
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1663.027 1979.204
+\i (00:00:31) trapsize 4467
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1663.028 1979.203
+\i (00:00:31) trapsize 8935
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1616.566 1941.678
+\i (00:00:33) trapsize 4467
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1616.566 1941.678
+\i (00:00:33) trapsize 2234
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1616.566 1941.678
+\i (00:00:33) trapsize 1117
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 1619.694 1949.720
+\i (00:00:34) trapsize 2234
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 1619.693 1949.720
+\i (00:00:34) trapsize 4467
+\i (00:01:47) pick grid 1617.907 1964.909
+\t (00:01:47) last pick:  1617.882 1964.900
+\i (00:01:47) pick grid dbl 1617.907 1964.909
+\t (00:01:47) last pick:  1617.882 1964.900
+\i (00:01:49) zoom out 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom out 1640.244 1876.455
+\i (00:01:49) trapsize 8935
+\i (00:01:50) zoom out 1 
+\i (00:01:50) setwindow pcb
+\i (00:01:50) zoom out 755.703 1917.554
+\i (00:01:50) trapsize 17870
+\i (00:01:50) zoom in 1 
+\i (00:01:50) setwindow pcb
+\i (00:01:50) zoom in 795.016 2006.902
+\i (00:01:50) trapsize 8935
+\i (00:01:50) zoom in 1 
+\i (00:01:50) setwindow pcb
+\i (00:01:50) zoom in 796.804 2006.902
+\i (00:01:50) trapsize 4467
+\i (00:01:51) zoom in 1 
+\i (00:01:51) setwindow pcb
+\i (00:01:51) zoom in 881.684 1991.713
+\i (00:01:51) trapsize 2234
+\i (00:01:52) zoom out 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom out 1033.128 1990.820
+\i (00:01:52) trapsize 4467
+\i (00:01:52) zoom out 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom out 1035.809 1986.352
+\i (00:01:52) trapsize 8935
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 790.997 1762.983
+\i (00:01:54) trapsize 4467
+\i (00:02:43) iangle 90 
+\e (00:02:43) angle command is not allowed in this mode.
+\i (00:03:10) zoom out 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom out 1578.148 1976.524
+\i (00:03:10) trapsize 8935
+\i (00:03:12) zoom in 1 
+\i (00:03:12) setwindow pcb
+\i (00:03:12) zoom in 1363.715 1436.865
+\i (00:03:12) trapsize 4467
+\i (00:03:13) zoom in 1 
+\i (00:03:13) setwindow pcb
+\i (00:03:13) zoom in 1364.609 1451.161
+\i (00:03:13) trapsize 2234
+\i (00:03:13) zoom out 1 
+\i (00:03:13) setwindow pcb
+\i (00:03:13) zoom out 1272.134 1581.608
+\i (00:03:13) trapsize 4467
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 1256.946 1571.781
+\i (00:03:14) trapsize 8935
+\i (00:03:15) zoom in 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom in 1684.028 2007.796
+\i (00:03:15) trapsize 4467
+\i (00:03:15) zoom in 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom in 1684.028 2007.797
+\i (00:03:15) trapsize 2234
+\i (00:03:16) zoom out 1 
+\i (00:03:16) setwindow pcb
+\i (00:03:16) zoom out 1614.337 1962.677
+\i (00:03:16) trapsize 4467
+\i (00:03:16) zoom out 1 
+\i (00:03:16) setwindow pcb
+\i (00:03:16) zoom out 1614.338 1962.677
+\i (00:03:16) trapsize 8935
+\i (00:03:38) zoom in 1 
+\i (00:03:38) setwindow pcb
+\i (00:03:38) zoom in 1567.877 1635.665
+\i (00:03:38) trapsize 4467
+\i (00:03:39) zoom in 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom in 1398.117 1592.778
+\i (00:03:39) trapsize 2234
+\i (00:03:39) zoom in 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom in 1392.309 1594.565
+\i (00:03:39) trapsize 1117
+\i (00:03:40) zoom out 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom out 1423.581 1613.105
+\i (00:03:40) trapsize 2234
+\i (00:03:40) zoom out 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom out 1423.580 1613.106
+\i (00:03:40) trapsize 4467
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 1427.155 1603.277
+\i (00:03:41) trapsize 2234
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 1427.155 1603.277
+\i (00:03:41) trapsize 1117
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 1427.155 1603.277
+\i (00:03:41) trapsize 558
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 1427.156 1603.277
+\i (00:03:41) trapsize 279
+\i (00:03:41) zoom out 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom out 1427.156 1602.496
+\i (00:03:41) trapsize 558
+\i (00:03:41) zoom out 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom out 1427.156 1602.496
+\i (00:03:41) trapsize 1117
+\i (00:04:14) iangle 90 
+\e (00:04:14) angle command is not allowed in this mode.
+\i (00:04:14) iangle 90 
+\e (00:04:14) angle command is not allowed in this mode.
+\i (00:04:15) iangle 90 
+\e (00:04:15) angle command is not allowed in this mode.
+\i (00:05:36) iangle 90 
+\e (00:05:36) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:37) iangle 90 
+\e (00:05:37) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:38) iangle 90 
+\e (00:05:38) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:39) iangle 90 
+\e (00:05:39) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:40) iangle 90 
+\e (00:05:40) angle command is not allowed in this mode.
+\i (00:05:46) iangle 90 
+\e (00:05:46) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:47) iangle 90 
+\e (00:05:47) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:48) iangle 90 
+\e (00:05:48) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:49) iangle 90 
+\e (00:05:49) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:50) iangle 90 
+\e (00:05:50) angle command is not allowed in this mode.
+\i (00:05:53) iangle 90 
+\e (00:05:53) angle command is not allowed in this mode.
+\i (00:05:53) iangle 90 
+\e (00:05:53) angle command is not allowed in this mode.
+\i (00:06:29) zoom out 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom out 1423.805 1604.729
+\i (00:06:29) trapsize 2234
+\i (00:06:29) zoom out 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom out 1423.804 1604.728
+\i (00:06:29) trapsize 4467
+\i (00:06:30) zoom in 1 
+\i (00:06:30) setwindow pcb
+\i (00:06:30) zoom in 1443.462 1577.031
+\i (00:06:30) trapsize 2234
+\i (00:06:56) zoom out 1 
+\i (00:06:56) setwindow pcb
+\i (00:06:56) zoom out 1370.197 1564.523
+\i (00:06:56) trapsize 4467
+\i (00:20:28) zoom out 1 
+\i (00:20:28) setwindow pcb
+\i (00:20:28) zoom out 1262.980 1448.371
+\i (00:20:28) trapsize 8935
+\i (00:20:28) zoom out 1 
+\i (00:20:28) setwindow pcb
+\i (00:20:28) zoom out 1262.980 1448.372
+\i (00:20:28) trapsize 17870
+\i (00:20:29) zoom out 1 
+\i (00:20:29) setwindow pcb
+\i (00:20:29) zoom out 1262.979 1444.798
+\i (00:20:29) trapsize 35739
+\i (00:20:29) zoom in 1 
+\i (00:20:29) setwindow pcb
+\i (00:20:29) zoom in 4307.265 -527.996
+\i (00:20:29) trapsize 17870
+\i (00:20:29) zoom in 1 
+\i (00:20:29) setwindow pcb
+\i (00:20:29) zoom in 4310.840 -524.422
+\i (00:20:29) trapsize 8935
+\i (00:20:30) zoom in 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom in 4269.740 74.207
+\i (00:20:30) trapsize 4467
+\i (00:20:30) zoom in 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom in 4265.273 74.207
+\i (00:20:30) trapsize 2234
+\i (00:34:18) zoom out 1 
+\i (00:34:18) setwindow pcb
+\i (00:34:18) zoom out 4269.741 109.500
+\i (00:34:18) trapsize 4467
+\i (00:34:18) zoom out 1 
+\i (00:34:18) setwindow pcb
+\i (00:34:18) zoom out 4269.741 109.500
+\i (00:34:18) trapsize 8935
+\i (00:34:18) zoom out 1 
+\i (00:34:18) setwindow pcb
+\i (00:34:18) zoom out 4269.741 109.500
+\i (00:34:18) trapsize 17870
+\i (00:34:19) zoom in 1 
+\i (00:34:19) setwindow pcb
+\i (00:34:19) zoom in 2986.711 827.854
+\i (00:34:19) trapsize 8935
+\i (00:34:20) zoom out 1 
+\i (00:34:20) setwindow pcb
+\i (00:34:20) zoom out 3304.788 935.071
+\i (00:34:20) trapsize 17870
+\i (00:34:20) zoom out 1 
+\i (00:34:20) setwindow pcb
+\i (00:34:20) zoom out 3383.414 799.263
+\i (00:34:20) trapsize 35739
+\i (00:34:21) zoom in 1 
+\i (00:34:21) setwindow pcb
+\i (00:34:21) zoom in 3226.163 1119.346
+\i (00:34:21) trapsize 17870
+\i (00:34:22) zoom in 1 
+\i (00:34:22) setwindow pcb
+\i (00:34:22) zoom in 3079.633 1194.398
+\i (00:34:22) trapsize 8935
+\i (00:34:22) zoom in 1 
+\i (00:34:22) setwindow pcb
+\i (00:34:22) zoom in 3108.224 1210.481
+\i (00:34:22) trapsize 4467
+\i (00:34:22) zoom in 1 
+\i (00:34:22) setwindow pcb
+\i (00:34:22) zoom in 3134.135 1231.031
+\i (00:34:22) trapsize 2234
+\i (00:34:24) zoom out 1 
+\i (00:34:24) setwindow pcb
+\i (00:34:24) zoom out 3177.469 1218.523
+\i (00:34:24) trapsize 4467
+\i (00:34:25) zoom in 1 
+\i (00:34:25) setwindow pcb
+\i (00:34:25) zoom in 3245.373 1050.550
+\i (00:34:25) trapsize 2234
+\i (00:34:26) zoom in 1 
+\i (00:34:26) setwindow pcb
+\i (00:34:26) zoom in 3277.985 1072.887
+\i (00:34:26) trapsize 1117
+\i (00:34:26) zoom in 1 
+\i (00:34:26) setwindow pcb
+\i (00:34:26) zoom in 3268.380 1063.506
+\i (00:34:26) trapsize 558
+\i (00:34:26) zoom out 1 
+\i (00:34:26) setwindow pcb
+\i (00:34:26) zoom out 3272.959 1078.472
+\i (00:34:26) trapsize 1117
+\i (00:34:26) zoom out 1 
+\i (00:34:26) setwindow pcb
+\i (00:34:26) zoom out 3276.533 1083.833
+\i (00:34:26) trapsize 2234
+\i (00:34:27) zoom in 1 
+\i (00:34:27) setwindow pcb
+\i (00:34:27) zoom in 3200.588 1047.648
+\i (00:34:27) trapsize 1117
+\i (00:34:28) zoom out 1 
+\i (00:34:28) setwindow pcb
+\i (00:34:28) zoom out 3223.595 1053.903
+\i (00:34:28) trapsize 2234
+\i (00:34:32) zoom out 1 
+\i (00:34:32) setwindow pcb
+\i (00:34:32) zoom out 3284.352 1028.885
+\i (00:34:32) trapsize 4467
+\i (00:34:33) zoom out 1 
+\i (00:34:33) setwindow pcb
+\i (00:34:33) zoom out 3130.675 1055.690
+\i (00:34:33) trapsize 8935
+\i (00:34:34) zoom in 1 
+\i (00:34:34) setwindow pcb
+\i (00:34:34) zoom in 2265.790 1532.806
+\i (00:34:34) trapsize 4467
+\i (00:34:34) zoom in 1 
+\i (00:34:34) setwindow pcb
+\i (00:34:34) zoom in 2346.203 1460.435
+\i (00:34:34) trapsize 2234
+\i (00:35:20) zoom out 1 
+\i (00:35:20) setwindow pcb
+\i (00:35:20) zoom out 2346.204 1460.435
+\i (00:35:20) trapsize 4467
+\i (00:35:21) zoom out 1 
+\i (00:35:21) setwindow pcb
+\i (00:35:21) zoom out 2355.138 1464.902
+\i (00:35:21) trapsize 8935
+\i (00:35:22) zoom in 1 
+\i (00:35:22) setwindow pcb
+\i (00:35:22) zoom in 3066.344 1120.020
+\i (00:35:22) trapsize 4467
+\i (00:35:23) zoom in 1 
+\i (00:35:23) setwindow pcb
+\i (00:35:23) zoom in 3113.698 1145.931
+\i (00:35:23) trapsize 2234
+\i (01:22:29) zoom out 1 
+\i (01:22:29) setwindow pcb
+\i (01:22:29) zoom out 3048.475 1183.011
+\i (01:22:29) trapsize 4467
+\i (01:22:30) zoom in 1 
+\i (01:22:30) setwindow pcb
+\i (01:22:30) zoom in 2982.358 1215.176
+\i (01:22:30) trapsize 2234
+\i (01:22:30) zoom in 1 
+\i (01:22:30) setwindow pcb
+\i (01:22:30) zoom in 2982.358 1215.176
+\i (01:22:30) trapsize 1117
+\i (01:22:31) zoom out 1 
+\i (01:22:31) setwindow pcb
+\i (01:22:31) zoom out 2982.359 1214.953
+\i (01:22:31) trapsize 2234
+\i (01:32:34) pick grid 3038.647 1172.066
+\t (01:32:34) last pick:  3038.686 1172.080
+\i (01:32:34) pick grid dbl 3038.647 1172.066
+\t (01:32:34) last pick:  3038.686 1172.080
+\i (01:32:35) pick grid 3038.647 1171.619
+\t (01:32:35) last pick:  3038.686 1171.590
+\i (01:32:35) pick grid 3039.541 1171.619
+\t (01:32:35) last pick:  3039.568 1171.590
+\i (01:32:35) pick grid dbl 3039.541 1171.619
+\t (01:32:35) last pick:  3039.568 1171.590
+\i (02:26:09) exit 
+\t (02:26:10)     Journal end - Fri May 12 23:07:18 2017

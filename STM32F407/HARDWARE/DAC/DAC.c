@@ -14,9 +14,9 @@ void sin_Generation1(u16 Fre,u16 Vol)
 {
 	u32 Voltage;
 	u16 n;
-	if(Vol>480)
-		Vol =480;
-	Voltage= Vol*4080/500;
+	if(Vol>500)
+		Vol =500;
+	Voltage= Vol*4095/500;
 		if(Voltage>4000)
 		Voltage=4000;
 	if(Fre>150)
@@ -32,33 +32,33 @@ void sin_Generation1(u16 Fre,u16 Vol)
 	{
 		for(n=0;n<tableSize1/2;n++)
 		{
-			sinTable1[n] =n*2*Voltage/tableSize1+65;	
+			sinTable1[n] =n*2*Voltage/tableSize1+25;	
 		}
 		for(n=tableSize1/2;n<tableSize1;n++)
 		{
-			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+65;	
+			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+25;	
 		}
 	}
 	if((Voltage<=40)&&(Voltage>=10))
 	{
 		for(n=0;n<tableSize1/2;n++)
 		{
-			sinTable1[n] =n*2*Voltage/tableSize1+90;	
+			sinTable1[n] =n*2*Voltage/tableSize1+25;	
 		}
 		for(n=tableSize1/2;n<tableSize1;n++)
 		{
-			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+90;	
+			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+25;	
 		}
 	}
 	if(Voltage==0)
 	{
 		for(n=0;n<tableSize1/2;n++)
 		{
-			sinTable1[n] =n*2*Voltage/tableSize1+105;	
+			sinTable1[n] =n*2*Voltage/tableSize1+55;	
 		}
 		for(n=tableSize1/2;n<tableSize1;n++)
 		{
-			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+105;	
+			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+55;	
 		}
 	}
 	
@@ -67,9 +67,9 @@ void sin_Generation2(u16 Fre,u16 Vol)
 {
 	u32 Voltage;
 	u16 n;
-	if(Vol>480)
-		Vol =480;
-	Voltage= Vol*4080/500;
+	if(Vol>500)
+		Vol =500;
+	Voltage= Vol*4095/500;
 	if(Voltage>4000)
 		Voltage=4000;
 	if(Fre>150)
@@ -85,33 +85,33 @@ void sin_Generation2(u16 Fre,u16 Vol)
 	{
 		for(n=0;n<tableSize2/2;n++)
 		{
-			sinTable2[n] =n*2*Voltage/tableSize2+65;	
+			sinTable2[n] =n*2*Voltage/tableSize2+25;	
 		}
 		for(n=tableSize2/2;n<tableSize2;n++)
 		{
-			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+65;	
+			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+25;	
 		}
 	}
 	if((Voltage<=40)&&(Voltage>=10))
 	{
 		for(n=0;n<tableSize2/2;n++)
 		{
-			sinTable2[n] =n*2*Voltage/tableSize2+90;	
+			sinTable2[n] =n*2*Voltage/tableSize2+25;	
 		}
 		for(n=tableSize2/2;n<tableSize2;n++)
 		{
-			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+90;	
+			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+25;	
 		}
 	}
 	if(Voltage==0)
 	{
 		for(n=0;n<tableSize2/2;n++)
 		{
-			sinTable2[n] =n*2*Voltage/tableSize2+105;	
+			sinTable2[n] =n*2*Voltage/tableSize2+25;	
 		}
 		for(n=tableSize2/2;n<tableSize2;n++)
 		{
-			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+105;	
+			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+25;	
 		}
 	}
 	

@@ -110,8 +110,8 @@ void StartInit(void)
 	Sine_Fre1t=Sine_Fre1;
 	sin_Generation1(Sine_Fre1t,Sine_Amp1);	
 	Sine_FreNum1=42000000/Sine_Fre1t/tableSize1-1;
-	Fres=4200000/Sine_Fre1t-1;
-	TIM3_Int_Init(Fres);
+//	Fres=4200000/Sine_Fre1t-1;
+//	TIM3_Int_Init(Fres);
 	TIM6_Configuration(Sine_FreNum1);
 	DAC_DMA_Configuration1(); 
 	//Èý½ÇÐÎ²¨1
@@ -183,15 +183,15 @@ void StartInit(void)
 	K3_Flagt=K3_Flag;
 	if(K3_Flagt==1)
 	{
-		DMA_Cmd(DMA1_Stream6, ENABLE);
+    DMA_Cmd(DMA1_Stream6, ENABLE);
 		DAC_Cmd(DAC_Channel_2, ENABLE);
 		DAC_DMACmd(DAC_Channel_2, ENABLE);
 	}
 	else
 	{
-		DMA_Cmd(DMA1_Stream6, DISABLE);
+    DMA_Cmd(DMA1_Stream6, DISABLE);
 		DAC_Cmd(DAC_Channel_2, DISABLE);
-		DAC_DMACmd(DAC_Channel_2, DISABLE);
+		DAC_DMACmd(DAC_Channel_2, DISABLE);  
 	}
 	TFT_LCD_ShowMode(K3_Flagt);
 	LCD_ShowMode(K3_Flagt);
@@ -237,8 +237,8 @@ void Sine1_Scan(void)
 		Sine_Fre1t=Sine_Fre1;
 		sin_Generation1(Sine_Fre1t,Sine_Amp1);	
 		Sine_FreNum1 =42000000/Sine_Fre1t/tableSize1-1;
-		Fres=4200000/Sine_Fre1t-1;
-		TIM3_Int_Init(Fres);
+//		Fres=4200000/Sine_Fre1t-1;
+//		TIM3_Int_Init(Fres);
 		TIM6_Configuration(Sine_FreNum1);
 		DAC_DMA_Configuration1(); 
 	}
@@ -273,13 +273,13 @@ void K1_Scan(void)
 		if(K1_Flagt==1)
 		{
 			S18=1;
-//			delay_ms(100);
-//			S19 =1;
+			delay_ms(100);
+			S19 =1;
 		}
 		else
 		{
 			S18=0;
-//			S19=0;
+			S19=0;
 		}
 		TFT_LCD_ShowLaser(K1_Flagt);
 		LCD_ShowLaser(K1_Flagt);
@@ -329,11 +329,11 @@ void K3_Scan(void)
 			DAC_Cmd(DAC_Channel_2, ENABLE);
 			DAC_DMACmd(DAC_Channel_2, ENABLE);
 		}
-		else
+		if(K3_Flagt==0)
 		{
 			DMA_Cmd(DMA1_Stream6, DISABLE);
 			DAC_Cmd(DAC_Channel_2, DISABLE);
-			DAC_DMACmd(DAC_Channel_2, DISABLE);
+			DAC_DMACmd(DAC_Channel_2, DISABLE); 
 		}
 		LCD_ShowMode(K3_Flagt);
 		TFT_LCD_ShowMode(K3_Flagt);
