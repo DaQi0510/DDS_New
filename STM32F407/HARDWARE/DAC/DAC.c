@@ -17,51 +17,15 @@ void sin_Generation1(u16 Fre,u16 Vol)
 	if(Vol>500)
 		Vol =500;
 	Voltage= Vol*4095/500;
-		if(Voltage>4000)
-		Voltage=4000;
-	if(Fre>150)
-		tableSize1=512;
-	else
-		tableSize1=1024;
-//	for(n=0;n<tableSize;n++)
-//	{
-//		sinTable[n] = (sin(2*PI*n/tableSize)+1)*Voltage+50;	
-//	}	
+	for(n=0;n<500;n++)
+	{
+		sinTable1[n] =n*Voltage/499;	
+	}
+	for(n=500;n<1000;n++)
+	{
+		sinTable1[n] =Voltage-(n-500)*Voltage/499;	
+	}
 
-	if(Voltage>40)
-	{
-		for(n=0;n<tableSize1/2;n++)
-		{
-			sinTable1[n] =n*2*Voltage/tableSize1+25;	
-		}
-		for(n=tableSize1/2;n<tableSize1;n++)
-		{
-			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+25;	
-		}
-	}
-	if((Voltage<=40)&&(Voltage>=10))
-	{
-		for(n=0;n<tableSize1/2;n++)
-		{
-			sinTable1[n] =n*2*Voltage/tableSize1+25;	
-		}
-		for(n=tableSize1/2;n<tableSize1;n++)
-		{
-			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+25;	
-		}
-	}
-	if(Voltage==0)
-	{
-		for(n=0;n<tableSize1/2;n++)
-		{
-			sinTable1[n] =n*2*Voltage/tableSize1+55;	
-		}
-		for(n=tableSize1/2;n<tableSize1;n++)
-		{
-			sinTable1[n] =Voltage-(2*n+2-tableSize1)*Voltage/tableSize1+55;	
-		}
-	}
-	
 }
 void sin_Generation2(u16 Fre,u16 Vol)
 {
@@ -70,60 +34,28 @@ void sin_Generation2(u16 Fre,u16 Vol)
 	if(Vol>500)
 		Vol =500;
 	Voltage= Vol*4095/500;
-	if(Voltage>4000)
-		Voltage=4000;
-	if(Fre>150)
-		tableSize2=512;
-	else
-		tableSize2=1024;
-//	for(n=0;n<tableSize;n++)
-//	{
-//		sinTable[n] = (sin(2*PI*n/tableSize)+1)*Voltage+50;	
-//	}	
-
-	if(Voltage>40)
+	for(n=0;n<500;n++)
 	{
-		for(n=0;n<tableSize2/2;n++)
-		{
-			sinTable2[n] =n*2*Voltage/tableSize2+25;	
-		}
-		for(n=tableSize2/2;n<tableSize2;n++)
-		{
-			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+25;	
-		}
+		sinTable2[n] =n*Voltage/499;	
 	}
-	if((Voltage<=40)&&(Voltage>=10))
+	for(n=500;n<1000;n++)
 	{
-		for(n=0;n<tableSize2/2;n++)
-		{
-			sinTable2[n] =n*2*Voltage/tableSize2+25;	
-		}
-		for(n=tableSize2/2;n<tableSize2;n++)
-		{
-			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+25;	
-		}
-	}
-	if(Voltage==0)
-	{
-		for(n=0;n<tableSize2/2;n++)
-		{
-			sinTable2[n] =n*2*Voltage/tableSize2+25;	
-		}
-		for(n=tableSize2/2;n<tableSize2;n++)
-		{
-			sinTable2[n] =Voltage-(2*n+2-tableSize2)*Voltage/tableSize2+25;	
-		}
+		sinTable2[n] =Voltage-(n-500)*Voltage/499;	
 	}
 	
 }
-void TIM6_Configuration(u16 Fre)
+void TIM2_Configuration(u16 Fre)
 {
-
-		RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM6, ENABLE);	
-		TIM_PrescalerConfig(TIM6,1, TIM_PSCReloadMode_Update);
-		TIM_SetAutoreload(TIM6, Fre);
-		TIM_SelectOutputTrigger(TIM6, TIM_TRGOSource_Update);
-		TIM_Cmd(TIM6, ENABLE);
+//	  Flag=0;
+		RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);	
+		TIM_PrescalerConfig(TIM2,1, TIM_PSCReloadMode_Update);
+		TIM_SetAutoreload(TIM2, Fre);
+		TIM_SelectOutputTrigger(TIM2, TIM_TRGOSource_Update);
+//		TIM_SelectMasterSlaveMode(TIM2, TIM_MasterSlaveMode_Enable);
+		TIM_Cmd(TIM2, ENABLE);
+	  
+//	  TIM3_Int_Init(9);
+		
 }
 void TIM7_Configuration(u16 Fre)
 {
@@ -167,7 +99,7 @@ void DAC_DMA_Configuration1(void)
 	
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_DAC, ENABLE);
 
-	DAC_InitStructure.DAC_Trigger = DAC_Trigger_T6_TRGO;
+	DAC_InitStructure.DAC_Trigger = DAC_Trigger_T2_TRGO;
 	DAC_InitStructure.DAC_WaveGeneration = DAC_WaveGeneration_None;
 	DAC_InitStructure.DAC_OutputBuffer = DAC_OutputBuffer_Disable;
 	DAC_Init(DAC_Channel_1, &DAC_InitStructure);
@@ -176,7 +108,7 @@ void DAC_DMA_Configuration1(void)
 	DMA_InitStructure.DMA_Channel = DMA_Channel_7;  
 	DMA_InitStructure.DMA_PeripheralBaseAddr = DAC_DHR12R1_ADDRESS;
 	DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)&sinTable1;
-	DMA_InitStructure.DMA_BufferSize = tableSize1;
+	DMA_InitStructure.DMA_BufferSize = 1000;
 	DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_HalfWord;
 	DMA_InitStructure.DMA_MemoryDataSize = DMA_PeripheralDataSize_HalfWord;
 	DMA_InitStructure.DMA_DIR = DMA_DIR_MemoryToPeripheral;
@@ -195,6 +127,7 @@ void DAC_DMA_Configuration1(void)
 	DAC_Cmd(DAC_Channel_1, ENABLE);
 	
 	DAC_DMACmd(DAC_Channel_1, ENABLE);
+	
 } 
 
 void DAC_DMA_Configuration2(void)
@@ -216,7 +149,7 @@ void DAC_DMA_Configuration2(void)
 	DMA_InitStructure.DMA_Channel = DMA_Channel_7;  
 	DMA_InitStructure.DMA_PeripheralBaseAddr = DAC_DHR12R2_ADDRESS;
 	DMA_InitStructure.DMA_Memory0BaseAddr = (uint32_t)&sinTable2;
-	DMA_InitStructure.DMA_BufferSize = tableSize2;
+	DMA_InitStructure.DMA_BufferSize = 1000;
 	DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_HalfWord;
 	DMA_InitStructure.DMA_MemoryDataSize = DMA_PeripheralDataSize_HalfWord;
 	DMA_InitStructure.DMA_DIR = DMA_DIR_MemoryToPeripheral;
@@ -248,7 +181,7 @@ void Sine_Set1(u16 Fre,u16 Vol)
 	u16 FreNum;
 	sin_Generation1(Fre,Vol);
 	FreNum=42000000/tableSize1/Fre-1;
-	TIM6_Configuration(FreNum);
+	TIM2_Configuration(FreNum);
 	DAC_DMA_Configuration1();
 }
 void Sine_Set2(u16 Fre,u16 Vol)
@@ -306,17 +239,23 @@ void TIM1_PWM_Init(u32 arr,u32 psc)
 }  
 void TIM3_Int_Init(u16 arr)
 {
+	 //使能定时器3
 	TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure;
 	NVIC_InitTypeDef NVIC_InitStructure;
-	
+	TIM_Cmd(TIM3,DISABLE);
+	Flag=0;
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3,ENABLE);  ///使能TIM3时钟
 	
-  TIM_TimeBaseInitStructure.TIM_Period = arr; 	//自动重装载值
-	TIM_TimeBaseInitStructure.TIM_Prescaler=1;  //定时器分频
+  TIM_TimeBaseInitStructure.TIM_Period =49; 	//自动重装载值
+	TIM_TimeBaseInitStructure.TIM_Prescaler=0;  //定时器分频
 	TIM_TimeBaseInitStructure.TIM_CounterMode=TIM_CounterMode_Up; //向上计数模式
 	TIM_TimeBaseInitStructure.TIM_ClockDivision=TIM_CKD_DIV1; 
 	
 	TIM_TimeBaseInit(TIM3,&TIM_TimeBaseInitStructure);//初始化TIM3
+	
+	TIM_SelectSlaveMode(TIM3, TIM_SlaveMode_Gated);
+  TIM_SelectInputTrigger(TIM3, TIM_TS_ITR1);
+	TIM_SelectMasterSlaveMode(TIM3, TIM_MasterSlaveMode_Enable);
 	
 	TIM_ITConfig(TIM3,TIM_IT_Update,ENABLE); //允许定时器3更新中断
 	TIM_Cmd(TIM3,ENABLE); //使能定时器3
@@ -335,7 +274,7 @@ void TIM3_IRQHandler(void)
 	if(TIM_GetITStatus(TIM3,TIM_IT_Update)==SET) //溢出中断
 	{
 		Flag++;
-		if((Flag>=2)&&(Flag<=10))
+		if((Flag>=2)&&(Flag<=9))
 		{
 			S19=1;
 		}

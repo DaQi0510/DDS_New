@@ -9,7 +9,7 @@
 
 void sin_Generation1(u16 Fre,u16 Vol);
 void sin_Generation2(u16 Fre,u16 Vol);
-void TIM6_Configuration(u16 Fre);
+void TIM2_Configuration(u16 Fre);
 void TIM7_Configuration(u16 Fre);
 void GPIO_Configuration1(void);
 void GPIO_Configuration2(void);

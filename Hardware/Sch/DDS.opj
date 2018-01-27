@@ -182,19 +182,19 @@
       (Path "Design Resources" ".\dds.dsn" "Module")
       (Path "Design Resources" ".\dds.dsn" "Power")
       (Path "Outputs")
-      (Select "Design Resources" ".\dds.dsn" "DDS" "DDS"))
+      (Select "Design Resources" ".\dds.dsn" "Module" "Module"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 832"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1384 50 622")
-        (Scroll "0 362")
-        (Zoom "174")
+        (Placement "44 0 1 -1 -1 -8 -30 125 749 125 485")
+        (Scroll "0 104")
+        (Zoom "206")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Power")
@@ -202,9 +202,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1338 25 576")
-        (Scroll "-252 0")
-        (Zoom "68")
+        (Placement "44 2 3 -1 -1 -8 -30 0 628 0 364")
+        (Scroll "249 220")
+        (Zoom "162")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Module")
@@ -212,19 +212,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1363 50 601")
-        (Scroll "259 462")
-        (Zoom "216")
-        (Occurrence "/DDS"))
-      (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
-      (Schematic "DDS")
-      (Page "DDS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1588 200 669")
-        (Scroll "-185 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -30 50 678 50 414")
+        (Scroll "409 0")
+        (Zoom "103")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "MCU")
@@ -232,9 +222,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1388 0 469")
-        (Scroll "-185 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1009 125 454")
+        (Scroll "0 42")
+        (Zoom "206")
+        (Occurrence "/DDS"))
+      (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
+      (Schematic "DDS")
+      (Page "DDS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1488 150 691")
+        (Scroll "-145 37")
+        (Zoom "103")
         (Occurrence "/"))
       (Path "F:\对外部分项目\信号发生器改版V1.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "TOP")

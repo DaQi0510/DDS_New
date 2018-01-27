@@ -1,813 +1,626 @@
-\t (00:00:05) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:05)     Journal start - Fri May 12 20:41:12 2017
-\t (00:00:05)         Host=DAQI-PC User=DaQi Pid=3436 CPUs=4
-\t (00:00:05) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:05) 
-   (00:00:05) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\d (00:00:06) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
-\i (00:00:06) trapsize 5042
-\i (00:00:06) trapsize 4952
-\i (00:00:06) trapsize 5058
-\i (00:00:09) trapsize 4467
-\i (00:00:09) trapsize 4467
-\i (00:00:09) generaledit 
-\i (00:00:20) zoom out 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom out 4023.122 304.383
-\i (00:00:20) trapsize 8935
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out 4023.122 304.384
-\i (00:00:21) trapsize 17870
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out 4023.123 304.383
-\i (00:00:21) trapsize 35739
-\i (00:00:22) settoggle no_etch_shape_display 
-\i (00:00:22) redraw 
-\i (00:00:22) trapsize 35739
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in 1233.711 2312.915
-\i (00:00:23) trapsize 17870
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in 1240.859 2298.620
-\i (00:00:23) trapsize 8935
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in 1244.434 2291.472
-\i (00:00:23) trapsize 4467
-\i (00:00:24) zoom out 1 
-\i (00:00:24) setwindow pcb
-\i (00:00:24) zoom out 1373.094 2012.708
-\i (00:00:24) trapsize 8935
-\i (00:00:25) zoom out 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom out 1494.607 1950.164
-\i (00:00:25) trapsize 17870
-\i (00:00:25) zoom out 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom out 1494.607 1953.738
-\i (00:00:25) trapsize 35739
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in 1498.180 2053.808
-\i (00:00:26) trapsize 17870
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in 1487.458 1939.443
-\i (00:00:26) trapsize 8935
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in 1489.245 1939.443
-\i (00:00:26) trapsize 4467
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in 1489.245 1939.443
-\i (00:00:26) trapsize 2234
-\i (00:00:27) zoom in 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom in 1489.245 1939.443
-\i (00:00:27) trapsize 1117
-\i (00:00:27) zoom out 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom out 1525.431 1971.609
-\i (00:00:27) trapsize 2234
-\i (00:00:27) zoom out 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom out 1525.431 1971.609
-\i (00:00:27) trapsize 4467
-\i (00:00:27) zoom out 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom out 1525.430 1971.608
-\i (00:00:27) trapsize 8935
-\i (00:00:28) zoom out 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom out 1525.431 1971.609
-\i (00:00:28) trapsize 17870
-\i (00:00:30) zoom in 1 
-\i (00:00:30) setwindow pcb
-\i (00:00:30) zoom in 1550.448 1900.131
-\i (00:00:30) trapsize 8935
-\i (00:00:30) zoom in 1 
-\i (00:00:30) setwindow pcb
-\i (00:00:30) zoom in 1586.188 1934.083
-\i (00:00:30) trapsize 4467
-\i (00:00:30) zoom in 1 
-\i (00:00:30) setwindow pcb
-\i (00:00:30) zoom in 1622.821 1951.952
-\i (00:00:30) trapsize 2234
-\i (00:00:31) zoom out 1 
-\i (00:00:31) setwindow pcb
-\i (00:00:31) zoom out 1663.027 1979.204
-\i (00:00:31) trapsize 4467
-\i (00:00:31) zoom out 1 
-\i (00:00:31) setwindow pcb
-\i (00:00:31) zoom out 1663.028 1979.203
-\i (00:00:31) trapsize 8935
+\t (00:00:27) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:27)     Journal start - Mon Nov 06 19:50:02 2017
+\t (00:00:27)         Host=DAQI-PC User=DaQi Pid=10344 CPUs=4
+\t (00:00:27) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:27) 
+\d (00:00:27) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
+\i (00:00:27) generaledit 
+\i (00:00:32) settoggle no_etch_shape_display 
+\i (00:00:32) redraw 
+\i (00:00:32) trapsize 24876
 \i (00:00:33) zoom in 1 
 \i (00:00:33) setwindow pcb
-\i (00:00:33) zoom in 1616.566 1941.678
-\i (00:00:33) trapsize 4467
+\i (00:00:33) zoom in 4117.322 1446.480
+\i (00:00:33) trapsize 12438
 \i (00:00:33) zoom in 1 
 \i (00:00:33) setwindow pcb
-\i (00:00:33) zoom in 1616.566 1941.678
-\i (00:00:33) trapsize 2234
-\i (00:00:33) zoom in 1 
-\i (00:00:33) setwindow pcb
-\i (00:00:33) zoom in 1616.566 1941.678
-\i (00:00:33) trapsize 1117
+\i (00:00:33) zoom in 4099.909 1443.992
+\i (00:00:33) trapsize 6219
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3964.337 1513.644
+\i (00:00:34) trapsize 3109
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3963.715 1513.644
+\i (00:00:34) trapsize 1555
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 3963.716 1513.644
+\i (00:00:34) trapsize 777
 \i (00:00:34) zoom out 1 
 \i (00:00:34) setwindow pcb
-\i (00:00:34) zoom out 1619.694 1949.720
-\i (00:00:34) trapsize 2234
-\i (00:00:34) zoom out 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom out 1619.693 1949.720
-\i (00:00:34) trapsize 4467
-\i (00:01:47) pick grid 1617.907 1964.909
-\t (00:01:47) last pick:  1617.882 1964.900
-\i (00:01:47) pick grid dbl 1617.907 1964.909
-\t (00:01:47) last pick:  1617.882 1964.900
+\i (00:00:34) zoom out 3957.963 1506.337
+\i (00:00:34) trapsize 1555
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 3957.342 1505.405
+\i (00:00:35) trapsize 3109
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 3956.098 1503.539
+\i (00:00:35) trapsize 6219
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 4030.724 1423.936
+\i (00:01:43) trapsize 12438
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 4030.725 1421.449
+\i (00:01:43) trapsize 24876
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 4030.725 1421.450
+\i (00:01:43) trapsize 49751
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 8131.004 2688.215
+\i (00:01:43) trapsize 99502
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 2529.008 1752.889
+\i (00:01:43) trapsize 99502
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in 2031.496 658.362
+\i (00:01:43) trapsize 49751
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in -18.255 777.765
+\i (00:01:43) trapsize 24876
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in -33.180 862.342
+\i (00:01:43) trapsize 12438
+\i (00:01:44) zoom in 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom in 1305.129 1581.248
+\i (00:01:44) trapsize 6219
+\i (00:01:44) zoom in 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom in 1305.129 1580.005
+\i (00:01:44) trapsize 3109
+\i (00:01:45) zoom in 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom in 1275.278 1575.030
+\i (00:01:45) trapsize 1555
+\i (00:01:45) zoom in 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom in 1305.751 1581.560
+\i (00:01:45) trapsize 777
+\i (00:01:45) zoom in 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom in 1305.751 1581.560
+\i (00:01:45) trapsize 389
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 1305.440 1580.938
+\i (00:01:45) trapsize 777
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 1304.974 1579.850
+\i (00:01:45) trapsize 1555
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 1304.352 1577.985
+\i (00:01:45) trapsize 3109
+\i (00:01:46) zoom out 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom out 1303.730 1574.875
+\i (00:01:46) trapsize 6219
+\i (00:01:46) zoom out 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom out 1301.242 1568.657
+\i (00:01:46) trapsize 12438
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 1557.461 2006.468
+\i (00:01:47) trapsize 6219
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 1557.462 2006.468
+\i (00:01:47) trapsize 3109
 \i (00:01:49) zoom out 1 
 \i (00:01:49) setwindow pcb
-\i (00:01:49) zoom out 1640.244 1876.455
-\i (00:01:49) trapsize 8935
-\i (00:01:50) zoom out 1 
-\i (00:01:50) setwindow pcb
-\i (00:01:50) zoom out 755.703 1917.554
-\i (00:01:50) trapsize 17870
-\i (00:01:50) zoom in 1 
-\i (00:01:50) setwindow pcb
-\i (00:01:50) zoom in 795.016 2006.902
-\i (00:01:50) trapsize 8935
-\i (00:01:50) zoom in 1 
-\i (00:01:50) setwindow pcb
-\i (00:01:50) zoom in 796.804 2006.902
-\i (00:01:50) trapsize 4467
-\i (00:01:51) zoom in 1 
-\i (00:01:51) setwindow pcb
-\i (00:01:51) zoom in 881.684 1991.713
-\i (00:01:51) trapsize 2234
-\i (00:01:52) zoom out 1 
-\i (00:01:52) setwindow pcb
-\i (00:01:52) zoom out 1033.128 1990.820
-\i (00:01:52) trapsize 4467
-\i (00:01:52) zoom out 1 
-\i (00:01:52) setwindow pcb
-\i (00:01:52) zoom out 1035.809 1986.352
-\i (00:01:52) trapsize 8935
-\i (00:01:54) zoom in 1 
-\i (00:01:54) setwindow pcb
-\i (00:01:54) zoom in 790.997 1762.983
-\i (00:01:54) trapsize 4467
-\i (00:02:43) iangle 90 
-\e (00:02:43) angle command is not allowed in this mode.
-\i (00:03:10) zoom out 1 
-\i (00:03:10) setwindow pcb
-\i (00:03:10) zoom out 1578.148 1976.524
-\i (00:03:10) trapsize 8935
-\i (00:03:12) zoom in 1 
-\i (00:03:12) setwindow pcb
-\i (00:03:12) zoom in 1363.715 1436.865
-\i (00:03:12) trapsize 4467
-\i (00:03:13) zoom in 1 
-\i (00:03:13) setwindow pcb
-\i (00:03:13) zoom in 1364.609 1451.161
-\i (00:03:13) trapsize 2234
-\i (00:03:13) zoom out 1 
-\i (00:03:13) setwindow pcb
-\i (00:03:13) zoom out 1272.134 1581.608
-\i (00:03:13) trapsize 4467
-\i (00:03:14) zoom out 1 
-\i (00:03:14) setwindow pcb
-\i (00:03:14) zoom out 1256.946 1571.781
-\i (00:03:14) trapsize 8935
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in 1684.028 2007.796
-\i (00:03:15) trapsize 4467
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in 1684.028 2007.797
-\i (00:03:15) trapsize 2234
-\i (00:03:16) zoom out 1 
-\i (00:03:16) setwindow pcb
-\i (00:03:16) zoom out 1614.337 1962.677
-\i (00:03:16) trapsize 4467
-\i (00:03:16) zoom out 1 
-\i (00:03:16) setwindow pcb
-\i (00:03:16) zoom out 1614.338 1962.677
-\i (00:03:16) trapsize 8935
-\i (00:03:38) zoom in 1 
-\i (00:03:38) setwindow pcb
-\i (00:03:38) zoom in 1567.877 1635.665
-\i (00:03:38) trapsize 4467
-\i (00:03:39) zoom in 1 
-\i (00:03:39) setwindow pcb
-\i (00:03:39) zoom in 1398.117 1592.778
-\i (00:03:39) trapsize 2234
-\i (00:03:39) zoom in 1 
-\i (00:03:39) setwindow pcb
-\i (00:03:39) zoom in 1392.309 1594.565
-\i (00:03:39) trapsize 1117
-\i (00:03:40) zoom out 1 
-\i (00:03:40) setwindow pcb
-\i (00:03:40) zoom out 1423.581 1613.105
-\i (00:03:40) trapsize 2234
-\i (00:03:40) zoom out 1 
-\i (00:03:40) setwindow pcb
-\i (00:03:40) zoom out 1423.580 1613.106
-\i (00:03:40) trapsize 4467
-\i (00:03:41) zoom in 1 
-\i (00:03:41) setwindow pcb
-\i (00:03:41) zoom in 1427.155 1603.277
-\i (00:03:41) trapsize 2234
-\i (00:03:41) zoom in 1 
-\i (00:03:41) setwindow pcb
-\i (00:03:41) zoom in 1427.155 1603.277
-\i (00:03:41) trapsize 1117
-\i (00:03:41) zoom in 1 
-\i (00:03:41) setwindow pcb
-\i (00:03:41) zoom in 1427.155 1603.277
-\i (00:03:41) trapsize 558
-\i (00:03:41) zoom in 1 
-\i (00:03:41) setwindow pcb
-\i (00:03:41) zoom in 1427.156 1603.277
-\i (00:03:41) trapsize 279
-\i (00:03:41) zoom out 1 
-\i (00:03:41) setwindow pcb
-\i (00:03:41) zoom out 1427.156 1602.496
-\i (00:03:41) trapsize 558
-\i (00:03:41) zoom out 1 
-\i (00:03:41) setwindow pcb
-\i (00:03:41) zoom out 1427.156 1602.496
-\i (00:03:41) trapsize 1117
-\i (00:04:14) iangle 90 
-\e (00:04:14) angle command is not allowed in this mode.
-\i (00:04:14) iangle 90 
-\e (00:04:14) angle command is not allowed in this mode.
-\i (00:04:15) iangle 90 
-\e (00:04:15) angle command is not allowed in this mode.
-\i (00:05:36) iangle 90 
-\e (00:05:36) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:37) iangle 90 
-\e (00:05:37) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:38) iangle 90 
-\e (00:05:38) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:39) iangle 90 
-\e (00:05:39) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:40) iangle 90 
-\e (00:05:40) angle command is not allowed in this mode.
-\i (00:05:46) iangle 90 
-\e (00:05:46) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:47) iangle 90 
-\e (00:05:47) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:48) iangle 90 
-\e (00:05:48) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:49) iangle 90 
-\e (00:05:49) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:50) iangle 90 
-\e (00:05:50) angle command is not allowed in this mode.
-\i (00:05:53) iangle 90 
-\e (00:05:53) angle command is not allowed in this mode.
-\i (00:05:53) iangle 90 
-\e (00:05:53) angle command is not allowed in this mode.
-\i (00:06:29) zoom out 1 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) zoom out 1423.805 1604.729
-\i (00:06:29) trapsize 2234
-\i (00:06:29) zoom out 1 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) zoom out 1423.804 1604.728
-\i (00:06:29) trapsize 4467
-\i (00:06:30) zoom in 1 
-\i (00:06:30) setwindow pcb
-\i (00:06:30) zoom in 1443.462 1577.031
-\i (00:06:30) trapsize 2234
-\i (00:06:56) zoom out 1 
-\i (00:06:56) setwindow pcb
-\i (00:06:56) zoom out 1370.197 1564.523
-\i (00:06:56) trapsize 4467
-\i (00:20:28) zoom out 1 
-\i (00:20:28) setwindow pcb
-\i (00:20:28) zoom out 1262.980 1448.371
-\i (00:20:28) trapsize 8935
-\i (00:20:28) zoom out 1 
-\i (00:20:28) setwindow pcb
-\i (00:20:28) zoom out 1262.980 1448.372
-\i (00:20:28) trapsize 17870
-\i (00:20:29) zoom out 1 
-\i (00:20:29) setwindow pcb
-\i (00:20:29) zoom out 1262.979 1444.798
-\i (00:20:29) trapsize 35739
-\i (00:20:29) zoom in 1 
-\i (00:20:29) setwindow pcb
-\i (00:20:29) zoom in 4307.265 -527.996
-\i (00:20:29) trapsize 17870
-\i (00:20:29) zoom in 1 
-\i (00:20:29) setwindow pcb
-\i (00:20:29) zoom in 4310.840 -524.422
-\i (00:20:29) trapsize 8935
-\i (00:20:30) zoom in 1 
-\i (00:20:30) setwindow pcb
-\i (00:20:30) zoom in 4269.740 74.207
-\i (00:20:30) trapsize 4467
-\i (00:20:30) zoom in 1 
-\i (00:20:30) setwindow pcb
-\i (00:20:30) zoom in 4265.273 74.207
-\i (00:20:30) trapsize 2234
-\i (00:34:18) zoom out 1 
-\i (00:34:18) setwindow pcb
-\i (00:34:18) zoom out 4269.741 109.500
-\i (00:34:18) trapsize 4467
-\i (00:34:18) zoom out 1 
-\i (00:34:18) setwindow pcb
-\i (00:34:18) zoom out 4269.741 109.500
-\i (00:34:18) trapsize 8935
-\i (00:34:18) zoom out 1 
-\i (00:34:18) setwindow pcb
-\i (00:34:18) zoom out 4269.741 109.500
-\i (00:34:18) trapsize 17870
-\i (00:34:19) zoom in 1 
-\i (00:34:19) setwindow pcb
-\i (00:34:19) zoom in 2986.711 827.854
-\i (00:34:19) trapsize 8935
-\i (00:34:20) zoom out 1 
-\i (00:34:20) setwindow pcb
-\i (00:34:20) zoom out 3304.788 935.071
-\i (00:34:20) trapsize 17870
-\i (00:34:20) zoom out 1 
-\i (00:34:20) setwindow pcb
-\i (00:34:20) zoom out 3383.414 799.263
-\i (00:34:20) trapsize 35739
-\i (00:34:21) zoom in 1 
-\i (00:34:21) setwindow pcb
-\i (00:34:21) zoom in 3226.163 1119.346
-\i (00:34:21) trapsize 17870
-\i (00:34:22) zoom in 1 
-\i (00:34:22) setwindow pcb
-\i (00:34:22) zoom in 3079.633 1194.398
-\i (00:34:22) trapsize 8935
-\i (00:34:22) zoom in 1 
-\i (00:34:22) setwindow pcb
-\i (00:34:22) zoom in 3108.224 1210.481
-\i (00:34:22) trapsize 4467
-\i (00:34:22) zoom in 1 
-\i (00:34:22) setwindow pcb
-\i (00:34:22) zoom in 3134.135 1231.031
-\i (00:34:22) trapsize 2234
-\i (00:34:24) zoom out 1 
-\i (00:34:24) setwindow pcb
-\i (00:34:24) zoom out 3177.469 1218.523
-\i (00:34:24) trapsize 4467
-\i (00:34:25) zoom in 1 
-\i (00:34:25) setwindow pcb
-\i (00:34:25) zoom in 3245.373 1050.550
-\i (00:34:25) trapsize 2234
-\i (00:34:26) zoom in 1 
-\i (00:34:26) setwindow pcb
-\i (00:34:26) zoom in 3277.985 1072.887
-\i (00:34:26) trapsize 1117
-\i (00:34:26) zoom in 1 
-\i (00:34:26) setwindow pcb
-\i (00:34:26) zoom in 3268.380 1063.506
-\i (00:34:26) trapsize 558
-\i (00:34:26) zoom out 1 
-\i (00:34:26) setwindow pcb
-\i (00:34:26) zoom out 3272.959 1078.472
-\i (00:34:26) trapsize 1117
-\i (00:34:26) zoom out 1 
-\i (00:34:26) setwindow pcb
-\i (00:34:26) zoom out 3276.533 1083.833
-\i (00:34:26) trapsize 2234
-\i (00:34:27) zoom in 1 
-\i (00:34:27) setwindow pcb
-\i (00:34:27) zoom in 3200.588 1047.648
-\i (00:34:27) trapsize 1117
-\i (00:34:28) zoom out 1 
-\i (00:34:28) setwindow pcb
-\i (00:34:28) zoom out 3223.595 1053.903
-\i (00:34:28) trapsize 2234
-\i (00:34:32) zoom out 1 
-\i (00:34:32) setwindow pcb
-\i (00:34:32) zoom out 3284.352 1028.885
-\i (00:34:32) trapsize 4467
-\i (00:34:33) zoom out 1 
-\i (00:34:33) setwindow pcb
-\i (00:34:33) zoom out 3130.675 1055.690
-\i (00:34:33) trapsize 8935
-\i (00:34:34) zoom in 1 
-\i (00:34:34) setwindow pcb
-\i (00:34:34) zoom in 2265.790 1532.806
-\i (00:34:34) trapsize 4467
-\i (00:34:34) zoom in 1 
-\i (00:34:34) setwindow pcb
-\i (00:34:34) zoom in 2346.203 1460.435
-\i (00:34:34) trapsize 2234
-\i (00:35:20) zoom out 1 
-\i (00:35:20) setwindow pcb
-\i (00:35:20) zoom out 2346.204 1460.435
-\i (00:35:20) trapsize 4467
-\i (00:35:21) zoom out 1 
-\i (00:35:21) setwindow pcb
-\i (00:35:21) zoom out 2355.138 1464.902
-\i (00:35:21) trapsize 8935
-\i (00:35:22) zoom in 1 
-\i (00:35:22) setwindow pcb
-\i (00:35:22) zoom in 3066.344 1120.020
-\i (00:35:22) trapsize 4467
-\i (00:35:23) zoom in 1 
-\i (00:35:23) setwindow pcb
-\i (00:35:23) zoom in 3113.698 1145.931
-\i (00:35:23) trapsize 2234
-\i (01:22:29) zoom out 1 
-\i (01:22:29) setwindow pcb
-\i (01:22:29) zoom out 3048.475 1183.011
-\i (01:22:29) trapsize 4467
-\i (01:22:30) zoom in 1 
-\i (01:22:30) setwindow pcb
-\i (01:22:30) zoom in 2982.358 1215.176
-\i (01:22:30) trapsize 2234
-\i (01:22:30) zoom in 1 
-\i (01:22:30) setwindow pcb
-\i (01:22:30) zoom in 2982.358 1215.176
-\i (01:22:30) trapsize 1117
-\i (01:22:31) zoom out 1 
-\i (01:22:31) setwindow pcb
-\i (01:22:31) zoom out 2982.359 1214.953
-\i (01:22:31) trapsize 2234
-\i (01:32:34) pick grid 3038.647 1172.066
-\t (01:32:34) last pick:  3038.686 1172.080
-\i (01:32:34) pick grid dbl 3038.647 1172.066
-\t (01:32:34) last pick:  3038.686 1172.080
-\i (01:32:35) pick grid 3038.647 1171.619
-\t (01:32:35) last pick:  3038.686 1171.590
-\i (01:32:35) pick grid 3039.541 1171.619
-\t (01:32:35) last pick:  3039.568 1171.590
-\i (01:32:35) pick grid dbl 3039.541 1171.619
-\t (01:32:35) last pick:  3039.568 1171.590
-\i (02:26:09) exit 
-\t (02:26:10)     Journal end - Fri May 12 23:07:18 2017
+\i (00:01:49) zoom out 1466.666 1987.812
+\i (00:01:49) trapsize 6219
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 1173.133 1970.399
+\i (00:01:53) trapsize 3109
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 1177.487 1970.400
+\i (00:01:53) trapsize 1555
+\i (00:03:45) zoom in 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom in 1230.348 1965.425
+\i (00:03:45) trapsize 777
+\i (00:03:45) zoom in 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom in 1230.348 1965.425
+\i (00:03:45) trapsize 389
+\i (00:03:45) zoom in 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom in 1230.270 1965.426
+\i (00:03:45) trapsize 194
+\i (00:03:45) zoom in 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom in 1230.270 1965.426
+\i (00:03:45) trapsize 97
+\i (00:03:45) zoom in 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom in 1230.270 1965.426
+\i (00:03:45) trapsize 49
+\i (00:03:45) zoom in 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom in 1230.270 1965.426
+\i (00:03:45) trapsize 24
+\i (00:03:45) zoom out 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom out 1230.271 1965.427
+\i (00:03:45) trapsize 49
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 1232.126 1966.019
+\i (00:03:48) trapsize 97
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 1232.068 1965.669
+\i (00:03:48) trapsize 194
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 1231.873 1965.242
+\i (00:03:48) trapsize 389
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 1231.718 1964.853
+\i (00:03:48) trapsize 777
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 1231.562 1964.541
+\i (00:03:48) trapsize 1555
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 1231.562 1964.231
+\i (00:03:49) trapsize 3109
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 1231.562 1964.231
+\i (00:03:49) trapsize 6219
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 1230.317 1962.987
+\i (00:03:49) trapsize 12438
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 1230.318 1962.986
+\i (00:03:49) trapsize 24876
+\i (00:03:50) zoom in 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom in 4603.639 251.543
+\i (00:03:50) trapsize 12438
+\i (00:03:50) zoom in 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom in 4640.952 251.543
+\i (00:03:50) trapsize 6219
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out 4599.907 210.499
+\i (00:03:52) trapsize 12438
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out 4599.908 210.499
+\i (00:03:52) trapsize 24876
+\i (00:03:52) zoom in 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom in 4440.704 1329.902
+\i (00:03:52) trapsize 12438
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 4440.704 1324.927
+\i (00:03:53) trapsize 6219
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 4440.704 1324.927
+\i (00:03:53) trapsize 3109
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 4438.217 1300.052
+\i (00:03:53) trapsize 6219
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 4434.485 1293.833
+\i (00:03:53) trapsize 12438
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 4434.485 1293.833
+\i (00:03:53) trapsize 6219
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 4434.485 1293.833
+\i (00:03:53) trapsize 3109
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 4378.515 1310.003
+\i (00:03:53) trapsize 6219
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 4378.515 1310.002
+\i (00:03:53) trapsize 12438
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 4378.514 1310.003
+\i (00:03:53) trapsize 24876
+\i (00:03:54) zoom in 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom in 3935.729 867.216
+\i (00:03:54) trapsize 12438
+\i (00:03:54) zoom in 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom in 3928.266 874.679
+\i (00:03:54) trapsize 6219
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in 3909.610 951.794
+\i (00:03:55) trapsize 3109
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in 3909.610 951.794
+\i (00:03:55) trapsize 1555
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 3916.141 954.593
+\i (00:03:55) trapsize 3109
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 3916.140 953.971
+\i (00:03:55) trapsize 6219
+\i (00:03:56) zoom out 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out 3927.334 895.514
+\i (00:03:56) trapsize 12438
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 3392.509 1303.474
+\i (00:03:57) trapsize 6219
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 3392.509 1303.474
+\i (00:03:57) trapsize 3109
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 3392.510 1303.475
+\i (00:03:57) trapsize 1555
+\i (00:03:58) zoom out 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom out 3418.629 1294.146
+\i (00:03:58) trapsize 3109
+\i (00:04:18) zoom out 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom out 3544.251 1279.843
+\i (00:04:18) trapsize 6219
+\i (00:04:19) zoom out 1 
+\i (00:04:19) setwindow pcb
+\i (00:04:19) zoom out 3541.764 1279.844
+\i (00:04:19) trapsize 12438
+\i (00:04:20) zoom in 1 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) zoom in 4671.118 1227.605
+\i (00:04:20) trapsize 6219
+\i (00:04:20) zoom in 1 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) zoom in 4774.352 1111.934
+\i (00:04:20) trapsize 3109
+\i (00:04:20) zoom in 1 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) zoom in 4774.352 1111.934
+\i (00:04:20) trapsize 1555
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 4669.874 1132.456
+\i (00:04:21) trapsize 3109
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 4666.765 1130.591
+\i (00:04:21) trapsize 6219
+\i (00:04:23) zoom in 1 
+\i (00:04:23) setwindow pcb
+\i (00:04:23) zoom in 4197.860 929.098
+\i (00:04:23) trapsize 3109
+\i (00:04:23) zoom in 1 
+\i (00:04:23) setwindow pcb
+\i (00:04:23) zoom in 4197.860 929.099
+\i (00:04:23) trapsize 1555
+\i (00:04:24) zoom out 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom out 4260.049 926.612
+\i (00:04:24) trapsize 3109
+\i (00:04:24) zoom out 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom out 4260.050 926.612
+\i (00:04:24) trapsize 6219
+\i (00:17:27) zoom out 1 
+\i (00:17:27) setwindow pcb
+\i (00:17:27) zoom out 3918.009 875.616
+\i (00:17:27) trapsize 12438
+\i (00:17:27) zoom out 1 
+\i (00:17:27) setwindow pcb
+\i (00:17:27) zoom out 3918.010 868.153
+\i (00:17:27) trapsize 24876
+\i (00:20:03) zoom in 1 
+\i (00:20:03) setwindow pcb
+\i (00:20:03) zoom in 2271.243 221.387
+\i (00:20:03) trapsize 12438
+\i (00:20:03) zoom in 1 
+\i (00:20:03) setwindow pcb
+\i (00:20:03) zoom in 2266.268 223.875
+\i (00:20:03) trapsize 6219
+\i (00:20:04) zoom out 1 
+\i (00:20:04) setwindow pcb
+\i (00:20:04) zoom out 2590.895 526.114
+\i (00:20:04) trapsize 12438
+\i (00:20:07) zoom in 1 
+\i (00:20:07) setwindow pcb
+\i (00:20:07) zoom in 4075.970 737.556
+\i (00:20:07) trapsize 6219
+\i (00:20:07) zoom in 1 
+\i (00:20:07) setwindow pcb
+\i (00:20:07) zoom in 4075.971 737.556
+\i (00:20:07) trapsize 3109
+\i (00:20:07) zoom in 1 
+\i (00:20:07) setwindow pcb
+\i (00:20:07) zoom in 4075.971 737.557
+\i (00:20:07) trapsize 1555
+\i (00:20:07) zoom in 1 
+\i (00:20:07) setwindow pcb
+\i (00:20:07) zoom in 4074.417 735.381
+\i (00:20:07) trapsize 777
+\i (00:20:08) zoom out 1 
+\i (00:20:08) setwindow pcb
+\i (00:20:08) zoom out 4037.570 724.498
+\i (00:20:08) trapsize 1555
+\i (00:21:29) zoom out 1 
+\i (00:21:29) setwindow pcb
+\i (00:21:29) zoom out 4148.888 755.281
+\i (00:21:29) trapsize 3109
+\i (00:21:29) zoom out 1 
+\i (00:21:29) setwindow pcb
+\i (00:21:29) zoom out 4206.103 790.107
+\i (00:21:29) trapsize 6219
+\i (00:24:25) zoom in 1 
+\i (00:24:25) setwindow pcb
+\i (00:24:25) zoom in 4228.490 632.147
+\i (00:24:25) trapsize 3109
+\i (00:24:25) zoom in 1 
+\i (00:24:25) setwindow pcb
+\i (00:24:25) zoom in 4246.525 570.580
+\i (00:24:25) trapsize 1555
+\i (01:19:40) zoom out 1 
+\i (01:19:40) setwindow pcb
+\i (01:19:40) zoom out 3987.197 574.001
+\i (01:19:40) trapsize 3109
+\i (01:19:40) zoom out 1 
+\i (01:19:40) setwindow pcb
+\i (01:19:40) zoom out 3988.441 574.622
+\i (01:19:40) trapsize 6219
+\i (01:19:40) zoom out 1 
+\i (01:19:40) setwindow pcb
+\i (01:19:40) zoom out 3988.442 577.110
+\i (01:19:40) trapsize 12438
+\i (01:19:40) zoom out 1 
+\i (01:19:40) setwindow pcb
+\i (01:19:40) zoom out 3988.441 577.111
+\i (01:19:40) trapsize 24876
+\i (01:19:41) zoom out 1 
+\i (01:19:41) setwindow pcb
+\i (01:19:41) zoom out 3988.442 567.161
+\i (01:19:41) trapsize 49751
+\i (01:19:42) zoom in 1 
+\i (01:19:42) setwindow pcb
+\i (01:19:42) zoom in 2489.210 537.310
+\i (01:19:42) trapsize 24876
+\i (01:19:43) zoom in 1 
+\i (01:19:43) setwindow pcb
+\i (01:19:43) zoom in 3295.180 353.231
+\i (01:19:43) trapsize 12438
+\i (01:19:45) zoom in 1 
+\i (01:19:45) setwindow pcb
+\i (01:19:45) zoom in 3230.504 360.694
+\i (01:19:45) trapsize 6219
+\i (01:19:45) zoom in 1 
+\i (01:19:45) setwindow pcb
+\i (01:19:45) zoom in 3322.544 379.351
+\i (01:19:45) trapsize 3109
+\i (01:19:46) zoom in 1 
+\i (01:19:46) setwindow pcb
+\i (01:19:46) zoom in 3322.544 379.351
+\i (01:19:46) trapsize 1555
+\i (01:19:46) zoom out 1 
+\i (01:19:46) setwindow pcb
+\i (01:19:46) zoom out 3351.773 379.351
+\i (01:19:46) trapsize 3109
+\i (01:27:42) zoom out 1 
+\i (01:27:42) setwindow pcb
+\i (01:27:42) zoom out 3318.191 398.629
+\i (01:27:42) trapsize 6219
+\i (01:27:42) zoom out 1 
+\i (01:27:42) setwindow pcb
+\i (01:27:42) zoom out 3299.534 413.555
+\i (01:27:42) trapsize 12438
+\i (01:27:42) zoom out 1 
+\i (01:27:42) setwindow pcb
+\i (01:27:42) zoom out 3279.633 423.506
+\i (01:27:42) trapsize 24876
+\i (01:27:43) zoom in 1 
+\i (01:27:43) setwindow pcb
+\i (01:27:43) zoom in 3364.211 244.401
+\i (01:27:43) trapsize 12438
+\i (01:28:12) zoom in 1 
+\i (01:28:12) setwindow pcb
+\i (01:28:12) zoom in 3615.455 443.407
+\i (01:28:12) trapsize 6219
+\i (01:28:12) zoom in 1 
+\i (01:28:12) setwindow pcb
+\i (01:28:12) zoom in 3570.679 440.919
+\i (01:28:12) trapsize 3109
+\i (01:28:13) zoom out 1 
+\i (01:28:13) setwindow pcb
+\i (01:28:13) zoom out 3705.008 513.058
+\i (01:28:13) trapsize 6219
+\i (01:28:14) zoom out 1 
+\i (01:28:14) setwindow pcb
+\i (01:28:14) zoom out 3701.276 510.571
+\i (01:28:14) trapsize 12438
+\i (01:28:16) zoom in 1 
+\i (01:28:16) setwindow pcb
+\i (01:28:16) zoom in 2464.957 637.438
+\i (01:28:16) trapsize 6219
+\i (01:28:18) zoom in 1 
+\i (01:28:18) setwindow pcb
+\i (01:28:18) zoom in 3736.103 392.413
+\i (01:28:18) trapsize 3109
+\i (01:28:20) zoom out 1 
+\i (01:28:20) setwindow pcb
+\i (01:28:20) zoom out 3730.506 389.304
+\i (01:28:20) trapsize 6219
+\i (01:28:21) zoom out 1 
+\i (01:28:21) setwindow pcb
+\i (01:28:21) zoom out 3617.321 447.762
+\i (01:28:21) trapsize 12438
+\i (01:28:23) zoom out 1 
+\i (01:28:23) setwindow pcb
+\i (01:28:23) zoom out 2992.943 141.792
+\i (01:28:23) trapsize 24876
+\i (01:28:24) zoom in 1 
+\i (01:28:24) setwindow pcb
+\i (01:28:24) zoom in 3797.668 241.295
+\i (01:28:24) trapsize 12438
+\i (01:28:25) zoom in 1 
+\i (01:28:25) setwindow pcb
+\i (01:28:25) zoom in 3208.115 432.838
+\i (01:28:25) trapsize 6219
+\i (01:28:26) pick grid tgl 3349.907 460.201
+\t (01:28:26) last pick:  3349.934 460.208
+\i (01:28:39) dehilight 
+\i (01:28:42) assign color 
+\i (01:28:47) setwindow form.mini
+\i (01:28:47) FORM mini color10 1 
+\i (01:28:50) setwindow pcb
+\i (01:28:50) pick grid 3348.663 481.345
+\t (01:28:50) last pick:  3348.660 481.376
+\t (01:28:50) Net "N00475" assigned color.
+\i (01:28:55) pick grid 3177.021 460.201
+\t (01:28:55) last pick:  3177.062 460.208
+\t (01:28:55) Symbol "C42" assigned color.
+\i (01:28:56) zoom in 1 
+\i (01:28:56) setwindow pcb
+\i (01:28:56) zoom in 3179.509 457.713
+\i (01:28:56) trapsize 3109
+\i (01:28:56) zoom in 1 
+\i (01:28:56) setwindow pcb
+\i (01:28:56) zoom in 3179.509 457.092
+\i (01:28:56) trapsize 1555
+\i (01:28:56) zoom in 1 
+\i (01:28:56) setwindow pcb
+\i (01:28:56) zoom in 3179.509 457.092
+\i (01:28:56) trapsize 777
+\i (01:28:57) zoom out 1 
+\i (01:28:57) setwindow pcb
+\i (01:28:57) zoom out 3185.417 462.533
+\i (01:28:57) trapsize 1555
+\i (01:28:57) zoom out 1 
+\i (01:28:57) setwindow pcb
+\i (01:28:57) zoom out 3185.417 462.534
+\i (01:28:57) trapsize 3109
+\i (01:28:59) pick grid 3154.322 527.833
+\t (01:28:59) last pick:  3154.326 527.828
+\t (01:28:59) Net "N00471" assigned color.
+\i (01:29:00) zoom out 1 
+\i (01:29:00) setwindow pcb
+\i (01:29:00) zoom out 3179.820 514.773
+\i (01:29:00) trapsize 6219
+\i (01:32:00) zoom in 1 
+\i (01:32:00) setwindow pcb
+\i (01:32:00) zoom in 3238.277 460.046
+\i (01:32:00) trapsize 3109
+\i (01:32:00) zoom in 1 
+\i (01:32:00) setwindow pcb
+\i (01:32:00) zoom in 3238.278 460.047
+\i (01:32:00) trapsize 1555
+\i (01:32:00) zoom in 1 
+\i (01:32:00) setwindow pcb
+\i (01:32:00) zoom in 3238.278 460.047
+\i (01:32:00) trapsize 777
+\i (01:44:56) zoom in 1 
+\i (01:44:56) setwindow pcb
+\i (01:44:56) zoom in 3238.278 460.047
+\i (01:44:56) trapsize 389
+\i (01:44:56) zoom in 1 
+\i (01:44:56) setwindow pcb
+\i (01:44:56) zoom in 3238.278 460.048
+\i (01:44:56) trapsize 194
+\i (01:53:50) zoom out 1 
+\i (01:53:50) setwindow pcb
+\i (01:53:50) zoom out 3233.886 466.072
+\i (01:53:50) trapsize 389
+\i (01:53:50) zoom out 1 
+\i (01:53:50) setwindow pcb
+\i (01:53:50) zoom out 3233.887 466.073
+\i (01:53:50) trapsize 777
+\i (01:53:50) zoom out 1 
+\i (01:53:50) setwindow pcb
+\i (01:53:50) zoom out 3233.886 466.073
+\i (01:53:50) trapsize 1555
+\i (01:53:50) zoom out 1 
+\i (01:53:50) setwindow pcb
+\i (01:53:50) zoom out 3233.887 466.072
+\i (01:53:50) trapsize 3109
+\i (01:53:50) zoom out 1 
+\i (01:53:50) setwindow pcb
+\i (01:53:50) zoom out 3233.887 466.073
+\i (01:53:50) trapsize 6219
+\i (01:53:50) zoom out 1 
+\i (01:53:50) setwindow pcb
+\i (01:53:50) zoom out 3233.887 466.072
+\i (01:53:50) trapsize 12438
+\i (01:54:06) zoom out 1 
+\i (01:54:06) setwindow pcb
+\i (01:54:06) zoom out 4562.245 222.292
+\i (01:54:06) trapsize 24876
+\i (01:54:06) zoom out 1 
+\i (01:54:06) setwindow pcb
+\i (01:54:06) zoom out 4991.699 230.502
+\i (01:54:06) trapsize 49751
+\i (01:54:07) zoom in 1 
+\i (01:54:07) setwindow pcb
+\i (01:54:07) zoom in 2170.802 1384.732
+\i (01:54:07) trapsize 24876
+\i (01:54:07) zoom in 1 
+\i (01:54:07) setwindow pcb
+\i (01:54:07) zoom in 3489.211 1349.906
+\i (01:54:07) trapsize 12438
+\i (01:54:07) zoom in 1 
+\i (01:54:07) setwindow pcb
+\i (01:54:07) zoom in 3464.335 1317.568
+\i (01:54:07) trapsize 6219
+\i (01:54:08) zoom in 1 
+\i (01:54:08) setwindow pcb
+\i (01:54:08) zoom in 3429.510 1297.667
+\i (01:54:08) trapsize 3109
+\i (01:54:08) zoom in 1 
+\i (01:54:08) setwindow pcb
+\i (01:54:08) zoom in 3429.510 1297.667
+\i (01:54:08) trapsize 1555
+\i (01:54:08) zoom out 1 
+\i (01:54:08) setwindow pcb
+\i (01:54:08) zoom out 3505.070 1307.307
+\i (01:54:08) trapsize 3109
+\i (01:54:10) open 
+\e (01:54:10) Do you want to save the changes you made to DDS.brd?
+\i (01:54:12) fillin no 
+\i (01:54:24) fillin "F:\对外部分项目\信号发生器改版V2.0_485\Hardware\Pcb\DDS.brd"
+\i (01:54:24) cd "F:\对外部分项目\信号发生器改版V2.0_485\Hardware\Pcb"
+\t (01:54:24) Opening existing design...
+\i (01:54:24) trapsize 2988
+\t (01:54:24)     Journal end - Mon Nov 06 21:43:59 2017

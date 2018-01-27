@@ -342,15 +342,15 @@ void EXTI4_IRQHandler(void)
 //			Delays();
 			if(B2==1)
 			{
-				if(Sine_Fre2>=500)
-					Sine_Fre2=500;
+				if(Sine_Fre2>=600)
+					Sine_Fre2=600;
 				else
 					Sine_Fre2+=1;
 			}
 			else
 			{
-				if(Sine_Fre2<=10)
-					Sine_Fre2=10;
+				if(Sine_Fre2<=1)
+					Sine_Fre2=1;
 				else
 					Sine_Fre2-=1;
 			}
@@ -419,15 +419,15 @@ void EXTI15_10_IRQHandler(void)
 //			Delays();
 			if(B1==1)
 			{
-				if(Sine_Fre1>=500)
-					Sine_Fre1=500;
+				if(Sine_Fre1>=600)
+					Sine_Fre1=600;
 				else
 					Sine_Fre1+=1;
 			}
 			else
 			{
-				if(Sine_Fre1<=10)
-					Sine_Fre1=10;
+				if(Sine_Fre1<=1)
+					Sine_Fre1=1;
 				else
 					Sine_Fre1-=1;
 			}

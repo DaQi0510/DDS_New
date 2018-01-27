@@ -1,0 +1,23 @@
+\t (00:00:02) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:02)     Journal start - Mon Jan 15 22:44:03 2018
+\t (00:00:02)         Host=DAQI-PC User=DaQi Pid=9756 CPUs=4
+\t (00:00:02) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:05) Design opened: F:/对外部分项目/信号发生器改版V1.0/Hardware/Pcb/DDS.brd
+\i (00:00:05) trapsize 28078
+\i (00:00:05) trapsize 27573
+\i (00:00:05) trapsize 28164
+\i (00:00:08) trapsize 24876
+\i (00:00:08) trapsize 24876
+\i (00:00:09) generaledit 
+\i (00:00:27) open 
+\i (00:01:53) fillin "F:\CADENCE LIB\foorprint\MINI-PCIe\MINI-PCIe.dra"
+\i (00:01:53) cd "F:\CADENCE LIB\foorprint\MINI-PCIe"
+\t (00:01:53) Opening existing design...
+\i (00:01:55) trapsize 1645
+\i (00:01:55) trapsize 1614
+\i (00:01:55) trapsize 1645
+\i (00:01:57) trapsize 1645
+\t (00:01:57)     Journal end - Mon Jan 15 22:45:58 2018

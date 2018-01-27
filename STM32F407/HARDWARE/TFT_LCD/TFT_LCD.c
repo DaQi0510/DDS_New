@@ -533,13 +533,13 @@ void TFT_LCD_ShowChar(u16 x,u16 y,u8 Num)
 		Num=62;
 	else
 		Num=63;
-	Address_set(x,y,x+24-1,y+16-1);      //设置光标位置 
+	Address_set(x-23,y-15,x,y);      //设置光标位置 
 	for(t=0;t<8;t++)
 	{
 		for(pos=0;pos<24;pos++)
 		{ 
-			temp=asc2_1608[Num*48+2*pos+1];		 //调用1608字体                
-			if(temp&(0x01<<(7-t)))POINT_COLOR=colortemp;
+			temp=asc2_1608[Num*48+46-2*pos];		 //调用1608字体                
+			if(temp&(0x01<<t))POINT_COLOR=colortemp;
 			else POINT_COLOR=BACK_COLOR;
 			TFT_LCD_WR_DATA(POINT_COLOR);	
 		}
@@ -548,8 +548,8 @@ void TFT_LCD_ShowChar(u16 x,u16 y,u8 Num)
 	{
 		for(pos=0;pos<24;pos++)
 		{ 
-			temp=asc2_1608[Num*48+2*pos];		 //调用1608字体                
-			if(temp&(0x01<<(7-t)))POINT_COLOR=colortemp;
+			temp=asc2_1608[Num*48+47-2*pos];		 //调用1608字体                
+			if(temp&(0x01<<t))POINT_COLOR=colortemp;
 			else POINT_COLOR=BACK_COLOR;
 			TFT_LCD_WR_DATA(POINT_COLOR);	
 		}
@@ -559,12 +559,12 @@ void TFT_LCD_ShowChar(u16 x,u16 y,u8 Num)
 void TFT_LCD_ShowString(u16 x,u16 y,const u8 *p)
 {
 	u16 x0,y0;  
-	y0=320-x;
-	x0=y;
+	y0=x;
+	x0=240-y;
 	while(*p!='\0')
 	{       
 			TFT_LCD_ShowChar(x0,y0,*p);
-			y0-=12;
+			y0+=12;
 			p++;
 	}  
 }
@@ -596,13 +596,13 @@ void TFT_LCD_ShowChars(u16 x,u16 y,u8 Num)
 	u16 x0;
 	u16 colortemp=POINT_COLOR;
   x0=x;
-	Address_set(x,y,x+32-1,y+16-1);      //设置光标位置 
+	Address_set(x-31,y-15,x,y);      //设置光标位置 
 	for(t=0;t<8;t++)
 	{
 		for(pos=0;pos<32;pos++)
 		{ 
-			temp=Char[Num*64+2*pos+1];		 //调用1608字体                
-			if(temp&(0x01<<(7-t)))POINT_COLOR=colortemp;
+			temp=Char[Num*64+62-2*pos];		 //调用1608字体                
+			if(temp&(0x01<<t))POINT_COLOR=colortemp;
 			else POINT_COLOR=BACK_COLOR;
 			TFT_LCD_WR_DATA(POINT_COLOR);	
 		}
@@ -611,8 +611,8 @@ void TFT_LCD_ShowChars(u16 x,u16 y,u8 Num)
 	{
 		for(pos=0;pos<32;pos++)
 		{ 
-			temp=Char[Num*64+2*pos];		 //调用1608字体                
-			if(temp&(0x01<<(7-t)))POINT_COLOR=colortemp;
+			temp=Char[Num*64+63-2*pos];		 //调用1608字体                
+			if(temp&(0x01<<t))POINT_COLOR=colortemp;
 			else POINT_COLOR=BACK_COLOR;
 			TFT_LCD_WR_DATA(POINT_COLOR);	
 		}
@@ -628,12 +628,12 @@ void TFT_LCD_ShowTop(void)
 	//          S K Y    L A S E R   C l e  a n  i  n  g
 	u8 Arr[18]={0,1,2,14,3,4,0,5,6,14,7,8,9,10,11,12,11,13};
 	x=28,y=15;
-	y0=320-x;
-	x0=y;
+	y0=x;
+	x0=240-y;
 	for(i=0;i<18;i++)
 	{
 		TFT_LCD_ShowChars(x0,y0,Arr[i]);
-		y0=y0-16;
+		y0=y0+16;
 	}
 }
 void TFT_LCD_ShowADNum(u8 Value)
@@ -646,70 +646,70 @@ void TFT_LCD_ShowADNum(u8 Value)
 	Percent =1000*Value/255;
 	if(Percent<10)
 	{
-		y=320-Addressx1;
-		x=Addressy1;
+		y=Addressx1;
+		x=240-Addressy1;
 		TFT_LCD_ShowChar(x,y,'0');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'.');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,48+Percent);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'%');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
 	}
 	if((Percent>=10)&&(Percent<100))
 	{
-		y=320-Addressx1;
-		x=Addressy1;
+		y=Addressx1;
+		x=240-Addressy1;
 		N=Percent/10;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'.');
-		y-=12;
+		y+=12;
 		N=Percent%10;
 		TFT_LCD_ShowChar(x,y,48+N);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'%');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
 		TFT_LCD_ShowChar(x,y,' ');
 	}
 	if((Percent>=100)&&(Percent<1000))
 	{
-		y=320-Addressx1;
-		x=Addressy1;
+		y=Addressx1;
+		x=240-Addressy1;
 		N=Percent/100;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 		N=(Percent%100)/10;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'.');
-		y-=12;
+		y+=12;
 		N=Percent%10;
 		TFT_LCD_ShowChar(x,y,48+N);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'%');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
 	}
 	if(Percent==1000)
 	{
-		y=320-Addressx1;
-		x=Addressy1;
+		y=Addressx1;
+		x=240-Addressy1;
 		TFT_LCD_ShowChar(x,y,1+48);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,48);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,48);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'.');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,48);
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'%');
 	}
 }
@@ -719,39 +719,39 @@ void TFT_LCD_ShowPulse(u16 Value)
 	u16 Addressy1=97;
 	u16 x,y;
 	u8 N;
-	y=320-Addressx1;
-	x=Addressy1;
+	y=Addressx1;
+	x=240-Addressy1;
 	if(Value<100)
 	{
 		N=Value/10;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 		N=Value%10;
 		TFT_LCD_ShowChar(x,y,N+48);
-//		y-=12;
+//		y+=12;
 //		TFT_LCD_ShowChar(x,y,'k');
-//		y-=12;
+//		y+=12;
 //		TFT_LCD_ShowChar(x,y,'H');
-//		y-=12;
+//		y+=12;
 //		TFT_LCD_Sh v vowChar(x,y,'z');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
 	}
 	if(Value>=100)
 	{
 		N=Value/100;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 		N=(Value%100)/10;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 		N=Value%10;
 		TFT_LCD_ShowChar(x,y,N+48);
-		y-=12;
+		y+=12;
 //		TFT_LCD_ShowChar(x,y,'k');
-//		y-=12;
+//		y+=12;
 //		TFT_LCD_ShowChar(x,y,'H');
-//		y-=12;
+//		y+=12;
 //		TFT_LCD_ShowChar(x,y,'z');
 	}
 }
@@ -760,22 +760,22 @@ void TFT_LCD_ShowRed(u8 Value)
 	u16 Addressx1=215;
 	u16 Addressy1=132;
 	u16 x,y;
-	y=320-Addressx1;
-	x=Addressy1;
+	y=Addressx1;
+	x=240-Addressy1;
 	if(Value==1)
 	{
 		TFT_LCD_ShowChar(x,y,'o');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'n');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
 	}
 	else
 	{
 		TFT_LCD_ShowChar(x,y,'o');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'f');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'f');
 	}
 }
@@ -784,22 +784,22 @@ void TFT_LCD_ShowLaser(u8 Value)
 	u16 Addressx1=215;
 	u16 Addressy1=167;
 	u16 x,y;
-	y=320-Addressx1;
-	x=Addressy1;
+	y=Addressx1;
+	x=240-Addressy1;
 	if(Value==1)
 	{
 		TFT_LCD_ShowChar(x,y,'o');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'n');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,' ');
 	}
 	else
 	{
 		TFT_LCD_ShowChar(x,y,'o');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'f');
-		y-=12;
+		y+=12;
 		TFT_LCD_ShowChar(x,y,'f');
 	}
 }
@@ -808,8 +808,8 @@ void TFT_LCD_ShowMode(u8 Value)
 	u16 Addressx1=215;
 	u16 Addressy1=202;
 	u16 x,y;
-	y=320-Addressx1;
-	x=Addressy1;
+	y=Addressx1;
+	x=240-Addressy1;
 	TFT_LCD_ShowChar(x,y,49+Value);
 }
 void TFT_LCD_ShowWarning(u8 Value)
@@ -817,8 +817,8 @@ void TFT_LCD_ShowWarning(u8 Value)
 	u16 Addressx1=215;
 	u16 Addressy1=212;
 	u16 x,y;
-	y=320-Addressx1;
-	x=Addressy1;
+	y=Addressx1;
+	x=240-Addressy1;
 	if(Value==1)
 		TFT_LCD_ShowChar(x,y,48);	
 	else
