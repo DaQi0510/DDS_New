@@ -41,6 +41,7 @@ void TFT_LCD_ShowLaser(u8 Value);
 void TFT_LCD_ShowMode(u8 Value);
 void TFT_LCD_ShowWarning(u8 Value);
 
+
 //»­±ÊÑÕÉ«
 #define WHITE         	 0xFFFF
 #define BLACK         	 0x0000	  
